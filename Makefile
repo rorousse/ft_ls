@@ -6,24 +6,23 @@
 #    By: rorousse <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/01 03:14:08 by rorousse          #+#    #+#              #
-#    Updated: 2016/03/17 11:28:11 by rorousse         ###   ########.fr        #
+#    Updated: 2016/03/17 14:11:08 by rorousse         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
-NAME = libftprintf.a
+NAME = ft_ls
 HEADER = ft_printf.h libft/libft.h
 SRC_PATH=./
 OBJ_PATH=./
 LIBS= ft_printf/libftprintf.a
-SRC = main.c listing.c
+SRC = main.c listing.c tri.c
 
 OBJ = $(SRC:.c=.o )
 
 all : lib $(NAME)
 
 $(NAME) : $(OBJ)
-	ar rc $(NAME) $(OBJ)
-	libtool -static -o $(NAME) $(NAME) $(LIBS)
+	gcc $(OBJ) $(LIBS) -o $(NAME)
 
 lib :
 	make -C ft_printf/

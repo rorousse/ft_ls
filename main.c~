@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:23:38 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/17 18:50:46 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/17 17:13:47 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	main()
 
 	lst = NULL;
 	fill_list(&lst, ".");
-	aff_list(lst);
+	insertion(lst);
 	free_list(lst);
 	return (0);
 }
