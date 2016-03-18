@@ -1,37 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_ls.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/03/18 15:33:37 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/18 16:42:39 by rorousse         ###   ########.fr       */
+/*   Created: 2016/03/18 15:33:27 by rorousse          #+#    #+#             */
+/*   Updated: 2016/03/18 16:44:00 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 #include "ft_ls.h"
 
-int main(int argc, char **argv)
+int	ft_ls(int argc, char **argv, char *path)
 {
-	int		i;
-	char	*path;
-	int		arg_name;
+	t_file_list *lst;
 
-	i = 1;
-	arg_name = 0;
-	while (i < argc)
-	{
-		if (argv[i][0] != '-')
-		{
-			arg_name = 1;
-			path = ft_strdup(argv[i]);
-			ft_ls(argc, argv, path);
-			free(path);
-		}
-		i++;
-	}
-	if (arg_name == 0)
-		ft_ls(argc, argv, ".");
+	argc = 1;
+	argv[0][0] = 'a';
+	lst = NULL;
+	fill_list(&lst, path);
+	ft_printf("%s :\n",path);
+	aff_list(lst);
+	free_list(lst);
 	return (0);
 }

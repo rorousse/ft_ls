@@ -1,37 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   flags.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/03/18 15:33:37 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/18 16:42:39 by rorousse         ###   ########.fr       */
+/*   Created: 2016/03/18 14:35:20 by rorousse          #+#    #+#             */
+/*   Updated: 2016/03/18 14:38:05 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ls.h"
 
-int main(int argc, char **argv)
+int	search_flags(char **argv, int argc, char flag)
 {
-	int		i;
-	char	*path;
-	int		arg_name;
+	int	i;
 
 	i = 1;
-	arg_name = 0;
 	while (i < argc)
 	{
-		if (argv[i][0] != '-')
-		{
-			arg_name = 1;
-			path = ft_strdup(argv[i]);
-			ft_ls(argc, argv, path);
-			free(path);
-		}
+		if (argv[i][0] == '-')
+			if (argv[i][1] == flag)
+				return (1);
 		i++;
 	}
-	if (arg_name == 0)
-		ft_ls(argc, argv, ".");
 	return (0);
 }

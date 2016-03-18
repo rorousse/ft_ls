@@ -6,21 +6,23 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/17 19:17:39 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/18 16:48:52 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ls.h"
 
-t_file_list	*new_elem(ino_t d_ino, unsigned char d_type, char d_name[256])
+t_file_list	*new_elem(ino_t d_ino, unsigned char d_type, char d_name[256], char *path)
 {
 	t_file_list *new;
+	char		*temp;
 
 	new = (t_file_list*)malloc(sizeof(t_file_list));
 	new->d_ino = d_ino;
 	new->d_type = d_type;
 	new->next = NULL;
 	new->prec = NULL;
+	lstat(path, new->infos);
 	ft_strcpy(new->d_name, d_name);
 	return (new);
 }
@@ -31,11 +33,9 @@ void		free_list(t_file_list *lst)
 	while (lst->next != NULL)
 	{
 		temp = lst->next;
-		ft_printf("liberation de %s\n",lst->d_name);
 		free(lst);
 		lst = temp;
 	}
-	ft_printf("liberation de %s\n",lst->d_name);
 	free(lst);
 }
 
@@ -65,9 +65,12 @@ void	fill_list(t_file_list **lst, char *namedir)
 	DIR		*mydir;
 	dirent	*lecture;
 
-	mydir = opendir(namedir);
+	if ((mydir = opendir(namedir)) == NULL)
+		perror("Erreur");
 	while ((lecture = readdir(mydir)) != NULL)
+	{
 		list_add_elem(lst, lecture);
+	}
 	closedir(mydir);
 }
 
@@ -78,7 +81,7 @@ void	aff_list(t_file_list *lst)
 	i = 0;
 	while (lst != NULL)
 	{
-		ft_printf("Le %deme element est %s et il pointe sur %p\n",i,lst->d_name, lst->next);
+		ft_printf("%s\n",lst->d_name);
 		lst = lst->next;
 		i++;
 	}

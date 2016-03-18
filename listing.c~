@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/17 19:14:55 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/18 15:58:58 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,6 @@ void		free_list(t_file_list *lst)
 	while (lst->next != NULL)
 	{
 		temp = lst->next;
-		ft_printf("liberation de %s\n",lst->d_name);
 		free(lst);
 		lst = temp;
 	}
@@ -64,9 +63,12 @@ void	fill_list(t_file_list **lst, char *namedir)
 	DIR		*mydir;
 	dirent	*lecture;
 
-	mydir = opendir(namedir);
+	if ((mydir = opendir(namedir)) == NULL)
+		perror("Erreur");
 	while ((lecture = readdir(mydir)) != NULL)
+	{
 		list_add_elem(lst, lecture);
+	}
 	closedir(mydir);
 }
 
@@ -77,7 +79,7 @@ void	aff_list(t_file_list *lst)
 	i = 0;
 	while (lst != NULL)
 	{
-		ft_printf("Le %deme element est %s et il pointe sur %p\n",i,lst->d_name, lst->next);
+		ft_printf("%s\n",lst->d_name);
 		lst = lst->next;
 		i++;
 	}
