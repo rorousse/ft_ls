@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/18 16:48:52 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/19 11:09:27 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,15 @@
 t_file_list	*new_elem(ino_t d_ino, unsigned char d_type, char d_name[256], char *path)
 {
 	t_file_list *new;
-	char		*temp;
+	char		*absolute_path;
 
+	absolute_path = create_path(path, d_name);
 	new = (t_file_list*)malloc(sizeof(t_file_list));
 	new->d_ino = d_ino;
 	new->d_type = d_type;
 	new->next = NULL;
 	new->prec = NULL;
-	lstat(path, new->infos);
+	lstat(absolute_path, &(new->infos));
 	ft_strcpy(new->d_name, d_name);
 	return (new);
 }
@@ -39,12 +40,12 @@ void		free_list(t_file_list *lst)
 	free(lst);
 }
 
-void		list_add_elem(t_file_list **lst, dirent *mydirent)
+void		list_add_elem(t_file_list **lst, dirent *mydirent, char *path)
 {
 	t_file_list	*new;
 	t_file_list	*temp;
 
-	new = new_elem(mydirent->d_ino, mydirent->d_type, mydirent->d_name);
+	new = new_elem(mydirent->d_ino, mydirent->d_type, mydirent->d_name, path);
 	if (*lst == NULL)
 		*lst = new;
 	else
@@ -68,9 +69,7 @@ void	fill_list(t_file_list **lst, char *namedir)
 	if ((mydir = opendir(namedir)) == NULL)
 		perror("Erreur");
 	while ((lecture = readdir(mydir)) != NULL)
-	{
-		list_add_elem(lst, lecture);
-	}
+		list_add_elem(lst, lecture, namedir);
 	closedir(mydir);
 }
 

@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/19 11:42:30 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/19 11:09:53 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,12 +63,6 @@ void		aff_list(t_file_list *lst);
 */
 
 char		*create_path(char *path, char *name);
-
-/*
-** RECURSION_C
-*/
-
-void		recursion(int argc, char **argv, char *path, t_file_list *lst);
 
 /*
 ** TRI_C

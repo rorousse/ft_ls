@@ -1,30 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ls.c                                            :+:      :+:    :+:   */
+/*   paths.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/03/18 15:33:27 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/19 11:50:13 by rorousse         ###   ########.fr       */
+/*   Created: 2016/03/19 10:59:40 by rorousse          #+#    #+#             */
+/*   Updated: 2016/03/19 11:11:14 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ls.h"
 
-int	ft_ls(int argc, char **argv, char *path)
+char	*create_path(char *path, char *name)
 {
-	t_file_list *lst;
+	char	*ret;
+	int		i;
+	char	*temp;
 
-	argv[0][0] = 'a';
-	lst = NULL;
-	fill_list(&lst, path);
-	ft_printf("%s :\n",path);
-	aff_list(lst);
-	if (search_flags(argv, argc, 'R') == 1)
-		recursion(argc, argv, path, lst);
-	while (lst->prec != NULL)
-		lst = lst->prec;
-	free_list(lst);
-	return (0);
+	i = 0;
+	while(path[i])
+		i++;
+	if (path[i - 1] != '/')
+		ret = ft_strjoin(path, "/");
+	else
+		ret = path;
+	temp = ft_strjoin(ret, name);
+	free(ret);
+	ret = temp;
+	return (ret);
 }
+	

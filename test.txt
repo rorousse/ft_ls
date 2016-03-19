@@ -1,0 +1,1595 @@
+. :
+.
+Makefile
+.git
+Makefile~
+..
+README.md
+flags.c
+ft_ls
+flags.o
+ft_ls.c
+flags.c~
+ft_ls.c~
+listing.o
+ft_ls.h
+ft_ls.o
+ft_printf
+listing.c~
+listing.c
+main.c
+ft_ls.h~
+main.o
+paths.c
+recursion.c~
+recursion.c
+paths.c~
+paths.o
+recursion.o
+test.txt
+tri.c
+tri.o
+./.git :
+.
+..
+COMMIT_EDITMSG
+HEAD
+branches
+config
+hooks
+description
+info
+logs
+index
+objects
+refs
+./.git/branches :
+.
+..
+./.git/hooks :
+.
+..
+applypatch-msg.sample
+pre-rebase.sample
+commit-msg.sample
+post-update.sample
+pre-push.sample
+pre-commit.sample
+pre-applypatch.sample
+prepare-commit-msg.sample
+update.sample
+./.git/info :
+.
+..
+exclude
+./.git/logs :
+.
+..
+HEAD
+refs
+./.git/logs/refs :
+.
+..
+heads
+remotes
+./.git/logs/refs/heads :
+.
+..
+master
+./.git/logs/refs/remotes :
+.
+..
+origin
+./.git/logs/refs/remotes/origin :
+.
+..
+master
+./.git/objects :
+.
+00
+..
+04
+09
+08
+05
+07
+06
+0d
+0e
+2d
+54
+40
+11
+5d
+34
+4b
+46
+47
+25
+69
+2c
+2b
+42
+6b
+37
+20
+3e
+71
+10
+2f
+26
+4d
+15
+5e
+4f
+45
+18
+63
+56
+3f
+58
+6f
+48
+43
+23
+36
+61
+59
+1d
+3b
+28
+17
+70
+5b
+3c
+6d
+4a
+0f
+39
+33
+57
+5f
+2a
+60
+41
+62
+49
+72
+96
+7c
+9f
+b3
+b0
+95
+9c
+86
+af
+7a
+82
+89
+8d
+7f
+b1
+7d
+9b
+a3
+a1
+ab
+aa
+90
+9a
+81
+a4
+ae
+85
+78
+a5
+7e
+8a
+94
+9e
+b8
+9d
+8e
+a2
+ba
+a0
+77
+bb
+bc
+dc
+c2
+c9
+e2
+c5
+c0
+de
+c8
+c7
+c3
+bf
+c1
+da
+d4
+cd
+e1
+db
+d2
+cc
+bd
+d9
+ca
+d6
+dd
+be
+d7
+e3
+ec
+e4
+f5
+fc
+e5
+ef
+f7
+fe
+fb
+ff
+eb
+e7
+e6
+fd
+f2
+info
+f9
+f8
+e9
+pack
+./.git/objects/00 :
+.
+..
+e8ebc0cc195755967d58ce7abb15074c209d87
+./.git/objects/04 :
+.
+..
+1564bcd777b8e91947ff28343ae9dc8a4a523c
+782212817118753f2adf51afe9a6407f82e448
+./.git/objects/09 :
+.
+..
+168f2a8a0677d8d8a63c6fa3f1001c715413e9
+1feac4c9714ed0c0dad9bfbdaf1e98a7981afe
+./.git/objects/08 :
+.
+..
+112b2cf6f72bfcf97580eaffdef1f41c6eabb6
+./.git/objects/05 :
+.
+..
+24eae56d3e28dbdf99fb9117ad81432e65f31b
+./.git/objects/07 :
+.
+..
+25ed8ca1bffd7e30e6a19b1650f836dda0157d
+./.git/objects/06 :
+.
+..
+6d6fb23864e443249dc78a7a31da053ad0398e
+9645588de299e8fd95b7a9cae1c74599f27f0e
+./.git/objects/0d :
+.
+..
+7df1ec81e53dfc1e11a1fedaacc5f8d1b2342d
+./.git/objects/0e :
+.
+..
+64d5e86ab390b40e6fb5a7e2d0356267340a20
+./.git/objects/2d :
+.
+..
+0bacfdf147c44fce5640510acef155528ff69f
+a22a705ac6684a8290d26f4b739e05b71f4757
+b79cc4c79f2402d14eb210011fffc12cdaf8da
+./.git/objects/54 :
+.
+..
+882c7211387d6d357035fc5050372e8b797207
+./.git/objects/40 :
+.
+..
+13c15b1998f3703a90c42666b330baad43812f
+./.git/objects/11 :
+.
+..
+cfac011fc7ee43990ed4cc5aed5861730d7086
+d5bdab6e7e6070680aeafe3d1be100cf9007d9
+./.git/objects/5d :
+.
+..
+d399c9720c256ba1ea2a068848f27925a4ad73
+./.git/objects/34 :
+.
+..
+0770f61abae10d00402bbb652ddd5c249ca7c6
+./.git/objects/4b :
+.
+..
+aefa4dd7ae73b13dd285d1e0bfe489c2044e32
+./.git/objects/46 :
+.
+..
+09d6147c26fab97c37a7cdcf739095409fd21d
+./.git/objects/47 :
+.
+..
+a6eb4bcb7bbb9e43325292de4b132c8ea82714
+./.git/objects/25 :
+.
+..
+1759d1faf15a8689f0da0288c7fc391770adde
+1f69911c3f99185e6b41f686edd4612b58e045
+./.git/objects/69 :
+.
+..
+60b80fe51967aaa6334aebe543d0c6651c13b5
+./.git/objects/2c :
+.
+..
+34a0405c48f041ecfb875afd923ddf30a883d7
+./.git/objects/2b :
+.
+..
+cef7d1431caf50a366fa1198530e483ff4c031
+fd30f3e104ad04cb8eb5c213881ad298803c82
+./.git/objects/42 :
+.
+..
+8ac0633f831448bd8974a0080366cb5bbf9e17
+bdd5f9721d402ae6fb6ce804de0cf71bb8a4f7
+./.git/objects/6b :
+.
+..
+2ba2a8a0707ad080d63654a46e04c039789f2c
+./.git/objects/37 :
+.
+..
+107b73d637d3ae39185c2e881f7ac88b41840f
+./.git/objects/20 :
+.
+..
+09a757f3f36163011a5db74b8335655679d5ca
+./.git/objects/3e :
+.
+..
+6c37544069d089bfa15ed7d6d1451140af81a8
+./.git/objects/71 :
+.
+..
+52036b9fe8d617d1147aaa39d2edf28e66c9c7
+./.git/objects/10 :
+.
+..
+e4a4b51fc93c05e97239371d88a8ed4cb8f95f
+./.git/objects/2f :
+.
+..
+5f5736951c13b11685f2afe57537845e15a71a
+./.git/objects/26 :
+.
+..
+0e727cebd3d2cc389b06b23988c10fe96292c3
+3f616da03101577d7ad3f4e7ceafce5f3b8e3f
+./.git/objects/4d :
+.
+..
+911a827cd8143d057ff19493a03a828fb7a063
+./.git/objects/15 :
+.
+..
+b10992e11184f2c5cbcbe84c141d0f4264b098
+./.git/objects/5e :
+.
+..
+7ef2541d6786215dc6fe5441fcd28370884591
+969126a850481f7ddd2c469b052a5cf904c76a
+./.git/objects/4f :
+.
+..
+26748d604bb05d6a4269b610b4168d79a58767
+./.git/objects/45 :
+.
+..
+cc6bf9918dd19e65d9bdb807b691f5fb23d741
+./.git/objects/18 :
+.
+..
+58431a6860bdf1441296ac7655c2a4e2896978
+./.git/objects/63 :
+.
+5cc53fd5e7d878e954b08b4b95c75745ce737d
+d349270c9ca1cebcead9eccf7fa084108f8624
+..
+ffc7f5658fd21ec4e5698b64dc53135adb5a61
+./.git/objects/56 :
+.
+..
+dc16a9213ce8c7065f1e7e2d89b6bf5f09a2c0
+./.git/objects/3f :
+.
+..
+0be8e8419eca727f4cd334bb5b23849b0c7e0f
+40eb1e8e0d16473967367067d39d8fe4114222
+./.git/objects/58 :
+.
+..
+4c0c46a5436ab6bd20ca8973214cbad64afa42
+./.git/objects/6f :
+.
+..
+78869131ca8d684121f642237dbd8c428eccb7
+996f97ccc4ed7f89786fb7fbfe7e31398adcea
+a5bbf21e39477e9e74e6e12a74f8822c028ab1
+./.git/objects/48 :
+.
+..
+5c02b62f7d13d99b334ed93e2d1bdd26581431
+./.git/objects/43 :
+.
+..
+8f04e1ee397b74928b919e71524966506757a7
+./.git/objects/23 :
+.
+..
+faabf3aa811810822fc731956b92e32f1a196d
+./.git/objects/36 :
+.
+..
+eeb371350acbbf1c2cc2ae8259c3bb2637e2bf
+./.git/objects/61 :
+.
+..
+20200d75dd7047d9b197d7021bb368b7c413f2
+./.git/objects/59 :
+.
+..
+79d4e82815f8db01ec7eb862a1d5b22041bc0b
+./.git/objects/1d :
+.
+..
+05abdaa6cb6b198bace7739bea43b6d82ba8a7
+./.git/objects/3b :
+.
+..
+056017ca795e86f3a2576561021a965adfe91c
+./.git/objects/28 :
+.
+..
+7a7606af37ef35d2340152161ad26f725c2cbd
+./.git/objects/17 :
+.
+..
+c707b461eca5ca8f9c67201bb76e3fb700112f
+./.git/objects/70 :
+.
+..
+238a951a12ff8d2f6971ffc2c649910bd330b9
+./.git/objects/5b :
+.
+..
+51326992b0ede509be30124b2c29c38a4cfc6b
+./.git/objects/3c :
+.
+..
+098f129cd843000b7b30b767f51383b95ededc
+148a318c36319bd463c3f333bbeb304a604dc0
+./.git/objects/6d :
+.
+72fc489c4fe1409de866fa153e4f692d0c9029
+..
+8174e5456c7cb421ffc229a0c78f74162c329b
+./.git/objects/4a :
+.
+2612d13cd06a59b64a748919314f4b300b3aac
+08b0e73a5719b46d40f3a8bd1e32fb353436f7
+..
+2a93df12490c3613c7f5362f2e9f2b6b9aab55
+./.git/objects/0f :
+.
+..
+3988aa88a3bd4fbae1dfc8eb34e3bfbf4a72b0
+./.git/objects/39 :
+.
+..
+1f74f346e7135f9cebc8c10c32446eb878a6f7
+./.git/objects/33 :
+.
+..
+209c7f649af20bdace1fc938119183e9245d29
+447903cd9f5da14ca5cc65ea61f600f79507e0
+./.git/objects/57 :
+.
+..
+52da9e2d5dde9aabdc679a0f80a2a4ce6d0cb2
+./.git/objects/5f :
+.
+..
+1d47c5d6cb2df7268a1c7ce6b9b1af299c89ae
+./.git/objects/2a :
+.
+..
+329beb95a94f4c1efdd7109b3ad473b93d4e2d
+./.git/objects/60 :
+.
+..
+7102eb0d96d3274f6f819aea9a1ded24ef6add
+./.git/objects/41 :
+.
+..
+e616950b605fd1d706bae9104f71f7867fdcae
+./.git/objects/62 :
+.
+..
+9f9b1341c3cfcf924417dfd84ff7ca500b9cbc
+./.git/objects/49 :
+.
+..
+3def2af26184326603c62462ab541d9e1272e4
+./.git/objects/72 :
+.
+..
+2a29e63a5c72f78787a1fdca253a6d27930c96
+7ccc66f25e7130200e73740e61977d30a1dd0e
+./.git/objects/96 :
+.
+..
+c9166006e542100b3eac59f61a3e24e60a623e
+./.git/objects/7c :
+.
+..
+f5ea94665b9eecfdb812056cfc89169d264fd0
+./.git/objects/9f :
+.
+..
+1803ea93fe71aff2ef126219e0d91f112d3182
+./.git/objects/b3 :
+.
+..
+0476ca8bcff185acad0439976e8f5fca1d9a8a
+35ce8f27a84bccf35fd490caece491a85b9912
+./.git/objects/b0 :
+.
+..
+ebc796ccfdea6736266aa35148c3c397c0a753
+./.git/objects/95 :
+.
+..
+2b9ab46c5050977669f5694701bc1a317ba80f
+a72e7e6b8af49f34430531f7a003e9ee51d760
+./.git/objects/9c :
+.
+..
+e34fec866d236c2ffabb2eabc2f2413532c1fc
+./.git/objects/86 :
+.
+..
+301c5d63175336d5a084c2eb4f7d2c289fb572
+./.git/objects/af :
+.
+..
+0fbb9e390eb48245882293a61f403f527d246a
+410cc7c9647595d5178a7c6eba76f963d4ff1f
+./.git/objects/7a :
+.
+..
+ec4f8c12a354874bfc5fb3e7089653f9930d70
+./.git/objects/82 :
+.
+..
+3f2eda2c8cca665393f97f442c60087a8a773e
+./.git/objects/89 :
+.
+..
+1316f4d7071fbf41ac68a817b5db79f665b2f2
+eb351cb7b00a0924a9caf44cf2e6d1a0eaf54b
+./.git/objects/8d :
+.
+..
+26112dc6049fb74525361ff3e8f84c2a54ed46
+./.git/objects/7f :
+.
+..
+8fba1601def5fee5b43cfbb02ca68670dfff09
+ac8f42e96ed01092948c8c920d56791040dc95
+./.git/objects/b1 :
+.
+..
+747331c24f72a90a3cd07af260f3e990089196
+eeb1ffe87db3246e5f61139efd61246b059e7c
+./.git/objects/7d :
+.
+..
+c2b7c04f9c13f8dd6a59f64664a2797b0b6034
+ee858316bea24ce1400533821cacc2f80ae54c
+./.git/objects/9b :
+.
+..
+6c0bce2b3ca6161015444fcc3ffacbc4556119
+./.git/objects/a3 :
+.
+..
+b65bee3df8fa8dc3e0b6d7b9687f5439318c7a
+./.git/objects/a1 :
+.
+..
+33e3a51bb972a80ee45053c89bc9165cb81e6e
+./.git/objects/ab :
+.
+..
+cb4194338aa00db0f01029d1e2131f8123ea57
+./.git/objects/aa :
+.
+..
+3b0c384fd874b5df2d3a48d6faaff40eea7903
+f0881818aa838f01a0e2d455860d83e7a3ada4
+./.git/objects/90 :
+.
+..
+f99e3cef1ccbe2389cef6c8d720bb5a753bc80
+./.git/objects/9a :
+.
+..
+2bea89116870f04fdef08ef6cd1a955ffb22bf
+74a1c49ae56c6d8ef562a735ecc051bc9b739e
+f94533a30bfccb4a9cfa016ca338514c3c8358
+./.git/objects/81 :
+.
+..
+2efbeb5e4ffdc0aa9e9a9fd4684696f6f38d55
+./.git/objects/a4 :
+.
+..
+3383ded2a6286dc70f4a306cc7254f05684ccc
+./.git/objects/ae :
+.
+..
+5ed5b81ac6eed12dcf2b665f34c038d6d4c338
+./.git/objects/85 :
+.
+..
+c01738210a37447e3c1de7a32e70482be58cf8
+db65447630fc8306c99ce3dc8b47c4b7264cb8
+./.git/objects/78 :
+.
+..
+761e402688e390c23dbfb56d6200ce51cfc40a
+./.git/objects/a5 :
+.
+..
+2e9594f06d04c37bf25313914906b8af2bae58
+dcd86475d39091da68260aff12e28db2b0b89d
+./.git/objects/7e :
+.
+..
+85b883be38d6ff6bf8bc2ef49a1ebd6372bd93
+./.git/objects/8a :
+.
+..
+beab87ee278dfb1eeee570346fe56f68726a2b
+fe05d3025fb9b11a3cadc268ddd9322cb46fea
+./.git/objects/94 :
+.
+96cb73f8ab51f2ea93cdd3f27a6031b9f5f9c4
+..
+a601d5c234884bb88760f1e849d843fdb5ff4e
+./.git/objects/9e :
+.
+..
+0124bf0ba73a646ae5276c26d6299dd76566a1
+./.git/objects/b8 :
+.
+..
+efc8d739035d47527ad9b0f0a26a07083efa65
+./.git/objects/9d :
+.
+..
+95045b2acce676b031a2d964700e6541ea0013
+./.git/objects/8e :
+.
+..
+dda8488ead7bb40a9da3c86e13520e776186c7
+./.git/objects/a2 :
+.
+..
+2f7a6ff4e03983465bb9adc773ce8fc2bbae30
+./.git/objects/ba :
+.
+..
+33b8c90a0299b49178f4b0f3a1154e25d1a9c8
+./.git/objects/a0 :
+.
+..
+107aa8a355160c5a232b0c94ee5ee77e181170
+6a2746e0081b07af18a0f12513e65b81401b15
+./.git/objects/77 :
+.
+..
+0a895e64b32833b7b4d2e0c295c929e01a454a
+./.git/objects/bb :
+.
+..
+497a0a19fe8b984a127d75ff459444534fe6c2
+./.git/objects/bc :
+.
+..
+ed8579e4c94954858be578e50786c17068c675
+./.git/objects/dc :
+.
+..
+aa91375a75e49606ddd79173202ccc3c82cc4b
+./.git/objects/c2 :
+.
+..
+ccb12143bdc81612ce379d0e3c28f55c9cbfb8
+./.git/objects/c9 :
+.
+..
+003547cb92ce7c926198f6c6bc88ec44c557ed
+./.git/objects/e2 :
+.
+..
+ea9631af1a1b8893c36d8b5483ae088cb5335a
+./.git/objects/c5 :
+.
+..
+228f15519631fd5e452badd3e09a6b1c428bed
+./.git/objects/c0 :
+.
+1584b2dc577f6f3117dbe8c8451899d9ea4efa
+..
+2bff09917bc110ec4e3401fef9f7d7829153e2
+./.git/objects/de :
+.
+..
+bc73498cb4c50c70512d0190ef19efe7da0b0a
+e26c5bcbd0ba61ccd2522b8f842d518822412d
+./.git/objects/c8 :
+.
+..
+ed7f05b29ac8a8ff09ba82533292eec335b8c5
+./.git/objects/c7 :
+.
+..
+394aa6eb0aa622965f2f61a7ded04bc2c1f876
+./.git/objects/c3 :
+.
+..
+7b8bd74e14298b6d2db20498cdf0c2def51b83
+./.git/objects/bf :
+.
+..
+20bb5565640f9db404031c6f06aa926519613c
+./.git/objects/c1 :
+.
+..
+05cae58070d7312eeb9bebaa74351a2553ec16
+./.git/objects/da :
+.
+..
+054cd9477b05d6f58d247823d4f7070e9ea798
+./.git/objects/d4 :
+.
+..
+39f8e2c2923e997e967c14f5cb17abccaebc7a
+./.git/objects/cd :
+.
+..
+ad0ec5d5ff0e632ef94fffdaffa76e2ee72b9c
+./.git/objects/e1 :
+.
+..
+58e272ed904a4b65b33cf04a797464f93b1740
+a057f14ec147b432408e3acc5f52f0c87fc70a
+./.git/objects/db :
+.
+..
+ee300fc6214bc9b0ac85f1cee18c066a4192ac
+./.git/objects/d2 :
+.
+..
+73839bdf298f15333ac527f23d88800ea90d44
+./.git/objects/cc :
+.
+..
+99d012bf27d569845cd3f5cc17cb28ee43e5aa
+e8fe129afecdd0d137bd9b1aa21f030ceb973e
+./.git/objects/bd :
+.
+..
+181c854fd25c98a41268b7d1701275bd6962d1
+./.git/objects/d9 :
+.
+..
+c53171380c12769b75c5989050e147e58b1bfe
+c91f778cc3eb08ab5b442bd4bef90aafaf85a9
+./.git/objects/ca :
+.
+..
+37f56a1714720f15be99a7e7cc732b88646d54
+66fa99b20eabb06d778d603f501675b08c867d
+./.git/objects/d6 :
+.
+..
+0ab90d9753afe3059ea2e5e56b05b3e3c71299
+./.git/objects/dd :
+.
+..
+8dfcaf6457cb774f30509ad4e7ebea5269f1b5
+./.git/objects/be :
+.
+..
+c8058d79f5cbbd36b78796e2a4d699e7950f88
+f1f0a1a21a5ac907a0d421efab9ad3fe461b8d
+./.git/objects/d7 :
+.
+..
+3618e940f04b37bca8e1fa3012c0fcf8a55ab4
+./.git/objects/e3 :
+.
+..
+855d5162b5d6a9c4efe017d4f81453b264c142
+./.git/objects/ec :
+.
+..
+e1b4f01d050276d0509a3af49b9122d896251e
+./.git/objects/e4 :
+.
+..
+109afa471ca359164e6784146401839c6c4856
+./.git/objects/f5 :
+.
+..
+014089fc274fd1f7ba2af317ea883a66de660a
+ed5478f56a05dc9111adc8fad07c57732dbb5c
+./.git/objects/fc :
+.
+..
+9f0804f04170f450a05e5e6a6cdd5479e81ee8
+./.git/objects/e5 :
+.
+..
+b06a0f6a377f5fb1b722ca2236acde2a9a827b
+./.git/objects/ef :
+.
+..
+d4a089e6269f6f1ccbbc1e53c98f7c603995a2
+./.git/objects/f7 :
+.
+..
+5b1805d8b759109728c9c8ce0919876eb6befa
+./.git/objects/fe :
+.
+..
+4441adc605bae4fa835b6e7fcaef6e90d5270a
+./.git/objects/fb :
+.
+..
+e4bceceee78943391ec14755d9e337ddeffeec
+./.git/objects/ff :
+.
+..
+a7c4b1ae274b5695738dacb711a757055461fc
+./.git/objects/eb :
+.
+..
+e5141ca40954ce41842321c956f805361c83d0
+./.git/objects/e7 :
+.
+..
+3f3c1b0046f1e5cdee49ec9dec056c697b84cf
+./.git/objects/e6 :
+.
+..
+9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+./.git/objects/fd :
+.
+..
+aba1cf665d335b769c014c747f16e53ce6a443
+./.git/objects/f2 :
+.
+..
+6ed2206bcb6fe136059085c87437205d9df44e
+./.git/objects/info :
+.
+..
+./.git/objects/f9 :
+.
+..
+1ecbefc455ffdc16001f2feed239a5300d8e90
+2a5a7cf1c367fd8ffe567323ebf4ec3ad58532
+./.git/objects/f8 :
+.
+2c21209b56f2d480b5e59591b82d44a62f6152
+..
+d67fe079716b0d4c595a3e1bfe9562f82bf368
+./.git/objects/e9 :
+.
+..
+544524bcf453f877aefd939d40f033bea032b2
+e04ca9464e1f1e22777580b60c5a5cd05433fa
+./.git/objects/pack :
+.
+..
+./.git/refs :
+.
+..
+remotes
+heads
+tags
+./.git/refs/remotes :
+.
+..
+origin
+./.git/refs/remotes/origin :
+.
+..
+master
+./.git/refs/heads :
+.
+..
+master
+./.git/refs/tags :
+.
+..
+./ft_printf :
+.
+..
+.DS_Store
+Makefile
+.git
+._.DS_Store
+README.md
+couleur.o
+auteur
+couleur.c
+ft_affichage.c
+ft_affichage.o
+ft_double.o
+ft_double.c
+ft_extension.c
+ft_hexa.c
+ft_integer.c
+ft_octal.o
+ft_hexa.o
+ft_largeur.o
+ft_extension.o
+ft_insertion.c
+ft_params.o
+ft_lecture.o
+ft_flags.o
+ft_params.c
+ft_octal.c
+ft_largeur.c
+ft_lecture.c
+ft_flags.c
+ft_precision.c
+ft_integer.o
+ft_insertion.o
+ft_precision.o
+ft_treatment.o
+ft_printf.c
+ft_treatment.c
+ft_printf.o
+ft_printf.h
+libft
+libftprintf.a
+test.txt
+./ft_printf/.git :
+.
+..
+COMMIT_EDITMSG
+ORIG_HEAD
+FETCH_HEAD
+HEAD
+branches
+config
+hooks
+description
+info
+logs
+index
+objects
+packed-refs
+refs
+./ft_printf/.git/branches :
+.
+..
+./ft_printf/.git/hooks :
+.
+..
+applypatch-msg.sample
+pre-rebase.sample
+commit-msg.sample
+post-update.sample
+pre-push.sample
+pre-commit.sample
+pre-applypatch.sample
+prepare-commit-msg.sample
+update.sample
+./ft_printf/.git/info :
+.
+..
+exclude
+./ft_printf/.git/logs :
+.
+..
+HEAD
+refs
+./ft_printf/.git/logs/refs :
+.
+..
+heads
+remotes
+./ft_printf/.git/logs/refs/heads :
+.
+..
+master
+./ft_printf/.git/logs/refs/remotes :
+.
+..
+origin
+./ft_printf/.git/logs/refs/remotes/origin :
+.
+HEAD
+..
+master
+./ft_printf/.git/objects :
+.
+..
+0f
+11
+22
+15
+1c
+12
+1d
+27
+39
+33
+3d
+74
+8c
+5d
+95
+69
+42
+86
+82
+6b
+8d
+3e
+7f
+71
+4d
+3f
+6f
+65
+4c
+59
+5b
+6d
+87
+6e
+8a
+93
+57
+5f
+98
+9f
+9c
+a3
+a1
+9d
+a6
+a7
+a8
+b3
+e2
+c5
+b6
+af
+bf
+d4
+e1
+cb
+d6
+ad
+b8
+e3
+ed
+f0
+f5
+ef
+e8
+eb
+e7
+info
+pack
+./ft_printf/.git/objects/0f :
+.
+..
+b04fb70de574216b656ca83e77e821243defe6
+./ft_printf/.git/objects/11 :
+.
+..
+76767d8bbfdbebdb1d38ff178c0ccad620d9b2
+./ft_printf/.git/objects/22 :
+.
+..
+3f9b5a9072b525057911545e342c499ccc48e3
+./ft_printf/.git/objects/15 :
+.
+..
+7c520314b2e12ca4f4fc580fc8a35101be15b4
+f3bb600373b92afa16907767934378bdaaae78
+./ft_printf/.git/objects/1c :
+.
+..
+d76c67cd926e35771eac44dfdc6f431badb8f4
+./ft_printf/.git/objects/12 :
+.
+..
+e45f8ac797ffae7a23f6c7b052f47e7b4c9294
+./ft_printf/.git/objects/1d :
+.
+..
+f099f069f8706329559592609a66e6f7aeaf3b
+./ft_printf/.git/objects/27 :
+.
+..
+e8fc7043f3ef2f56b67cbfbb2a58fb7f1f3f63
+./ft_printf/.git/objects/39 :
+.
+..
+d1fa25665280c44d320e21f9773d6ac40246e1
+./ft_printf/.git/objects/33 :
+.
+..
+c8b32596a6168351de12126dd407ad12890289
+./ft_printf/.git/objects/3d :
+.
+..
+067de49e28e334baeff1f356bc7ab3043d471b
+31251710dddbe9eb2bc9640e6872302b41db18
+./ft_printf/.git/objects/74 :
+.
+..
+7842b7359cabee1e15d0afb317500b760c3afa
+./ft_printf/.git/objects/8c :
+.
+..
+a68931946814bda1469b6e2cba498a25864e01
+e7817ae77b833f0954fcaf0281d74528e4e764
+./ft_printf/.git/objects/5d :
+.
+..
+8af4620bf0fb89f604abd21efa00185ae0e7dc
+./ft_printf/.git/objects/95 :
+.
+..
+0521416fbe4a1d1b38dbb8b0e84e9960f42e27
+./ft_printf/.git/objects/69 :
+.
+..
+87376e961edb2c18b6f2bcecf413d41d9429ec
+./ft_printf/.git/objects/42 :
+.
+..
+7b8399702436f71f2345bd0cc8fd62b00174b6
+./ft_printf/.git/objects/86 :
+.
+..
+c4a3d2b29ff88c5b05b4d9e3883e65930e058b
+./ft_printf/.git/objects/82 :
+.
+..
+1c2f3a7ea3a114bf5be3ed77a2a4af617c42db
+7a4608340a55c1ed3982212500bc351b6c7dca
+./ft_printf/.git/objects/6b :
+.
+..
+5547485ed7efee5b896fdc8b47d59a914220ef
+./ft_printf/.git/objects/8d :
+.
+..
+a8b2137bd15ef220b13305c1305734538b0ff8
+c8bbe8efc4c88dd42059ac4c91712f05ef62d2
+./ft_printf/.git/objects/3e :
+.
+..
+8bc86105da94b45930900b376269662ae68a10
+./ft_printf/.git/objects/7f :
+.
+..
+6354d76022ffe080c4e8741b8c4b958ebbc9ea
+./ft_printf/.git/objects/71 :
+.
+..
+05e27830c06b21b4c9f975a3a1897a5743483a
+19e2dbc60725c3f48a2a55cead7913997770d5
+./ft_printf/.git/objects/4d :
+.
+..
+14c28d0f913315162b99dbf0ec9b8dab37c774
+2d700fdea69cbbca0654f3b1e4150526c080c5
+./ft_printf/.git/objects/3f :
+.
+..
+6015ec45ddd64e6197a0648b30b692633fe4cd
+./ft_printf/.git/objects/6f :
+.
+558b758bdf529460993a82f2e7edc0cb8c0a26
+..
+664aebccb6f65c0cc229f8020e7e5d6db8e405
+8618c7621063b2d5c88be81df66f7a732878eb
+./ft_printf/.git/objects/65 :
+.
+..
+094aa9a24d0cdbe4a77d6398c7091d833ec34e
+c8d3fca9897dc78bce92a410972c3b920f8b38
+./ft_printf/.git/objects/4c :
+.
+..
+04ccbe6f625098e5552c4f38c17558c4be8598
+./ft_printf/.git/objects/59 :
+.
+..
+1fd0821572f10d02037162a0d7427e9e5bb37b
+./ft_printf/.git/objects/5b :
+.
+..
+3b27fc95d8aab549000a062b46e3705bb05c50
+4dd8651189dbd704ca55d089c8ae5b3d94476e
+./ft_printf/.git/objects/6d :
+.
+..
+785e1d47e89d9dedcc84ba2b9ed2394a48f3ad
+./ft_printf/.git/objects/87 :
+.
+..
+2e22abc30eb5959ca39ca4243f9dcbe4a403ef
+./ft_printf/.git/objects/6e :
+.
+..
+f5fc2a5cdb16f283ca9f2733b52739ce665f31
+./ft_printf/.git/objects/8a :
+.
+..
+cfed12e0164a4ab5f23575634f532d2fcc4507
+./ft_printf/.git/objects/93 :
+.
+..
+d5f4dbc6bd1f30351c333c74aaa137e05ce212
+./ft_printf/.git/objects/57 :
+.
+..
+12b87aa49d83dccdf0e1aebdeded5072d5c02f
+./ft_printf/.git/objects/5f :
+.
+..
+38a84cafa3cd3e1946922fa93e922a7b38d8f1
+b1548bd8af9c0e0e2b96bff2e57ac70db309df
+./ft_printf/.git/objects/98 :
+.
+5dc38ba2325eb2aade4191a0f279ff3b60011b
+..
+d1f9b10c3f70e25e6382cea9c92a092db563f6
+./ft_printf/.git/objects/9f :
+.
+..
+0a11a5f41af5cad94dd5bf65fcf78ba2ec08ec
+./ft_printf/.git/objects/9c :
+.
+..
+28a3b4a933992cdf5ff8fb1e41508a0877af96
+./ft_printf/.git/objects/a3 :
+.
+..
+40ab45e53a7368244b7bf61ee7c6d84b4b47b4
+./ft_printf/.git/objects/a1 :
+.
+..
+d6f0dda7351b27094011357a325faf04f55c13
+./ft_printf/.git/objects/9d :
+.
+..
+d27ff003403fd4396d147721ad6579d315b7cf
+./ft_printf/.git/objects/a6 :
+.
+..
+04cd55c355967ff22f2f2fca8ec5f00e0b161b
+./ft_printf/.git/objects/a7 :
+.
+..
+cf8ac176f535c8d67071f7fef1ac1f6d9bb398
+f9ac2984b9a5747f744ad4c22f3c60181b6fea
+./ft_printf/.git/objects/a8 :
+.
+..
+8471c095cf021041185ca3c0ad68c21c1e156a
+./ft_printf/.git/objects/b3 :
+.
+..
+33e6c74f2606bd68a5cef441db99e24c17a161
+./ft_printf/.git/objects/e2 :
+.
+..
+c970a6c1bb57517dc8a6d83ac1959d9e32b8a8
+f373b7a7c51fb056bce5a46d93be22d21b4b7b
+./ft_printf/.git/objects/c5 :
+.
+..
+b66f355c505afbf56da8fa6bc0352caee46f55
+./ft_printf/.git/objects/b6 :
+.
+..
+7710194312a3f686e7dfecfcff496f2268b257
+./ft_printf/.git/objects/af :
+.
+..
+d3dc18a359e993a79b3382f4076863fc370865
+./ft_printf/.git/objects/bf :
+.
+..
+54018c79bfc20291020aa8473450e50fda6636
+./ft_printf/.git/objects/d4 :
+.
+..
+27c660c45deadcb0a9d82db295e4424ff0f809
+./ft_printf/.git/objects/e1 :
+.
+..
+1ec6f5bce9e72e3011356e089ae22a9bdf5ca9
+./ft_printf/.git/objects/cb :
+.
+..
+2bf683fc07b22928453f086190c2525a5f0346
+./ft_printf/.git/objects/d6 :
+.
+..
+6e9788e72c574292a2ffdecfa664518fe2c3f5
+d28ae7bb0aae6cf85da42b5bb00d23850b48ed
+./ft_printf/.git/objects/ad :
+.
+..
+e96d5cb66bef783902c6df0c8b2d6adc12b8f7
+./ft_printf/.git/objects/b8 :
+.
+..
+1790b6cb3e61477bc6b24f20fcddb12d3941fd
+./ft_printf/.git/objects/e3 :
+.
+..
+855d5162b5d6a9c4efe017d4f81453b264c142
+./ft_printf/.git/objects/ed :
+.
+..
+6e6c977cc58956c8a53b06de35d1b3b4eeceed
+97390adf7083301facb8c3dfd1e3dd3d236013
+./ft_printf/.git/objects/f0 :
+.
+..
+ff8239cf4e269f6a3d58815f5de22b07b529f2
+./ft_printf/.git/objects/f5 :
+.
+..
+ed5478f56a05dc9111adc8fad07c57732dbb5c
+./ft_printf/.git/objects/ef :
+.
+..
+b4e58a259994b14bb4f0d41438dc2744d68b77
+./ft_printf/.git/objects/e8 :
+.
+..
+45a6d3e495a6aadd9e449d37baa8859ae904cb
+./ft_printf/.git/objects/eb :
+.
+..
+3cb269752671b4b0c548d655bd78eaa49f3eaa
+./ft_printf/.git/objects/e7 :
+.
+..
+74a7887defe0885358afbd3e5e40fc8d01e518
+./ft_printf/.git/objects/info :
+.
+..
+./ft_printf/.git/objects/pack :
+.
+..
+pack-594564c3b08bb2ca7f349f1e50cbad17aa5b1094.idx
+pack-594564c3b08bb2ca7f349f1e50cbad17aa5b1094.pack
+./ft_printf/.git/refs :
+.
+..
+remotes
+heads
+tags
+./ft_printf/.git/refs/remotes :
+.
+..
+origin
+./ft_printf/.git/refs/remotes/origin :
+.
+HEAD
+..
+master
+./ft_printf/.git/refs/heads :
+.
+..
+master
+./ft_printf/.git/refs/tags :
+.
+..
+./ft_printf/libft :
+.
+..
+.DS_Store
+ft_atoi_base.c
+Makefile
+._.DS_Store
+auteur
+ft_atoi.o
+ft_atoi.c
+ft_atoi_base.o
+ft_isalnum.o
+ft_isalpha.o
+ft_free_strjoin.c
+ft_isprint.c
+ft_isprint.o
+ft_bzero.c
+ft_bzero.o
+ft_itoa_base.c
+ft_free_strjoin.o
+ft_itoa.c
+ft_isascii.c
+ft_itoa_base.o
+ft_isascii.o
+ft_itoa.o
+ft_isalnum.c
+ft_isalpha.c
+ft_isdigit.o
+ft_isdigit.c
+ft_lstadd.o
+ft_lstadd.c
+ft_lstaddend.c
+ft_lstcount.o
+ft_putendl.c
+ft_tabtri.o
+ft_putchar.o
+ft_strrchr.o
+ft_strsplit.o
+ft_strnstr.o
+ft_tolower.c
+ft_strlcat.c
+ft_strncmp.o
+ft_memcmp.o
+ft_strncat.o
+ft_putnbr.o
+ft_tabcount.c
+ft_strdup.c
+ft_swap.c
+ft_memdel.c
+ft_strstr.o
+ft_tabcount.o
+ft_strnequ.o
+ft_putendl_fd.c
+ft_striteri.o
+ft_replace_first.o
+ft_strmap.o
+ft_strncpy.o
+ft_memcmp.c
+ft_strcmp.c
+ft_memset.c
+ft_tolower.o
+ft_strcmp.o
+ft_strcpy.o
+ft_strnequ.c
+ft_putchar_fd.c
+ft_strdel.o
+ft_memmove.o
+ft_strcat.c
+ft_strdup.o
+ft_memalloc.c
+ft_strncpy.c
+ft_memcpy.c
+ft_swap.o
+ft_lstmap.o
+ft_striter.c
+ft_strclr.c
+ft_replace_first.c
+ft_strcat.o
+ft_strmap.c
+ft_memcpy.o
+ft_memchr.c
+ft_lstdel.c
+ft_strlen.c
+ft_strjoin.c
+ft_lstdel.o
+ft_strmapi.c
+ft_memccpy.c
+ft_putchar.c
+ft_strrchr.c
+ft_lstnew.c
+ft_strsub.c
+ft_putchar_fd.o
+ft_strtrim.o
+ft_strjoin.o
+ft_putnbr_fd.o
+ft_memalloc.o
+ft_strequ.o
+ft_lstcount.c
+ft_putstr.c
+ft_striter.o
+ft_memmove.c
+ft_strnstr.c
+ft_putnbr_fd.c
+ft_strsub.o
+ft_strrep.c
+ft_strequ.c
+ft_tabtri.c
+ft_putstr.o
+ft_strnew.c
+ft_lstmap.c
+ft_memset.o
+ft_strdel.c
+ft_strchr.o
+ft_strsplit.c
+ft_strclr.o
+ft_memdel.o
+ft_strtrim.c
+ft_strlcat.o
+ft_putendl.o
+ft_lstdelone.c
+ft_strchr.c
+ft_memccpy.o
+ft_putnbr.c
+ft_strncmp.c
+ft_lstiter.c
+ft_lstnew.o
+ft_putstr_fd.o
+ft_strlen.o
+ft_strmapi.o
+ft_putstr_fd.c
+ft_memchr.o
+ft_strnew.o
+ft_strncat.c
+ft_strcpy.c
+ft_lstiter.o
+ft_lstdelone.o
+ft_putendl_fd.o
+ft_strstr.c
+ft_lstaddend.o
+ft_striteri.c
+ft_toupper.c
+ft_toupper.o
+ft_uni_putchar.c
+ft_tri_chaine.c~
+ft_tri_chaine.c
+ft_uni_putstr.c
+ft_uni_putchar.o
+ft_tri_chaine.o
+ft_uni_putstr.o
+ft_uni_size.c
+ft_uni_strcpy.c
+ft_uni_strdup.c
+ft_uni_strjoin.o
+ft_uni_strcat.c
+ft_uni_strlen.c
+ft_uni_size.o
+ft_uni_strcat.o
+ft_uni_strdup.o
+ft_uni_strcpy.o
+ft_uni_strjoin.c
+ft_uni_strlen.o
+libft.a
+libft.h
+unsigned_itoa_base.c
+unsigned_itoa_base.o

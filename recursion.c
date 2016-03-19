@@ -1,30 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ls.c                                            :+:      :+:    :+:   */
+/*   recursion.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/03/18 15:33:27 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/19 11:50:13 by rorousse         ###   ########.fr       */
+/*   Created: 2016/03/19 11:38:56 by rorousse          #+#    #+#             */
+/*   Updated: 2016/03/19 11:53:32 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ls.h"
 
-int	ft_ls(int argc, char **argv, char *path)
+void	recursion(int argc, char **argv, char *path, t_file_list *lst)
 {
-	t_file_list *lst;
+	char	*path_rec;
 
-	argv[0][0] = 'a';
-	lst = NULL;
-	fill_list(&lst, path);
-	ft_printf("%s :\n",path);
-	aff_list(lst);
-	if (search_flags(argv, argc, 'R') == 1)
-		recursion(argc, argv, path, lst);
-	while (lst->prec != NULL)
-		lst = lst->prec;
-	free_list(lst);
-	return (0);
+	while (lst != NULL)
+	{
+		if (S_ISDIR((lst->infos).st_mode) && ft_strcmp(".", lst->d_name) != 0 && ft_strcmp("..", lst->d_name) != 0)
+		{
+			path_rec = create_path(path, lst->d_name);
+			ft_ls(argc, argv, path_rec);
+			free(path_rec);
+		}
+		lst = lst->next;
+	}
 }
