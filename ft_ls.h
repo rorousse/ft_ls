@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/19 11:42:30 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/20 16:38:43 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,13 @@ struct	file_list_s
 typedef struct file_list_s t_file_list;
 
 /*
+** AFFICHAGE_C
+*/
+
+void		inv_aff_list(t_file_list *lst);
+void		aff_list(t_file_list *lst);
+
+/*
 ** FLAGS_C
 */
 
@@ -55,8 +62,7 @@ int			ft_ls(int argc, char **argv, char *path);
 t_file_list	*new_elem(ino_t d_ino, unsigned char d_type, char d_name[256], char *path);
 void		free_list(t_file_list *lst);
 void		list_add_elem(t_file_list **lst, dirent *mydirent, char *path);
-void		fill_list(t_file_list **lst, char *namedir);
-void		aff_list(t_file_list *lst);
+void		fill_list(t_file_list **lst, char *namedir, int hidden);
 
 /*
 ** PATHS_H

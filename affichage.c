@@ -1,32 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ls.c                                            :+:      :+:    :+:   */
+/*   affichage.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/03/18 15:33:27 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/20 16:37:38 by rorousse         ###   ########.fr       */
+/*   Created: 2016/03/20 16:33:50 by rorousse          #+#    #+#             */
+/*   Updated: 2016/03/20 16:39:18 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ls.h"
 
-int	ft_ls(int argc, char **argv, char *path)
+void	inv_aff_list(t_file_list *lst)
 {
-	t_file_list *lst;
-
-	lst = NULL;;
-	fill_list(&lst, path, search_flags(argv, argc, 'a'));
-	ft_printf("%s :\n",path);
-	if (search_flags(argv, argc, 'r') == 1)
-		inv_aff_list(lst);
-	else
-		aff_list(lst);
-	if (search_flags(argv, argc, 'R') == 1)
-		recursion(argc, argv, path, lst);
-	while (lst != NULL && lst->prec != NULL)
+	while (lst->next != NULL)
+		lst = lst->next;
+	while (lst != NULL)
+	{
+		ft_printf("%s\n",lst->d_name);
 		lst = lst->prec;
-	free_list(lst);
-	return (0);
+	}
+}
+
+void    aff_list(t_file_list *lst)
+{
+    int i;
+
+    i = 0;
+    while (lst != NULL && lst->prec != NULL)
+        lst = lst->prec;
+    while (lst != NULL)
+    {
+		ft_printf("%s\n",lst->d_name);
+        lst = lst->next;
+        i++;
+    }
 }

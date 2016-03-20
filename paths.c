@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/19 10:59:40 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/19 11:11:14 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/19 17:27:41 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,16 +17,22 @@ char	*create_path(char *path, char *name)
 	char	*ret;
 	int		i;
 	char	*temp;
+	int		bool;
 
+	bool = 0;
 	i = 0;
 	while(path[i])
 		i++;
 	if (path[i - 1] != '/')
+	{
 		ret = ft_strjoin(path, "/");
+		bool = 1;
+	}
 	else
 		ret = path;
 	temp = ft_strjoin(ret, name);
-	free(ret);
+	if (bool == 1)
+		free(ret);
 	ret = temp;
 	return (ret);
 }

@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 13:10:44 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/17 19:08:37 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/20 16:33:44 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,7 @@ void	insertion(t_file_list *lst)
 	if (lst->prec == NULL)
 		return;
 	cmp = lst->prec;
-	cmp->next = lst->next;
-	if (lst->next != NULL)
-		(lst->next)->prec = lst->prec;
+	cmp->next = NULL;
 	while (cmp->prec != NULL && ft_strcmp(lst->d_name, cmp->d_name) < 0)
 			cmp = cmp->prec;
 	if (ft_strcmp(lst->d_name, cmp->d_name) < 0)
@@ -37,5 +35,7 @@ void	insertion(t_file_list *lst)
 		lst->prec = cmp;
 		lst->next = cmp->next;
 		cmp->next = lst;
+		if (lst->next != NULL)
+			(lst->next)->prec = lst;
 	}
 }

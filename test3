@@ -11,15 +11,22 @@ ft_ls
 flags.o
 ft_ls.o
 ft_ls.c
+recursion.c~
 ft_printf
+test2.txt
+recursion.c
+paths.c~
+test.txt
+paths.o
+listing.c~
 listing.c
 main.c
-main.o
-paths.c
-recursion.c
-paths.o
 recursion.o
-test.txt
+paths.c
+ft_ls.h~
+main.o
+ft_ls.c~
+test3
 tri.c
 tri.o
 ./.git :
