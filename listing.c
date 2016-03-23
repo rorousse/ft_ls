@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/20 16:38:14 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/23 17:02:07 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ void		free_list(t_file_list *lst)
 	free(lst);
 }
 
-void		list_add_elem(t_file_list **lst, dirent *mydirent, char *path)
+void		list_add_elem(t_file_list **lst, dirent *mydirent, char *path, int mode)
 {
 	t_file_list	*new;
 	t_file_list	*temp;
@@ -57,12 +57,15 @@ void		list_add_elem(t_file_list **lst, dirent *mydirent, char *path)
 		temp->next = new;
 		new->prec = temp;
 	}
-	insertion(*lst);
+	if (mode == 0)
+		insertion(*lst);
+	else
+		time_insertion(*lst);
 	while ((*lst)->prec != NULL)
 		*lst = (*lst)->prec;
 }
 
-void		fill_list(t_file_list **lst, char *namedir, int hidden)
+void		fill_list(t_file_list **lst, char *namedir, int hidden, int mode)
 {
 	DIR			*mydir;
 	dirent		*lecture;
@@ -76,7 +79,7 @@ void		fill_list(t_file_list **lst, char *namedir, int hidden)
 	while ((lecture = readdir(mydir)) != NULL)
 	{
 		if ((lecture->d_name)[0] != '.' || hidden == 1)
-			list_add_elem(lst, lecture, namedir);
+			list_add_elem(lst, lecture, namedir, mode);
 	}
 	closedir(mydir);
 }

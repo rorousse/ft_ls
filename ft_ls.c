@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:27 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/20 16:37:38 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/23 10:46:53 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_ls(int argc, char **argv, char *path)
 	t_file_list *lst;
 
 	lst = NULL;;
-	fill_list(&lst, path, search_flags(argv, argc, 'a'));
+	fill_list(&lst, path, search_flags(argv, argc, 'a'), search_flags(argv, argc, 't'));
 	ft_printf("%s :\n",path);
 	if (search_flags(argv, argc, 'r') == 1)
 		inv_aff_list(lst);
