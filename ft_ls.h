@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/24 18:26:17 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/24 18:48:55 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,9 +85,9 @@ int			ft_ls(int argc, char **argv, char *path);
 ** LISTING_C
 */
 
-t_file_list	*new_elem(dirent *mydirent, char *path);
+t_file_list	*new_elem(dirent *mydirent, char *path, t_taille_max *taillemax);
 void		free_list(t_file_list *lst);
-void		list_add_elem(t_file_list **lst, t_dirent_extended lecture);
+void		list_add_elem(t_file_list **lst, t_dirent_extended lecture, t_taille_max *taillemax);
 t_file_list	*fill_list(char *path, int hidden, int mode, t_taille_max *taillemax);
 
 /*
