@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/25 11:44:40 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/25 13:31:31 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,11 +34,12 @@ t_file_list	*new_elem(dirent *mydirent, char *path, t_taille_max *taillemax)
 	lstat(absolute_path, &(new->infos));
 	new->d_user = getpwuid((new->infos).st_uid);
 	new->d_group = getgrgid((new->d_user)->pw_gid);
+	new->d_date = ft_strdup(ctime(&((new->infos).st_mtime)));
 	ft_strcpy(new->d_name, mydirent->d_name);
 	if (taillemax->username < ft_strlen((new->d_user)->pw_name))
 		taillemax->username = ft_strlen((new->d_user)->pw_name);
-	if (taillemax->username < ft_strlen((new->d_group)->gr_name))
-		taillemax->username = ft_strlen((new->d_group)->gr_name);
+	if (taillemax->groupname < ft_strlen((new->d_group)->gr_name))
+		taillemax->groupname = ft_strlen((new->d_group)->gr_name);
 	if (taillemax->nblinks < (new->infos).st_nlink)
 		taillemax->nblinks = (new->infos).st_nlink;
 	if (ft_size_number(taillemax->octets) < ft_size_number((new->infos).st_size))
@@ -50,9 +51,13 @@ t_file_list	*new_elem(dirent *mydirent, char *path, t_taille_max *taillemax)
 void		free_list(t_file_list *lst)
 {
 	t_file_list *temp;
-	while (lst != NULL && lst->next != NULL)
+
+	while (lst != NULL && lst->prec != NULL)
+		lst = lst->prec;
+	while (lst != NULL)
 	{
 		temp = lst->next;
+		free(lst->d_date);
 		free(lst);
 		lst = temp;
 	}

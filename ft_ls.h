@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/25 11:42:06 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/25 13:21:23 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ struct	file_list_s
 	ino_t				d_ino;
 	unsigned char		d_type;
 	char				d_name[256];
+	char				*d_date;
 	passwd				*d_user;
 	group				*d_group;
 	struct stat			infos;
