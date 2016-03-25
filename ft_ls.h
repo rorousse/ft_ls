@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/24 18:48:55 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/25 11:42:06 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,10 @@ typedef struct group group;
 
 struct  taille_max_s
 {
-    int nblinks;
-    int username;
-    int groupname;
-    int octets;
+    unsigned int nblinks;
+    unsigned int username;
+    unsigned int groupname;
+    unsigned int octets;
 };
 
 typedef struct taille_max_s t_taille_max;

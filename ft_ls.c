@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:27 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/24 17:41:20 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/25 11:39:07 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ int	ft_ls(int argc, char **argv, char *path)
 		recursion(argc, argv, path, lst);
 	while (lst != NULL && lst->prec != NULL)
 		lst = lst->prec;
+	printf("La taille max d'un nom est de %d, et pour un groupe de %d\n",taillemax.username,taillemax.groupname);
+	printf("la taille max des links est %d, et des octets de %d\n",taillemax.nblinks, taillemax.octets);
 	free_list(lst);
 	return (0);
 }
