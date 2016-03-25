@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/25 13:31:31 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/25 19:10:41 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,16 +33,17 @@ t_file_list	*new_elem(dirent *mydirent, char *path, t_taille_max *taillemax)
 	new->prec = NULL;
 	lstat(absolute_path, &(new->infos));
 	new->d_user = getpwuid((new->infos).st_uid);
-	new->d_group = getgrgid((new->d_user)->pw_gid);
+	new->d_group = getgrgid((new->infos).st_gid);
 	new->d_date = ft_strdup(ctime(&((new->infos).st_mtime)));
+	formatage_date(&(new->d_date));
 	ft_strcpy(new->d_name, mydirent->d_name);
 	if (taillemax->username < ft_strlen((new->d_user)->pw_name))
 		taillemax->username = ft_strlen((new->d_user)->pw_name);
 	if (taillemax->groupname < ft_strlen((new->d_group)->gr_name))
 		taillemax->groupname = ft_strlen((new->d_group)->gr_name);
-	if (taillemax->nblinks < (new->infos).st_nlink)
-		taillemax->nblinks = (new->infos).st_nlink;
-	if (ft_size_number(taillemax->octets) < ft_size_number((new->infos).st_size))
+	if (taillemax->nblinks < ft_size_number((new->infos).st_nlink))
+		taillemax->nblinks = ft_size_number((new->infos).st_nlink);
+	if (taillemax->octets < ft_size_number((new->infos).st_size))
 		taillemax->octets = ft_size_number((new->infos).st_size);
 	free(absolute_path);
 	return (new);

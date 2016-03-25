@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/25 13:21:23 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/25 16:35:52 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,13 @@ typedef struct dirent_extended_s t_dirent_extended;
 
 void		inv_aff_list(t_file_list *lst);
 void		aff_list(t_file_list *lst);
-void		aff_extended(t_file_list *lst);
+void		aff_extended(t_file_list *lst, t_taille_max taillemax);
+
+/*
+** DATE_C
+*/
+
+void		formatage_date(char **date);
 
 /*
 ** FLAGS_C
