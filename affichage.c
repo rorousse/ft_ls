@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/20 16:33:50 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/25 16:39:51 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/25 19:41:42 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,15 +56,15 @@ void	aff_extended(t_file_list *lst, t_taille_max taillemax)
 		print_typage((lst->infos).st_mode);
 		print_rights((lst->infos).st_mode);
 		ft_putstr("  ");
-		ft_putnbr((lst->infos).st_nlink);
-		set_padding(taillemax.nblinks - ft_size_number((lst->infos).st_nlink));
+		ft_printf("%*d",taillemax.nblinks, (lst->infos).st_nlink);
+		ft_putchar(' ');
 		ft_putstr((lst->d_user)->pw_name);
 		ft_putchar(' ');
 		set_padding(taillemax.username - ft_strlen((lst->d_user)->pw_name));
 		ft_putstr((lst->d_group)->gr_name);
 		set_padding(taillemax.groupname - ft_strlen((lst->d_group)->gr_name));
-		ft_printf("%ld",(lst->infos).st_size);
-		set_padding(taillemax.octets - ft_size_number((lst->infos).st_size));
+		ft_printf("%*ld", taillemax.octets, (lst->infos).st_size);
+		ft_putstr("  ");
 		ft_putstr(lst->d_date);
 		ft_putchar(' ');
 		print_name(lst);
