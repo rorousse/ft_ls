@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 17:30:40 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/26 16:55:34 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,14 @@ t_file_list	*new_elem(dirent *mydirent, char *path, t_build *build)
 	new->d_date = ft_strdup(ctime(&((new->infos).st_mtime)));
 	formatage_date(&(new->d_date));
 	ft_strcpy(new->d_name, mydirent->d_name);
-	define_sizes_build(new, build);
+	if (build->username < ft_strlen((new->d_user)->pw_name))
+		build->username = ft_strlen((new->d_user)->pw_name);
+	if (build->groupname < ft_strlen((new->d_group)->gr_name))
+		build->groupname = ft_strlen((new->d_group)->gr_name);
+	if (build->nblinks < ft_size_number((new->infos).st_nlink))
+		build->nblinks = ft_size_number((new->infos).st_nlink);
+	if (build->octets < ft_size_number((new->infos).st_size))
+		build->octets = ft_size_number((new->infos).st_size);
 	free(absolute_path);
 	return (new);
 }
@@ -54,8 +61,7 @@ void		free_list(t_file_list *lst)
 	free(lst);
 }
 
-void		list_add_elem(t_file_list **lst,
-			t_dirent_extended lecture, t_build *build)
+void		list_add_elem(t_file_list **lst, t_dirent_extended lecture, t_build *build)
 {
 	t_file_list	*new;
 	t_file_list	*temp;
@@ -66,7 +72,7 @@ void		list_add_elem(t_file_list **lst,
 	else
 	{
 		temp = *lst;
-		while (temp->next != NULL)
+		while(temp->next != NULL)
 			temp = temp->next;
 		temp->next = new;
 		new->prec = temp;
@@ -82,8 +88,8 @@ void		list_add_elem(t_file_list **lst,
 t_file_list	*fill_list(char *path, int hidden, int mode, t_build *build)
 {
 	DIR					*mydir;
-	t_dirent_extended	lecture;
-	t_file_list			*lst;
+	t_dirent_extended		lecture;
+	t_file_list 		*lst;
 
 	lst = NULL;
 	lecture.path = path;
@@ -91,7 +97,7 @@ t_file_list	*fill_list(char *path, int hidden, int mode, t_build *build)
 	if ((mydir = opendir(path)) == NULL)
 	{
 		perror("Erreur");
-		return (NULL);
+		return NULL;
 	}
 	while ((lecture.mydirent = readdir(mydir)) != NULL)
 	{
