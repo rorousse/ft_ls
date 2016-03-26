@@ -6,21 +6,13 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/25 13:29:59 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/26 18:03:31 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ls.h"
 
-static void	init_taillemax(t_taille_max *taillemax)
-{
-	taillemax->nblinks = 0;
-	taillemax->username = 0;
-	taillemax->groupname = 0;
-	taillemax->octets = 0;
-}
-
-t_file_list	*new_elem(dirent *mydirent, char *path, t_taille_max *taillemax)
+t_file_list	*new_elem(dirent *mydirent, char *path, t_build *build)
 {
 	t_file_list *new;
 	char		*absolute_path;
@@ -32,18 +24,16 @@ t_file_list	*new_elem(dirent *mydirent, char *path, t_taille_max *taillemax)
 	new->next = NULL;
 	new->prec = NULL;
 	lstat(absolute_path, &(new->infos));
+	if (S_ISLNK((new->infos).st_mode))
+		readlink(absolute_path, new->link_name, 256);
+	else
+		ft_bzero(new->link_name, 256);
 	new->d_user = getpwuid((new->infos).st_uid);
-	new->d_group = getgrgid((new->d_user)->pw_gid);
+	new->d_group = getgrgid((new->infos).st_gid);
 	new->d_date = ft_strdup(ctime(&((new->infos).st_mtime)));
+	formatage_date(&(new->d_date));
 	ft_strcpy(new->d_name, mydirent->d_name);
-	if (taillemax->username < ft_strlen((new->d_user)->pw_name))
-		taillemax->username = ft_strlen((new->d_user)->pw_name);
-	if (taillemax->groupname < ft_strlen((new->d_group)->gr_name))
-		taillemax->groupname = ft_strlen((new->d_group)->gr_name);
-	if (taillemax->nblinks < (new->infos).st_nlink)
-		taillemax->nblinks = (new->infos).st_nlink;
-	if (ft_size_number(taillemax->octets) < ft_size_number((new->infos).st_size))
-		taillemax->octets = ft_size_number((new->infos).st_size);
+	define_sizes_build(new, build);
 	free(absolute_path);
 	return (new);
 }
@@ -54,7 +44,7 @@ void		free_list(t_file_list *lst)
 
 	while (lst != NULL && lst->prec != NULL)
 		lst = lst->prec;
-	while (lst != NULL && lst->next != NULL)
+	while (lst != NULL)
 	{
 		temp = lst->next;
 		free(lst->d_date);
@@ -64,18 +54,19 @@ void		free_list(t_file_list *lst)
 	free(lst);
 }
 
-void		list_add_elem(t_file_list **lst, t_dirent_extended lecture, t_taille_max *taillemax)
+void		list_add_elem(t_file_list **lst,
+			t_dir_ext lecture, t_build *build)
 {
 	t_file_list	*new;
 	t_file_list	*temp;
 
-	new = new_elem(lecture.mydirent, lecture.path, taillemax);
+	new = new_elem(lecture.mydirent, lecture.path, build);
 	if (*lst == NULL)
 		*lst = new;
 	else
 	{
 		temp = *lst;
-		while(temp->next != NULL)
+		while (temp->next != NULL)
 			temp = temp->next;
 		temp->next = new;
 		new->prec = temp;
@@ -88,26 +79,40 @@ void		list_add_elem(t_file_list **lst, t_dirent_extended lecture, t_taille_max *
 		*lst = (*lst)->prec;
 }
 
-t_file_list		*fill_list(char *path, int hidden, int mode, t_taille_max *taillemax)
+t_file_list	*fill_list(char *path, int hidden, int mode, t_build *build)
 {
 	DIR					*mydir;
-	t_dirent_extended		lecture;
-	t_file_list 		*lst;
+	t_dir_ext			lecture;
+	t_file_list			*lst;
 
 	lst = NULL;
-	init_taillemax(taillemax);
 	lecture.path = path;
 	lecture.mode = mode;
 	if ((mydir = opendir(path)) == NULL)
 	{
 		perror("Erreur");
-		return NULL;
+		return (NULL);
 	}
 	while ((lecture.mydirent = readdir(mydir)) != NULL)
 	{
 		if (((lecture.mydirent)->d_name)[0] != '.' || hidden == 1)
-			list_add_elem(&lst, lecture, taillemax);
+			list_add_elem(&lst, lecture, build);
 	}
 	closedir(mydir);
 	return (lst);
+}
+
+void		reverse_list(t_file_list *lst)
+{
+	t_file_list *temp;
+
+	while (lst != NULL && lst->prec != NULL)
+		lst = lst->prec;
+	while (lst != NULL)
+	{
+		temp = lst->prec;
+		lst->prec = lst->next;
+		lst->next = temp;
+		lst = lst->prec;
+	}
 }

@@ -6,13 +6,13 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 18:09:17 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/26 17:30:40 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ls.h"
 
-t_file_list	*new_elem(t_dirent *mydirent, char *path, t_build *build)
+t_file_list	*new_elem(dirent *mydirent, char *path, t_build *build)
 {
 	t_file_list *new;
 	char		*absolute_path;
@@ -55,7 +55,7 @@ void		free_list(t_file_list *lst)
 }
 
 void		list_add_elem(t_file_list **lst,
-			t_dir_ext lecture, t_build *build)
+			t_dirent_extended lecture, t_build *build)
 {
 	t_file_list	*new;
 	t_file_list	*temp;
@@ -82,7 +82,7 @@ void		list_add_elem(t_file_list **lst,
 t_file_list	*fill_list(char *path, int hidden, int mode, t_build *build)
 {
 	DIR					*mydir;
-	t_dir_ext			lecture;
+	t_dirent_extended	lecture;
 	t_file_list			*lst;
 
 	lst = NULL;
