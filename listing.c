@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 18:09:17 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/26 19:46:02 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,14 @@ t_file_list	*new_elem(t_dirent *mydirent, char *path, t_build *build)
 		readlink(absolute_path, new->link_name, 256);
 	else
 		ft_bzero(new->link_name, 256);
-	new->d_user = getpwuid((new->infos).st_uid);
-	new->d_group = getgrgid((new->infos).st_gid);
+	if ((new->d_user = getpwuid((new->infos).st_uid)) != NULL)
+		new->taille_user = ft_strlen((new->d_user)->pw_name);
+	else
+		new->taille_user = ft_size_number((new->infos).st_uid);
+	if ((new->d_group = getgrgid((new->infos).st_gid)) != NULL)
+		new->taille_group = ft_strlen((new->d_group)->gr_name);
+	else
+		new->taille_group = ft_size_number((new->infos).st_gid);
 	new->d_date = ft_strdup(ctime(&((new->infos).st_mtime)));
 	formatage_date(&(new->d_date));
 	ft_strcpy(new->d_name, mydirent->d_name);

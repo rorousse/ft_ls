@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 18:08:30 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/26 18:10:04 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,8 +49,8 @@ struct						s_file_list
 	t_passwd				*d_user;
 	t_group					*d_group;
 	struct stat				infos;
-	struct file_list_s		*next;
-	struct file_list_s		*prec;
+	struct s_file_list		*next;
+	struct s_file_list		*prec;
 };
 
 typedef struct s_file_list	t_file_list;

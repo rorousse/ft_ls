@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/20 16:33:50 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 16:51:26 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/26 19:44:09 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,11 +48,17 @@ void		aff_extended(t_file_list *lst, t_build build)
 		ft_putstr("  ");
 		ft_printf("%*d", build.nblinks, (lst->infos).st_nlink);
 		ft_putchar(' ');
-		ft_putstr((lst->d_user)->pw_name);
+		if (lst->d_user != NULL) 
+			ft_putstr((lst->d_user)->pw_name);
+		else
+			ft_putnbr((lst->infos).st_uid);
 		ft_putchar(' ');
-		set_padding(build.username - ft_strlen((lst->d_user)->pw_name));
-		ft_putstr((lst->d_group)->gr_name);
-		set_padding(build.groupname - ft_strlen((lst->d_group)->gr_name));
+		set_padding(build.username - lst->taille_user);
+		if (lst->d_group != NULL)
+			ft_putstr((lst->d_group)->gr_name);
+		else
+			ft_putnbr((lst->infos).st_gid);
+		set_padding(build.groupname - lst->taille_group);
 		ft_putchar(' ');
 		ft_printf("%*ld", build.octets, (lst->infos).st_size);
 		ft_putchar(' ');

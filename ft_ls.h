@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 18:10:04 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/26 19:21:25 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,8 @@ struct						s_file_list
 	char					*d_date;
 	t_passwd				*d_user;
 	t_group					*d_group;
+	unsigned int			taille_user;
+	unsigned int			taille_group;
 	struct stat				infos;
 	struct s_file_list		*next;
 	struct s_file_list		*prec;

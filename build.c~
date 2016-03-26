@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/26 17:21:41 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 17:29:21 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/26 19:36:10 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,12 @@ void	init_build(t_build *build)
 
 void	define_sizes_build(t_file_list *new, t_build *build)
 {
-	if (build->username < ft_strlen((new->d_user)->pw_name))
-        build->username = ft_strlen((new->d_user)->pw_name);
-    if (build->groupname < ft_strlen((new->d_group)->gr_name))
-        build->groupname = ft_strlen((new->d_group)->gr_name);
-    if (build->nblinks < ft_size_number((new->infos).st_nlink))
-        build->nblinks = ft_size_number((new->infos).st_nlink);
-    if (build->octets < ft_size_number((new->infos).st_size))
-        build->octets = ft_size_number((new->infos).st_size);
+	if (build->username < new->taille_user)
+		build->username = new->taille_user;
+	if (build->groupname < new->taille_group)
+		build->groupname = new->taille_group);
+	if (build->nblinks < ft_size_number((new->infos).st_nlink))
+		build->nblinks = ft_size_number((new->infos).st_nlink);
+	if (build->octets < ft_size_number((new->infos).st_size))
+		build->octets = ft_size_number((new->infos).st_size);
 }
