@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/25 19:10:41 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/26 16:34:45 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,10 @@ t_file_list	*new_elem(dirent *mydirent, char *path, t_taille_max *taillemax)
 	new->next = NULL;
 	new->prec = NULL;
 	lstat(absolute_path, &(new->infos));
+	if (S_ISLNK((new->infos).st_mode))
+		readlink(absolute_path, new->link_name, 256);
+	else
+		ft_bzero(new->link_name, 256);
 	new->d_user = getpwuid((new->infos).st_uid);
 	new->d_group = getgrgid((new->infos).st_gid);
 	new->d_date = ft_strdup(ctime(&((new->infos).st_mtime)));
@@ -111,4 +115,19 @@ t_file_list		*fill_list(char *path, int hidden, int mode, t_taille_max *taillema
 	}
 	closedir(mydir);
 	return (lst);
+}
+
+void		reverse_list(t_file_list *lst)
+{
+	t_file_list *temp;
+
+	while (lst != NULL && lst->prec != NULL)
+		lst = lst->prec;
+	while (lst != NULL)
+	{
+		temp = lst->prec;
+		lst->prec = lst->next;
+		lst->next = temp;
+		lst = lst->prec;
+	}
 }

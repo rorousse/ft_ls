@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/24 15:37:36 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/24 15:50:28 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/26 15:06:02 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,17 +51,40 @@ void	print_rights(mode_t st_mode)
 	put_condition(st_mode & S_IXOTH, 'x');
 }
 
-void	print_name(t_file_list *lst)
+void	print_name(t_file_list *lst, t_taille_max taillemax)
 {
-	if (S_ISDIR((lst->infos).st_mode))
-		ft_printf("{cyan}%s{eoc}\n",lst->d_name);
-	else if (S_ISREG((lst->infos).st_mode) && (((lst->infos).st_mode & S_IXUSR) || ((lst->infos).st_mode & S_IXGRP) || ((lst->infos).st_mode & S_IXOTH)))
-		ft_printf("{rouge}%s{eoc}\n",lst->d_name);
-	else if (S_ISLNK((lst->infos).st_mode))
-		ft_printf("{magenta}%s{eoc}\n", lst->d_name);
+	if (S_ISDIR((lst->infos).st_mode) && taillemax.color == 1)
+		ft_printf("{cyan}%s{eoc}",lst->d_name);
+	else if (taillemax.color == 1 && S_ISREG((lst->infos).st_mode) && (((lst->infos).st_mode & S_IXUSR) || ((lst->infos).st_mode & S_IXGRP) || ((lst->infos).st_mode & S_IXOTH)))
+		ft_printf("{rouge}%s{eoc}",lst->d_name);
+	else if (S_ISLNK((lst->infos).st_mode) && taillemax.color == 1)
+		ft_printf("{magenta}%s{eoc}", lst->d_name);
 	else
-		ft_printf("%s\n",lst->d_name);
+		ft_putstr(lst->d_name);
+	if (S_ISLNK((lst->infos).st_mode))
+	{
+		ft_putstr(" -> ");
+		ft_putstr(lst->link_name);
+	}
+	ft_putchar('\n');
 }
+
+void	print_total_blocks(t_file_list *lst)
+{
+	unsigned int	count;
+
+	count = 0;
+	while (lst != NULL && lst->prec != NULL)
+		lst = lst->prec;
+	while (lst != NULL)
+	{
+		count = count + (lst->infos).st_blocks;
+		lst = lst->next;
+	}
+	if (count != 0)
+		ft_printf("Total : %u\n", count);
+}
+
 /*
 void	aff_extended(t_file_list *lst)
 {
