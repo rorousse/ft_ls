@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 19:46:02 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/27 19:03:06 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,11 @@ t_file_list	*new_elem(t_dirent *mydirent, char *path, t_build *build)
 	new->d_type = mydirent->d_type;
 	new->next = NULL;
 	new->prec = NULL;
+	new->d_date = NULL;
 	lstat(absolute_path, &(new->infos));
+	ft_bzero(new->link_name, 255);
 	if (S_ISLNK((new->infos).st_mode))
-		readlink(absolute_path, new->link_name, 256);
-	else
-		ft_bzero(new->link_name, 256);
+		readlink(absolute_path, new->link_name, 255);
 	if ((new->d_user = getpwuid((new->infos).st_uid)) != NULL)
 		new->taille_user = ft_strlen((new->d_user)->pw_name);
 	else
@@ -40,24 +40,25 @@ t_file_list	*new_elem(t_dirent *mydirent, char *path, t_build *build)
 	formatage_date(&(new->d_date));
 	ft_strcpy(new->d_name, mydirent->d_name);
 	define_sizes_build(new, build);
-	free(absolute_path);
+//	free(absolute_path);
 	return (new);
 }
 
-void		free_list(t_file_list *lst)
+void		free_list(t_file_list **lst)
 {
 	t_file_list *temp;
 
-	while (lst != NULL && lst->prec != NULL)
-		lst = lst->prec;
-	while (lst != NULL)
+	while (*lst != NULL && (*lst)->prec != NULL)
+		*lst = (*lst)->prec;
+	while (*lst != NULL)
 	{
-		temp = lst->next;
-		free(lst->d_date);
-		free(lst);
-		lst = temp;
+		temp = (*lst)->next;
+		if ((*lst)->d_date != NULL)
+			free((*lst)->d_date);
+		free(*lst);
+		*lst = temp;
 	}
-	free(lst);
+	*lst = NULL;
 }
 
 void		list_add_elem(t_file_list **lst,

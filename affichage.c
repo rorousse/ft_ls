@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/20 16:33:50 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 19:44:09 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/27 16:04:59 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,5 +67,4 @@ void		aff_extended(t_file_list *lst, t_build build)
 		print_name(lst, build);
 		lst = lst->next;
 	}
-	return ;
 }

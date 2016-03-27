@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/19 11:38:56 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 17:06:28 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/27 18:58:34 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	recursion(int argc, char **argv, char *path, t_file_list *lst)
 			path_rec = create_path(path, lst->d_name);
 			ft_printf("\n%s :\n", path_rec);
 			ft_ls(argc, argv, path_rec);
-			free(path_rec);
+//			free(path_rec);
 		}
 		lst = lst->next;
 	}

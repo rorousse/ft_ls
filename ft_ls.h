@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 19:21:25 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/27 16:09:44 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,7 +105,7 @@ int							ft_ls(int argc, char **argv, char *path);
 
 t_file_list					*new_elem(t_dirent *mydirent,
 							char *path, t_build *taillemax);
-void						free_list(t_file_list *lst);
+void						free_list(t_file_list **lst);
 void						list_add_elem(t_file_list **lst,
 							t_dir_ext lecture,
 							t_build *taillemax);

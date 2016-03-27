@@ -6,9 +6,11 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/19 10:59:40 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/19 11:06:52 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/27 19:01:01 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_ls.h"
 
 char	*create_path(char *path, char *name)
 {
@@ -17,13 +19,15 @@ char	*create_path(char *path, char *name)
 	char	*temp;
 
 	i = 0;
-	while(path[i])
+	while (path[i])
 		i++;
 	if (path[i - 1] != '/')
+	{
 		ret = ft_strjoin(path, "/");
+	}
+	else
+		ret = ft_strdup(path);
 	temp = ft_strjoin(ret, name);
-	free(ret);
-	ret = temp;
-	return (ret);
+//	free(ret);
+	return (temp);
 }
-	

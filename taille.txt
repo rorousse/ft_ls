@@ -1,0 +1,3089 @@
+drwxr-xr-x  3 root admin 102 Mar 22 11:04 [36mInstruments.app[0m
+drwxr-xr-x  3 root admin 102 Mar 22 11:04 [36mFileMerge.app[0m
+drwxr-xr-x  3 root admin 102 Mar 22 11:04 [36mApplication Loader.app[0m
+drwxr-xr-x  3 root admin 102 Mar 22 11:04 [36mAccessibility Inspector.app[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app :
+drwxr-xr-x  11 root admin 374 Mar 22 09:20 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents :
+Total : 32
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  11 root admin 374 Mar 22 09:20 [36mResources[0m
+drwxr-xr-x  20 root admin 680 Mar 16 01:20 [36mPlugIns[0m
+-rw-r--r--  1 root admin 8 Nov 12 00:49 PkgInfo
+drwxr-xr-x  3 root admin 102 Mar 16 01:33 [36mMacOS[0m
+-rw-r--r--  1 root admin 6070 Feb 24 03:38 Info.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mHelpers[0m
+drwxr-xr-x  8 root admin 272 Feb 24 03:38 [36mFrameworks[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/_CodeSignature :
+Total : 32
+-rw-r--r--  1 root admin 15259 Mar 16 01:33 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Resources :
+Total : 5192
+-rw-r--r--  1 root admin 28311 Feb 24 03:38 tracetemplate.icns
+-rw-r--r--  1 root admin 1244477 Nov 12 00:49 tracedoc.icns
+drwxr-xr-x  12 root admin 408 Mar 22 09:20 [36mtemplates[0m
+-rw-r--r--  1 root admin 24900 Feb 24 03:39 XRSymbolicationModernizationWindow.nib
+-rw-r--r--  1 root admin 3289 Feb 24 03:38 Instruments.sdef
+-rw-r--r--  1 root admin 262 Nov 12 00:49 ExternalSettings.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:39 [36mEnglish.lproj[0m
+drwxr-xr-x  16 root admin 544 Feb 24 03:38 [36mDTracePlugin[0m
+-rw-r--r--  1 root admin 1347515 Nov 12 00:49 AppIcon.icns
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Resources/templates :
+Total : 304
+-rw-r--r--  1 root admin 2651 Nov 12 00:49 Zombies.tracetemplate
+-rw-r--r--  1 root admin 10020 Nov 12 00:49 Time Profiler.tracetemplate
+-rw-r--r--  1 root admin 13276 Nov 12 00:49 System Trace.tracetemplate
+-rw-r--r--  1 root admin 6544 Nov 12 00:49 Network.tracetemplate
+-rw-r--r--  1 root admin 30359 Nov 12 00:49 Metal System Trace.tracetemplate
+-rw-r--r--  1 root admin 9533 Nov 12 00:49 Leaks.tracetemplate
+-rw-r--r--  1 root admin 14817 Nov 12 00:49 Counters.tracetemplate
+-rw-r--r--  1 root admin 10465 Nov 12 00:49 Blank.tracetemplate
+-rw-r--r--  1 root admin 22098 Nov 12 00:49 Allocations.tracetemplate
+-rw-r--r--  1 root admin 14400 Nov 12 00:49 Activity Monitor.tracetemplate
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Resources/English.lproj :
+Total : 48
+-rw-r--r--  1 root admin 20920 Feb 24 03:39 MainMenu.nib
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Resources/DTracePlugin :
+Total : 296
+-rw-r--r--  1 root admin 5961 Feb 24 03:38 volumes.instrument
+-rw-r--r--  1 root admin 8119 Feb 24 03:38 threads.instrument
+-rw-r--r--  1 root admin 2249 Feb 24 03:38 sharedmem.instrument
+-rw-r--r--  1 root admin 4320 Feb 24 03:38 readwrite.instrument
+-rw-r--r--  1 root admin 2330 Feb 24 03:38 process.instrument
+-rw-r--r--  1 root admin 5049 Feb 24 03:38 filelocking.instrument
+-rw-r--r--  1 root admin 5731 Feb 24 03:38 fileinfo.instrument
+-rw-r--r--  1 root admin 10183 Feb 24 03:38 fileactivity.instrument
+-rw-r--r--  1 root admin 36070 Feb 24 03:38 dispatch.instrument
+-rw-r--r--  1 root admin 2063 Feb 24 03:38 coredata.usdt
+-rw-r--r--  1 root admin 2106 Feb 24 03:38 cocoalayout.instrument
+-rw-r--r--  1 root admin 3098 Feb 24 03:38 cocoaevents.instrument
+-rw-r--r--  1 root admin 2263 Feb 24 03:38 carbonevents.instrument
+-rw-r--r--  1 root admin 35172 Feb 24 03:38 InstantOff.instrument
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns :
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mXRQuartzPlugin.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 25 04:02 [36mXRPowerInstrument.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mXRNetworkingPlugIn.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 25 04:02 [36mXRMobileDeviceDiscoveryPlugIn.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mStandardCommandLineUI.xrclui[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mStandardAppUI.xrappui[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mSamplerPlugin.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 11 00:20 [36mOpenGLESAnalyzerInstrument.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mMemoryPlugin.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mKDebugPlugin.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mGraphicsPlugin.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mEnergyPlugin.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mDataElementsPlugin.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mDTracePlugin.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mDTLLVMBinaryAnalysisPlugin.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mCorePlugin.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 11 00:20 [36mAutomationInstrument.xrplugin[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mActivityPlugin.xrplugin[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRQuartzPlugin.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRQuartzPlugin.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1385 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRQuartzPlugin.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2376 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRQuartzPlugin.xrplugin/Contents/Resources :
+Total : 8
+-rw-r--r--  1 root admin 2086 Feb 24 03:38 XRQuartzPlugin.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRQuartzPlugin.xrplugin/Contents/MacOS :
+Total : 208
+-rwxr-xr-x  1 root admin 104800 Mar 16 01:32 [31mXRQuartzPlugin[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRPowerInstrument.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 25 04:02 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRPowerInstrument.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 480 Feb 25 04:02 version.plist
+drwxr-xr-x  3 root admin 102 Feb 25 04:02 [36m_CodeSignature[0m
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1391 Feb 25 04:02 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRPowerInstrument.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2552 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRPowerInstrument.xrplugin/Contents/Resources :
+Total : 88
+-rw-r--r--  1 root admin 31860 Nov 12 01:01 burner.tiff
+-rw-r--r--  1 root admin 10697 Feb 25 04:02 XRPowerInstrument.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRPowerInstrument.xrplugin/Contents/MacOS :
+Total : 424
+-rwxr-xr-x  1 root admin 213856 Mar 16 01:32 [31mXRPowerInstrument[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRNetworkingPlugIn.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRNetworkingPlugIn.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1397 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRNetworkingPlugIn.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2384 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRNetworkingPlugIn.xrplugin/Contents/Resources :
+Total : 8
+-rw-r--r--  1 root admin 1147 Feb 24 03:38 XRNetworkingPlugIn.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRNetworkingPlugIn.xrplugin/Contents/MacOS :
+Total : 264
+-rwxr-xr-x  1 root admin 132112 Mar 16 01:32 [31mXRNetworkingPlugIn[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRMobileDeviceDiscoveryPlugIn.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 25 04:02 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRMobileDeviceDiscoveryPlugIn.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 480 Feb 25 04:02 version.plist
+drwxr-xr-x  3 root admin 102 Feb 25 04:02 [36m_CodeSignature[0m
+drwxr-xr-x  11 root admin 374 Mar 22 09:20 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1399 Feb 25 04:02 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRMobileDeviceDiscoveryPlugIn.xrplugin/Contents/_CodeSignature :
+Total : 16
+-rw-r--r--  1 root admin 4192 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRMobileDeviceDiscoveryPlugIn.xrplugin/Contents/Resources :
+Total : 544
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mtemplates[0m
+-rw-r--r--  1 root admin 5601 Feb 25 04:02 XRMobileDeviceDiscoveryPlugIn.xcplugindata
+-rw-r--r--  1 root admin 23440 Nov 12 01:01 Terminated.pdf
+-rw-r--r--  1 root admin 48860 Nov 12 01:01 Suspended in Background.pdf
+-rw-r--r--  1 root admin 50190 Nov 12 01:01 Running in Foreground.pdf
+-rw-r--r--  1 root admin 50266 Nov 12 01:01 Running in Background.pdf
+-rw-r--r--  1 root admin 50833 Nov 12 01:01 Low Memory.pdf
+-rw-r--r--  1 root admin 24641 Nov 12 01:01 GPU Driver.tracetemplate
+-rw-r--r--  1 root admin 6181 Feb 25 04:02 Energy Log.tracetemplate
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRMobileDeviceDiscoveryPlugIn.xrplugin/Contents/Resources/templates :
+Total : 48
+-rw-r--r--  1 root admin 2354 Nov 12 01:01 System Usage.tracetemplate
+-rw-r--r--  1 root admin 19464 Nov 12 01:01 Core Animation.tracetemplate
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/XRMobileDeviceDiscoveryPlugIn.xrplugin/Contents/MacOS :
+Total : 288
+-rwxr-xr-x  1 root admin 146928 Mar 16 01:32 [31mXRMobileDeviceDiscoveryPlugIn[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/StandardCommandLineUI.xrclui :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/StandardCommandLineUI.xrclui/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1406 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/StandardCommandLineUI.xrclui/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2390 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/StandardCommandLineUI.xrclui/Contents/Resources :
+Total : 8
+-rw-r--r--  1 root admin 154 Feb 24 03:38 StandardCommandLineUI.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/StandardCommandLineUI.xrclui/Contents/MacOS :
+Total : 32
+-rwxr-xr-x  1 root admin 13664 Mar 16 01:32 [31mStandardCommandLineUI[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/StandardAppUI.xrappui :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/StandardAppUI.xrappui/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1382 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/StandardAppUI.xrappui/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2374 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/StandardAppUI.xrappui/Contents/Resources :
+Total : 8
+-rw-r--r--  1 root admin 1431 Feb 24 03:38 StandardAppUI.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/StandardAppUI.xrappui/Contents/MacOS :
+Total : 32
+-rwxr-xr-x  1 root admin 13632 Mar 16 01:32 [31mStandardAppUI[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/SamplerPlugin.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/SamplerPlugin.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1382 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/SamplerPlugin.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2374 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/SamplerPlugin.xrplugin/Contents/Resources :
+Total : 16
+-rw-r--r--  1 root admin 6711 Feb 24 03:38 SamplerPlugin.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/SamplerPlugin.xrplugin/Contents/MacOS :
+Total : 648
+-rwxr-xr-x  1 root admin 329008 Mar 16 01:32 [31mSamplerPlugin[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/OpenGLESAnalyzerInstrument.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 11 00:20 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/OpenGLESAnalyzerInstrument.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 481 Feb 11 00:20 version.plist
+drwxr-xr-x  3 root admin 102 Feb 11 00:20 [36m_CodeSignature[0m
+drwxr-xr-x  11 root admin 374 Mar 22 09:20 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 844 Feb 11 00:20 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/OpenGLESAnalyzerInstrument.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 4014 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/OpenGLESAnalyzerInstrument.xrplugin/Contents/Resources :
+Total : 608
+-rw-r--r--  1 root admin 2038 Nov 12 00:51 warningtrans.tiff
+-rw-r--r--  1 root admin 492 Nov 12 00:51 red.tiff
+-rw-r--r--  1 root admin 656 Nov 12 00:51 orange.tiff
+-rw-r--r--  1 root admin 806 Nov 12 00:51 green.tiff
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36men.lproj[0m
+-rw-r--r--  1 root admin 2911 Feb 11 00:20 OpenGLESAnalyzerInstrument.xcplugindata
+-rw-r--r--  1 root admin 260929 Nov 12 00:51 OpenGLES.icns
+-rw-r--r--  1 root admin 23311 Nov 12 00:51 OpenGL ES Analysis.tracetemplate
+-rw-r--r--  1 root admin 569 Nov 12 00:51 FrameStatistics.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/OpenGLESAnalyzerInstrument.xrplugin/Contents/Resources/en.lproj :
+Total : 8
+-rw-r--r--  1 root admin 905 Nov 12 00:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/OpenGLESAnalyzerInstrument.xrplugin/Contents/MacOS :
+Total : 624
+-rwxr-xr-x  1 root admin 316336 Mar 16 01:32 [31mOpenGLESAnalyzerInstrument[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/MemoryPlugin.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/MemoryPlugin.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1379 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/MemoryPlugin.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 3168 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/MemoryPlugin.xrplugin/Contents/Resources :
+Total : 224
+-rw-r--r--  1 root admin 9234 Nov 12 00:49 split_arrow_up.pdf
+-rw-r--r--  1 root admin 65043 Nov 12 00:49 split_arrow_down.pdf
+-rw-r--r--  1 root admin 14552 Feb 24 03:39 XRObjectAllocStringRuleView.nib
+-rw-r--r--  1 root admin 12451 Nov 12 00:49 XRObjectAllocPairingEventView.nib
+-rw-r--r--  1 root admin 3285 Feb 24 03:38 MemoryPlugin.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/MemoryPlugin.xrplugin/Contents/MacOS :
+Total : 1296
+-rwxr-xr-x  1 root admin 659728 Mar 16 01:32 [31mMemoryPlugin[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/KDebugPlugin.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/KDebugPlugin.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  30 root admin 1020 Mar 22 09:20 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1379 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/KDebugPlugin.xrplugin/Contents/_CodeSignature :
+Total : 16
+-rw-r--r--  1 root admin 7878 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/KDebugPlugin.xrplugin/Contents/Resources :
+Total : 680
+-rw-r--r--  1 root admin 1779 Nov 12 00:49 histogram_small_active.png
+-rw-r--r--  1 root admin 1786 Nov 12 00:49 histogram_small.png
+-rw-r--r--  1 root admin 1729 Nov 12 00:49 graph_small_active.png
+-rw-r--r--  1 root admin 1723 Nov 12 00:49 graph_small.png
+-rw-r--r--  1 root admin 1663 Nov 12 00:49 flag_small_active.png
+-rw-r--r--  1 root admin 1609 Nov 12 00:49 flag_small.png
+-rw-r--r--  1 root admin 1653 Nov 12 00:49 disclose_right.png
+-rw-r--r--  1 root admin 1692 Nov 12 00:49 disclose_left.png
+-rw-r--r--  1 root admin 81647 Nov 12 00:49 backgroundFabric.png
+-rw-r--r--  1 root admin 1276 Feb 24 03:39 XRTableCanvasViewController.nib
+-rw-r--r--  1 root admin 46802 Nov 12 00:49 XRSignpostConfigHistogramViewController.nib
+-rw-r--r--  1 root admin 29801 Nov 12 00:49 XRSignpostConfigGraphViewController.nib
+-rw-r--r--  1 root admin 6904 Nov 12 00:49 XRSignpostConfigFlagViewController.nib
+-rw-r--r--  1 root admin 4619 Nov 12 00:49 XRSignpostConfigConstructViewController.nib
+-rw-r--r--  1 root admin 10891 Nov 12 00:49 XRSignpostConfigCanvasViewController.nib
+-rw-r--r--  1 root admin 9275 Nov 12 00:49 XRSignpostAutopopulateBinsViewController.nib
+-rw-r--r--  1 root admin 9755 Feb 24 03:39 XRKDebugSignpostViewController.nib
+-rw-r--r--  1 root admin 5034 Feb 24 03:39 XRHistogramEmptyViewController.nib
+-rw-r--r--  1 root admin 6455 Nov 12 00:49 XRHistogramConstructViewController.nib
+-rw-r--r--  1 root admin 1479 Feb 24 03:39 XRHistogramCanvasViewController.nib
+-rw-r--r--  1 root admin 7533 Nov 12 00:49 XRDetailNavigationViewController.nib
+-rw-r--r--  1 root admin 1406 Nov 12 00:49 SummaryViewPrefetch.sql
+-rw-r--r--  1 root admin 1790 Nov 12 00:49 Stage2EventSynth.sql
+-rw-r--r--  1 root admin 22229 Feb 24 03:38 STATUS_BTN_GLYPH-Gear.pdf
+-rw-r--r--  1 root admin 6874 Feb 24 03:38 KDebugPlugin.xcplugindata
+-rw-r--r--  1 root admin 4253 Feb 24 03:38 GoBack_12_Pressed.pdf
+-rw-r--r--  1 root admin 4248 Feb 24 03:38 GoBack_12_Norm.pdf
+-rw-r--r--  1 root admin 4216 Nov 12 00:49 DatasetExpertInit.sql
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/KDebugPlugin.xrplugin/Contents/MacOS :
+Total : 1680
+-rwxr-xr-x  1 root admin 857376 Mar 16 01:32 [31mKDebugPlugin[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/GraphicsPlugin.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/GraphicsPlugin.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1385 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/GraphicsPlugin.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2376 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/GraphicsPlugin.xrplugin/Contents/Resources :
+Total : 16
+-rw-r--r--  1 root admin 7850 Feb 24 03:38 GraphicsPlugin.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/GraphicsPlugin.xrplugin/Contents/MacOS :
+Total : 32
+-rwxr-xr-x  1 root admin 13632 Mar 16 01:32 [31mGraphicsPlugin[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/EnergyPlugin.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/EnergyPlugin.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1379 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/EnergyPlugin.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2372 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/EnergyPlugin.xrplugin/Contents/Resources :
+Total : 8
+-rw-r--r--  1 root admin 1877 Feb 24 03:38 EnergyPlugin.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/EnergyPlugin.xrplugin/Contents/MacOS :
+Total : 32
+-rwxr-xr-x  1 root admin 13632 Mar 16 01:32 [31mEnergyPlugin[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DataElementsPlugin.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DataElementsPlugin.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  4 root admin 136 Feb 24 03:39 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1397 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DataElementsPlugin.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2592 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DataElementsPlugin.xrplugin/Contents/Resources :
+Total : 176
+-rw-r--r--  1 root admin 74454 Feb 24 03:39 XRCountersSetupElementView.nib
+-rw-r--r--  1 root admin 10001 Feb 24 03:38 DataElementsPlugin.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DataElementsPlugin.xrplugin/Contents/MacOS :
+Total : 696
+-rwxr-xr-x  1 root admin 354096 Mar 16 01:32 [31mDataElementsPlugin[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DTracePlugin.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DTracePlugin.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1379 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DTracePlugin.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 3168 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DTracePlugin.xrplugin/Contents/Resources :
+Total : 56
+-rw-r--r--  1 root admin 1520 Feb 24 03:38 objccalltrace.skeleton
+-rw-r--r--  1 root admin 544 Feb 24 03:38 dtrace_script_header.txt
+-rw-r--r--  1 root admin 1399 Feb 24 03:38 calltrace.skeleton
+-rw-r--r--  1 root admin 7469 Feb 24 03:39 XRDTraceScriptEditorViewController.nib
+-rw-r--r--  1 root admin 5714 Feb 24 03:38 DTracePlugin.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DTracePlugin.xrplugin/Contents/MacOS :
+Total : 664
+-rwxr-xr-x  1 root admin 339664 Mar 16 01:32 [31mDTracePlugin[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DTLLVMBinaryAnalysisPlugin.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DTLLVMBinaryAnalysisPlugin.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1421 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DTLLVMBinaryAnalysisPlugin.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2400 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DTLLVMBinaryAnalysisPlugin.xrplugin/Contents/Resources :
+Total : 8
+-rw-r--r--  1 root admin 1395 Feb 24 03:38 DTLLVMBinaryAnalysisPlugin.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/DTLLVMBinaryAnalysisPlugin.xrplugin/Contents/MacOS :
+Total : 120
+-rwxr-xr-x  1 root admin 59136 Mar 16 01:32 [31mDTLLVMBinaryAnalysisPlugin[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/CorePlugin.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/CorePlugin.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1373 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/CorePlugin.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2368 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/CorePlugin.xrplugin/Contents/Resources :
+Total : 40
+-rw-r--r--  1 root admin 20353 Feb 24 03:38 CorePlugin.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/CorePlugin.xrplugin/Contents/MacOS :
+Total : 32
+-rwxr-xr-x  1 root admin 13616 Mar 16 01:32 [31mCorePlugin[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 11 00:20 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 472 Feb 11 00:20 version.plist
+drwxr-xr-x  3 root admin 102 Feb 11 00:20 [36m_CodeSignature[0m
+drwxr-xr-x  16 root admin 544 Mar 22 09:20 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1388 Feb 11 00:20 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/_CodeSignature :
+Total : 16
+-rw-r--r--  1 root admin 4844 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/Resources :
+Total : 1552
+-rw-r--r--  1 root admin 206255 Nov 12 00:51 UIAutomationTemplate.icns
+-rw-r--r--  1 root admin 179310 Nov 12 00:51 UIAutomationInstrument.icns
+-rw-r--r--  1 root admin 10034 Nov 12 00:51 UIALogViewController.nib
+-rw-r--r--  1 root admin 3063 Nov 12 00:51 UIACoverView.nib
+-rw-r--r--  1 root admin 9436 Nov 12 00:51 TAExtendedDetail.nib
+-rw-r--r--  1 root admin 20488 Nov 12 00:51 TACustomControls.nib
+-rw-r--r--  1 root admin 8804 Nov 12 00:51 QuicklookRollover.tif
+-rw-r--r--  1 root admin 8802 Nov 12 00:51 QuicklookPressed.tif
+-rw-r--r--  1 root admin 8790 Nov 12 00:51 Quicklook.tif
+-rw-r--r--  1 root admin 40 Nov 12 00:51 NewScriptTemplate.js
+-rw-r--r--  1 root admin 1350 Feb 11 00:20 AutomationInstrument.xcplugindata
+-rw-r--r--  1 root admin 8032 Nov 12 00:51 Automation.tracetemplate
+-rw-r--r--  1 root admin 16612 Nov 12 00:51 2010-0310-0950.png
+-rw-r--r--  1 root admin 277314 Nov 12 00:51 2009-0110-0064.png
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/MacOS :
+Total : 664
+-rwxr-xr-x  1 root admin 336064 Mar 16 01:32 [31mAutomationInstrument[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/ActivityPlugin.xrplugin :
+drwxr-xr-x  7 root admin 238 Feb 24 03:39 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/ActivityPlugin.xrplugin/Contents :
+Total : 16
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1385 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/ActivityPlugin.xrplugin/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2376 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/ActivityPlugin.xrplugin/Contents/Resources :
+Total : 16
+-rw-r--r--  1 root admin 6642 Feb 24 03:38 ActivityPlugin.xcplugindata
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/ActivityPlugin.xrplugin/Contents/MacOS :
+Total : 432
+-rwxr-xr-x  1 root admin 217136 Mar 16 01:32 [31mActivityPlugin[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/MacOS :
+Total : 216
+-rwxr-xr-x  1 root admin 106512 Mar 16 01:33 [31mInstruments[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers :
+drwxr-xr-x  3 root admin 102 Mar 22 11:04 [36mbackgroundinstruments.app[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app :
+drwxr-xr-x  8 root admin 272 Mar 22 09:20 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app/Contents :
+Total : 24
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mResources[0m
+-rw-r--r--  1 root admin 8 Nov 12 00:49 PkgInfo
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 3287 Feb 24 03:38 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2562 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app/Contents/Resources :
+Total : 2640
+-rw-r--r--  1 root admin 323 Nov 12 00:49 backgroundinstruments.entitlements
+-rw-r--r--  1 root admin 1347515 Nov 12 00:49 AppIcon.icns
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app/Contents/MacOS :
+Total : 152
+-rwxr-xr-x  1 root admin 73824 Mar 16 01:32 [31mbackgroundinstruments[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Frameworks :
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mInstrumentsPlugIn.framework[0m
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mInstrumentsKit.framework[0m
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mInstrumentsDTrace.framework[0m
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mInstrumentsAnalysisCore.framework[0m
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mDTInstrumentsX.framework[0m
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mDTBinaryAnalysis.framework[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Frameworks/InstrumentsPlugIn.framework :
+Total : 16
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mVersions[0m
+lrwxr-xr-x  1 root admin 26 Mar 22 11:15 [35mResources[0m -> Versions/Current/Resources
+lrwxr-xr-x  1 root admin 34 Mar 22 11:15 [35mInstrumentsPlugIn[0m -> Versions/Current/InstrumentsPlugIn
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Frameworks/InstrumentsPlugIn.framework/Versions :
+Total : 8
+lrwxr-xr-x  1 root admin 1 Mar 22 11:15 [35mCurrent[0m -> A
+drwxr-xr-x  5 root admin 170 Mar 16 01:31 [36mA[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Frameworks/InstrumentsPlugIn.framework/Versions/A :
+Total : 5384
+drwxr-xr-x  3 root admin 102 Feb 24 03:38 [36m_CodeSignature[0m
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mResources[0m
+-rwxr-xr-x  1 root admin 2755584 Mar 16 01:31 [31mInstrumentsPlugIn[0m
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Frameworks/InstrumentsPlugIn.framework/Versions/A/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2974 Mar 16 01:31 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Frameworks/InstrumentsPlugIn.framework/Versions/A/Resources :
+Total : 72
+-rw-r--r--  1 root admin 462 Feb 24 03:39 version.plist
+-rw-r--r--  1 root admin 10328 Nov 12 00:49 XRFileSystemBrowserPreviewView.nib
+-rw-r--r--  1 root admin 5048 Feb 24 03:38 SignpostPrototypeTemplate.protoxml
+-rw-r--r--  1 root admin 7251 Nov 12 00:49 PFTPidPicker.nib
+-rw-r--r--  1 root admin 1389 Feb 24 03:38 Info.plist
+
+/InstrumentsKit.framework :
+
+/InstrumentsDTrace.framework :
+
+/InstrumentsAnalysisCore.framework :
+
+/DTInstrumentsX.framework :
+
+/DTBinaryAnalysis.framework :
+
+/Applications/Xcode.app/Contents/Applications/FileMerge.app :
+drwxr-xr-x  8 root admin 272 Mar 22 09:20 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/FileMerge.app/Contents :
+Total : 24
+-rw-r--r--  1 root admin 461 Feb 11 01:41 version.plist
+drwxr-xr-x  3 root admin 102 Feb 11 01:41 [36m_CodeSignature[0m
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mResources[0m
+-rw-r--r--  1 root admin 8 Nov 12 02:05 PkgInfo
+drwxr-xr-x  3 root admin 102 Mar 16 01:33 [36mMacOS[0m
+-rw-r--r--  1 root admin 1237 Feb 11 01:40 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/FileMerge.app/Contents/_CodeSignature :
+Total : 48
+-rw-r--r--  1 root admin 20502 Mar 16 01:33 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/FileMerge.app/Contents/Resources :
+Total : 352
+-rw-r--r--  1 root admin 177209 Nov 12 02:05 FileMerge.icns
+drwxr-xr-x  9 root admin 306 Mar 22 09:20 [36mEnglish.lproj[0m
+
+/Applications/Xcode.app/Contents/Applications/FileMerge.app/Contents/Resources/English.lproj :
+Total : 200
+-rw-r--r--  1 root admin 13205 Nov 12 02:05 menu.nib
+-rw-r--r--  1 root admin 6811 Feb 11 01:41 filesalert.nib
+-rw-r--r--  1 root admin 4385 Nov 12 02:05 Localizable.strings
+drwxr-xr-x  8 root admin 272 Mar 22 09:20 [36mFileMerge_Help[0m
+-rw-r--r--  1 root admin 34705 Feb 11 01:41 FileMerge.nib
+-rw-r--r--  1 root admin 12688 Feb 11 01:41 FileDiffWindow.nib
+-rw-r--r--  1 root admin 12996 Feb 11 01:41 DirectoryDiffWindow.nib
+
+/Applications/Xcode.app/Contents/Applications/FileMerge.app/Contents/Resources/English.lproj/FileMerge_Help :
+Total : 40
+-rw-r--r--  1 root admin 1495 Jan 15 03:36 index.html
+drwxr-xr-x  17 root admin 578 Mar 22 09:20 [36mimages[0m
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mart[0m
+drwxr-xr-x  8 root admin 272 Mar 22 09:20 [36mOverview[0m
+-rw-r--r--  1 root admin 16384 Nov 12 02:05 FileMerge_Help idx
+drwxr-xr-x  16 root admin 544 Mar 22 09:20 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/FileMerge.app/Contents/Resources/English.lproj/FileMerge_Help/images :
+Total : 120
+-rw-r--r--  1 root admin 726 Nov 12 02:05 up.gif
+-rw-r--r--  1 root admin 57 Nov 12 02:05 sm_triangle.gif
+-rw-r--r--  1 root admin 56 Nov 12 02:05 sm_opentriangle.gif
+-rw-r--r--  1 root admin 36 Nov 12 02:05 sm_dash.gif
+-rw-r--r--  1 root admin 72 Nov 12 02:05 sm_bullet.gif
+-rw-r--r--  1 root admin 1094 Nov 12 02:05 showframes.gif
+-rw-r--r--  1 root admin 928 Nov 12 02:05 previous.gif
+-rw-r--r--  1 root admin 402 Nov 12 02:05 pdf.gif
+-rw-r--r--  1 root admin 808 Nov 12 02:05 next.gif
+-rw-r--r--  1 root admin 50 Nov 12 02:05 larg_bullet.gif
+-rw-r--r--  1 root admin 1053 Nov 12 02:05 hideframes.gif
+-rw-r--r--  1 root admin 597 Nov 12 02:05 graydiamond.gif
+-rw-r--r--  1 root admin 1041 Nov 12 02:05 download.gif
+-rw-r--r--  1 root admin 36 Nov 12 02:05 dash.gif
+-rw-r--r--  1 root admin 50 Nov 12 02:05 bullet.gif
+
+/Applications/Xcode.app/Contents/Applications/FileMerge.app/Contents/Resources/English.lproj/FileMerge_Help/art :
+Total : 112
+-rw-r--r--  1 root admin 25167 Nov 12 02:05 iconhelptoc.png
+-rw-r--r--  1 root admin 25167 Nov 12 02:05 iconhelpcenter.png
+
+/Applications/Xcode.app/Contents/Applications/FileMerge.app/Contents/Resources/English.lproj/FileMerge_Help/Overview :
+Total : 48
+-rw-r--r--  1 root admin 2004 Nov 12 02:05 toc_closed.html
+-rw-r--r--  1 root admin 2679 Nov 12 02:05 toc.html
+-rw-r--r--  1 root admin 1452 Jan 15 03:36 index_last.html
+-rw-r--r--  1 root admin 1392 Jan 15 03:36 index.html
+-rw-r--r--  1 root admin 1831 Nov 12 02:05 chapter_1_section_2.html
+-rw-r--r--  1 root admin 2453 Nov 12 02:05 chapter_1_section_1.html
+
+/Applications/Xcode.app/Contents/Applications/FileMerge.app/Contents/Resources/English.lproj/FileMerge_Help/Contents :
+Total : 120
+-rw-r--r--  1 root admin 2004 Nov 12 02:05 toc_closed.html
+-rw-r--r--  1 root admin 6827 Nov 12 02:05 toc.html
+-rw-r--r--  1 root admin 1511 Jan 15 03:36 index_last.html
+-rw-r--r--  1 root admin 1412 Jan 15 03:36 index.html
+-rw-r--r--  1 root admin 3106 Nov 12 02:05 chapter_2_section_9.html
+-rw-r--r--  1 root admin 1587 Nov 12 02:05 chapter_2_section_8.html
+-rw-r--r--  1 root admin 2778 Nov 12 02:05 chapter_2_section_7.html
+-rw-r--r--  1 root admin 2733 Nov 12 02:05 chapter_2_section_6.html
+-rw-r--r--  1 root admin 1850 Nov 12 02:05 chapter_2_section_5.html
+-rw-r--r--  1 root admin 2379 Nov 12 02:05 chapter_2_section_4.html
+-rw-r--r--  1 root admin 1474 Nov 12 02:05 chapter_2_section_3.html
+-rw-r--r--  1 root admin 1623 Nov 12 02:05 chapter_2_section_2.html
+-rw-r--r--  1 root admin 1667 Nov 12 02:05 chapter_2_section_10.html
+-rw-r--r--  1 root admin 3223 Nov 12 02:05 chapter_2_section_1.html
+
+/Applications/Xcode.app/Contents/Applications/FileMerge.app/Contents/MacOS :
+Total : 576
+-rwxr-xr-x  1 root admin 291056 Mar 16 01:33 [31mFileMerge[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app :
+drwxr-xr-x  12 root admin 408 Mar 22 09:20 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents :
+Total : 24
+-rw-r--r--  1 root admin 464 Mar 15 20:31 version.plist
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mitms[0m
+drwxr-xr-x  3 root admin 102 Mar 15 20:31 [36m_CodeSignature[0m
+drwxr-xr-x  287 root admin 9758 Mar 22 09:20 [36mResources[0m
+drwxr-xr-x  4 root admin 136 Mar 15 20:29 [36mPlugIns[0m
+-rw-r--r--  1 root admin 8 Nov  3 19:46 PkgInfo
+drwxr-xr-x  3 root admin 102 Mar 16 01:33 [36mMacOS[0m
+drwxr-xr-x  3 root admin 102 Mar 15 20:29 [36mLibrary[0m
+-rw-r--r--  1 root admin 3203 Mar 15 20:29 Info.plist
+drwxr-xr-x  7 root admin 238 Mar 15 20:29 [36mFrameworks[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms :
+Total : 40
+drwxr-xr-x  3 root admin 102 Jan 13 16:49 [36mshare[0m
+drwxr-xr-x  9 root admin 306 Mar 22 09:20 [36mlib[0m
+drwxr-xr-x  8 root admin 272 Mar 22 09:20 [36mjava[0m
+-rw-r--r--  1 root admin 17531 Jan 13 16:49 iTMSTransporter.cmd
+drwxr-xr-x  3 root admin 102 Jan 13 16:49 [36mbin[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/share :
+drwxr-xr-x  37 root admin 1258 Mar 22 09:20 [36mOSGi-Bundles[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/share/OSGi-Bundles :
+Total : 82048
+-rw-r--r--  1 root admin 505947 Sep 29 00:29 sanselan-0.97-incubator.jar
+-rw-r--r--  1 root admin 11515 Sep 29 00:29 org.osgi.service.obr-1.0.2.jar
+-rw-r--r--  1 root admin 16424 Sep 29 00:29 org.json.simple-1.1.0.jar
+-rw-r--r--  1 root admin 603960 Sep 29 00:29 org.apache.httpcomponents.httpcore_4.3.2.jar
+-rw-r--r--  1 root admin 1338092 Sep 29 00:29 org.apache.httpcomponents.httpclient_4.3.5.jar
+-rw-r--r--  1 root admin 116382 Sep 29 00:29 org.apache.felix.configadmin-1.8.0.jar
+-rw-r--r--  1 root admin 153005 Sep 29 00:29 org.apache.felix.bundlerepository-1.6.4.jar
+-rw-r--r--  1 root admin 153403 Sep 29 00:29 com.springsource.org.jdom-1.0.0.jar
+-rw-r--r--  1 root admin 227323 Sep 29 00:29 com.springsource.org.jaxen-1.1.1.jar
+-rw-r--r--  1 root admin 84866 Sep 29 00:29 com.springsource.org.apache.xml.resolver-1.2.0.jar
+-rw-r--r--  1 root admin 181057 Sep 29 00:29 com.springsource.org.apache.commons.net-1.4.1.jar
+-rw-r--r--  1 root admin 61464 Sep 29 00:29 com.springsource.org.apache.commons.logging-1.1.1.jar
+-rw-r--r--  1 root admin 110412 Sep 29 00:29 com.springsource.org.apache.commons.io-1.4.0.jar
+-rw-r--r--  1 root admin 76939 Sep 29 00:29 com.springsource.org.apache.commons.discovery-0.4.0.jar
+-rw-r--r--  1 root admin 147910 Sep 29 00:29 com.springsource.org.apache.commons.digester-1.8.1.jar
+-rw-r--r--  1 root admin 582765 Sep 29 00:29 com.springsource.org.apache.commons.collections-3.2.1.jar
+-rw-r--r--  1 root admin 47421 Sep 29 00:29 com.springsource.org.apache.commons.codec-1.3.0.jar
+-rw-r--r--  1 root admin 41571 Sep 29 00:29 com.springsource.org.apache.commons.cli-1.2.0.jar
+-rw-r--r--  1 root admin 233626 Sep 29 00:29 com.springsource.org.apache.commons.beanutils-1.8.0.jar
+-rw-r--r--  1 root admin 26729 Sep 29 00:29 com.springsource.javax.xml.stream-1.0.1.jar
+-rw-r--r--  1 root admin 19496 Sep 29 00:29 com.springsource.javax.xml.soap-1.3.0.jar
+-rw-r--r--  1 root admin 32322 Sep 29 00:29 com.springsource.javax.xml.rpc-1.1.0.jar
+-rw-r--r--  1 root admin 89582 Sep 29 00:29 com.springsource.javax.servlet-2.5.0.jar
+-rw-r--r--  1 root admin 1914524 Sep 29 00:29 com.springsource.javax.media.jai.core-1.1.3.jar
+-rw-r--r--  1 root admin 259959 Sep 29 00:29 com.springsource.javax.media.jai.codec-1.1.3.jar
+-rw-r--r--  1 root admin 452636 Sep 29 00:29 com.springsource.javax.mail-1.4.1.jar
+-rw-r--r--  1 root admin 70182 Sep 29 00:29 com.springsource.javax.activation-1.1.1.jar
+-rw-r--r--  1 root admin 1087197 Sep 29 00:29 com.signiant.interactivetransfer-10.6.0.59156.jar
+-rw-r--r--  1 root admin 1264849 Sep 29 00:29 com.asperasoft.faspmanager-2.7.0.59507.jar
+-rw-r--r--  1 root admin 9982 Jan 13 16:49 com.apple.transporter.updater-1.8.8.jar
+-rw-r--r--  1 root admin 2689891 Jan 13 16:49 com.apple.transporter.softwaresupport-1.8.8.jar
+-rw-r--r--  1 root admin 53395 Jan 13 16:49 com.apple.transporter.resources-1.8.8.jar
+-rw-r--r--  1 root admin 8207824 Jan 13 16:49 com.apple.transporter.asperasupport-2.7.4.41461.jar
+-rw-r--r--  1 root admin 565593 Jan 13 16:49 com.apple.transporter-1.8.8.jar
+-rw-r--r--  1 root admin 20492442 Jan 13 16:49 com.apple.jingle.leghorn-1.8.8.jar
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/lib :
+Total : 4152
+-rw-r--r--  1 root admin 403307 Sep 29 00:29 org.apache.felix.main-3.0.7.jar
+-rw-r--r--  1 root admin 12505 Jan 13 16:49 itmstransporter-launcher.jar
+-rw-r--r--  1 root admin 9908 Sep 29 00:29 com.springsource.slf4j.log4j-1.5.6.jar
+-rw-r--r--  1 root admin 22769 Sep 29 00:29 com.springsource.slf4j.api-1.5.6.jar
+-rw-r--r--  1 root admin 1244694 Sep 29 00:29 com.springsource.org.apache.xerces-2.9.1.jar
+-rw-r--r--  1 root admin 396713 Sep 29 00:29 com.springsource.org.apache.log4j-1.2.15.jar
+-rw-r--r--  1 root admin 21812 Jan 13 16:49 com.apple.transporter.osgibootstrapper-1.8.8.jar
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java :
+Total : 400
+-rw-r--r--  1 root admin 83 May 12 19:16 release
+drwxr-xr-x  70 root admin 2380 Mar 22 09:20 [36mlib[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mbin[0m
+-rw-r--r--  1 root admin 172252 May 12 19:15 THIRD_PARTY_README
+-rw-r--r--  1 root admin 19263 May 12 19:15 LICENSE
+-rw-r--r--  1 root admin 1503 May 12 19:15 ASSEMBLY_EXCEPTION
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib :
+Total : 75592
+drwxr-xr-x  26 root admin 884 Mar 22 09:20 [36mzi[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mxawt[0m
+-rw-r--r--  1 root admin 1210 May 12 19:03 sound.properties
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mserver[0m
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36msecurity[0m
+-rw-r--r--  1 root admin 30626589 May 12 19:15 rt.jar
+-rw-r--r--  1 root admin 793602 May 12 19:15 resources.jar
+-rw-r--r--  1 root admin 11390 May 12 19:03 psfontj2d.properties
+-rw-r--r--  1 root admin 3793 May 12 19:03 psfont.properties.ja
+-rw-r--r--  1 root admin 3070 May 12 19:01 net.properties
+-rw-r--r--  1 root admin 1846 May 12 19:15 meta-index
+-rw-r--r--  1 root admin 374 May 12 19:02 management-agent.jar
+drwxr-xr-x  6 root admin 204 Mar 22 09:20 [36mmanagement[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mlwawt[0m
+-rw-r--r--  1 root admin 2455 May 12 19:02 logging.properties
+-rwxr-xr-x  1 root admin 45856 Nov 18 08:16 [31mlibzip.dylib[0m
+-rwxr-xr-x  1 root admin 55488 Nov 18 08:16 [31mlibverify.dylib[0m
+-rwxr-xr-x  1 root admin 98512 Nov 18 08:16 [31mlibunpack.dylib[0m
+-rwxr-xr-x  1 root admin 171728 Nov 18 08:16 [31mlibsunec.dylib[0m
+-rwxr-xr-x  1 root admin 29424 Nov 18 08:16 [31mlibsaproc.dylib[0m
+-rwxr-xr-x  1 root admin 45488 Nov 18 08:16 [31mlibosxui.dylib[0m
+-rwxr-xr-x  1 root admin 23648 Nov 18 08:16 [31mlibosxkrb5.dylib[0m
+-rwxr-xr-x  1 root admin 145264 Nov 18 08:16 [31mlibosxapp.dylib[0m
+-rwxr-xr-x  1 root admin 64880 Nov 18 08:16 [31mlibosx.dylib[0m
+-rwxr-xr-x  1 root admin 23120 Nov 18 08:16 [31mlibnpt.dylib[0m
+-rwxr-xr-x  1 root admin 70272 Nov 18 08:16 [31mlibnio.dylib[0m
+-rwxr-xr-x  1 root admin 100256 Nov 18 08:16 [31mlibnet.dylib[0m
+-rwxr-xr-x  1 root admin 848080 Nov 18 08:16 [31mlibmlib_image.dylib[0m
+-rwxr-xr-x  1 root admin 41696 Nov 18 08:16 [31mlibmanagement.dylib[0m
+-rwxr-xr-x  1 root admin 327616 Nov 18 08:16 [31mliblcms.dylib[0m
+-rwxr-xr-x  1 root admin 84368 Nov 18 08:16 [31mlibjsound.dylib[0m
+-rwxr-xr-x  1 root admin 18928 Nov 18 08:16 [31mlibjsig.dylib[0m
+-rwxr-xr-x  1 root admin 22592 Nov 18 08:16 [31mlibjsdt.dylib[0m
+-rwxr-xr-x  1 root admin 166912 Nov 18 08:16 [31mlibjpeg.dylib[0m
+-rwxr-xr-x  1 root admin 256992 Nov 18 08:16 [31mlibjdwp.dylib[0m
+-rwxr-xr-x  1 root admin 17936 Nov 18 08:16 [31mlibjawt.dylib[0m
+-rwxr-xr-x  1 root admin 35712 Nov 18 08:16 [31mlibjava_crw_demo.dylib[0m
+-rwxr-xr-x  1 root admin 206656 Nov 18 08:16 [31mlibjava.dylib[0m
+-rwxr-xr-x  1 root admin 18112 Nov 18 08:16 [31mlibjaas_unix.dylib[0m
+-rwxr-xr-x  1 root admin 80256 Nov 18 08:16 [31mlibj2pkcs11.dylib[0m
+-rwxr-xr-x  1 root admin 24400 Nov 18 08:16 [31mlibj2pcsc.dylib[0m
+-rwxr-xr-x  1 root admin 50544 Nov 18 08:16 [31mlibj2gss.dylib[0m
+-rwxr-xr-x  1 root admin 139568 Nov 18 08:16 [31mlibinstrument.dylib[0m
+-rwxr-xr-x  1 root admin 176800 Nov 18 08:16 [31mlibhprof.dylib[0m
+-rwxr-xr-x  1 root admin 443104 Nov 18 08:16 [31mlibfontmanager.dylib[0m
+-rwxr-xr-x  1 root admin 30208 Nov 18 08:16 [31mlibdt_socket.dylib[0m
+-rwxr-xr-x  1 root admin 574352 Nov 18 08:16 [31mlibawt.dylib[0m
+-rwxr-xr-x  1 root admin 24000 Nov 18 08:16 [31mlibattach.dylib[0m
+-rwxr-xr-x  1 root admin 54624 Nov 18 08:16 [31mlibAppleScriptEngine.dylib[0m
+-rw-r--r--  1 root admin 4226 May 12 19:02 jvm.hprof.txt
+-rw-r--r--  1 root admin 1673 May 12 18:59 jvm.cfg
+-rw-r--r--  1 root admin 293425 May 12 19:15 jsse.jar
+-rwxr-xr-x  1 root admin 24448 Nov 18 08:16 [31mjspawnhelper[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mjli[0m
+-rw-r--r--  1 root admin 94903 May 12 19:03 jce.jar
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mimages[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mheadless[0m
+-rw-r--r--  1 root admin 9078 May 12 19:06 fontconfig.properties.src
+-rw-r--r--  1 root admin 3058 May 12 19:06 fontconfig.bfc
+-rw-r--r--  1 root admin 4026 May 12 19:01 flavormap.properties
+drwxr-xr-x  9 root admin 306 Mar 22 09:20 [36mext[0m
+-rw-r--r--  1 root admin 4074 May 12 19:00 currency.data
+-rw-r--r--  1 root admin 5916 May 12 19:00 content-types.properties
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mcmm[0m
+-rw-r--r--  1 root admin 78290 May 12 18:59 classlist
+-rw-r--r--  1 root admin 2101143 May 12 19:05 charsets.jar
+-rw-r--r--  1 root admin 2229 May 12 19:00 calendars.properties
+drwxr-xr-x  2 root admin 68 Mar 22 09:20 [36mapplet[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi :
+Total : 136
+-rw-r--r--  1 root admin 16630 May 12 19:04 ZoneInfoMappings
+-rw-r--r--  1 root admin 1068 May 12 19:04 WET
+drwxr-xr-x  15 root admin 510 Mar 22 09:20 [36mSystemV[0m
+drwxr-xr-x  40 root admin 1360 Mar 22 09:20 [36mPacific[0m
+-rw-r--r--  1 root admin 1272 May 12 19:04 PST8PDT
+-rw-r--r--  1 root admin 1272 May 12 19:04 MST7MDT
+-rw-r--r--  1 root admin 27 May 12 19:04 MST
+-rw-r--r--  1 root admin 1184 May 12 19:04 MET
+drwxr-xr-x  10 root admin 340 Mar 22 09:20 [36mIndian[0m
+-rw-r--r--  1 root admin 27 May 12 19:04 HST
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT
+drwxr-xr-x  44 root admin 1496 Mar 22 09:20 [36mEurope[0m
+drwxr-xr-x  31 root admin 1054 Mar 22 09:20 [36mEtc[0m
+-rw-r--r--  1 root admin 1272 May 12 19:04 EST5EDT
+-rw-r--r--  1 root admin 27 May 12 19:04 EST
+-rw-r--r--  1 root admin 1072 May 12 19:04 EET
+-rw-r--r--  1 root admin 1272 May 12 19:04 CST6CDT
+-rw-r--r--  1 root admin 1184 May 12 19:04 CET
+drwxr-xr-x  14 root admin 476 Mar 22 09:20 [36mAustralia[0m
+drwxr-xr-x  11 root admin 374 Mar 22 09:20 [36mAtlantic[0m
+drwxr-xr-x  81 root admin 2754 Mar 22 09:20 [36mAsia[0m
+drwxr-xr-x  12 root admin 408 Mar 22 09:20 [36mAntarctica[0m
+drwxr-xr-x  113 root admin 3842 Mar 22 09:20 [36mAmerica[0m
+drwxr-xr-x  20 root admin 680 Mar 22 09:20 [36mAfrica[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/SystemV :
+Total : 104
+-rw-r--r--  1 root admin 2288 May 12 19:04 YST9YDT
+-rw-r--r--  1 root admin 27 May 12 19:04 YST9
+-rw-r--r--  1 root admin 2288 May 12 19:04 PST8PDT
+-rw-r--r--  1 root admin 27 May 12 19:04 PST8
+-rw-r--r--  1 root admin 2288 May 12 19:04 MST7MDT
+-rw-r--r--  1 root admin 27 May 12 19:04 MST7
+-rw-r--r--  1 root admin 27 May 12 19:04 HST10
+-rw-r--r--  1 root admin 2288 May 12 19:04 EST5EDT
+-rw-r--r--  1 root admin 27 May 12 19:04 EST5
+-rw-r--r--  1 root admin 2288 May 12 19:04 CST6CDT
+-rw-r--r--  1 root admin 27 May 12 19:04 CST6
+-rw-r--r--  1 root admin 2288 May 12 19:04 AST4ADT
+-rw-r--r--  1 root admin 27 May 12 19:04 AST4
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/Pacific :
+Total : 304
+-rw-r--r--  1 root admin 65 May 12 19:04 Wallis
+-rw-r--r--  1 root admin 65 May 12 19:04 Wake
+-rw-r--r--  1 root admin 133 May 12 19:04 Tongatapu
+-rw-r--r--  1 root admin 65 May 12 19:04 Tarawa
+-rw-r--r--  1 root admin 65 May 12 19:04 Tahiti
+-rw-r--r--  1 root admin 77 May 12 19:04 Saipan
+-rw-r--r--  1 root admin 285 May 12 19:04 Rarotonga
+-rw-r--r--  1 root admin 27 May 12 19:04 Port_Moresby
+-rw-r--r--  1 root admin 65 May 12 19:04 Pohnpei
+-rw-r--r--  1 root admin 77 May 12 19:04 Pitcairn
+-rw-r--r--  1 root admin 65 May 12 19:04 Palau
+-rw-r--r--  1 root admin 65 May 12 19:04 Pago_Pago
+-rw-r--r--  1 root admin 121 May 12 19:04 Noumea
+-rw-r--r--  1 root admin 77 May 12 19:04 Norfolk
+-rw-r--r--  1 root admin 89 May 12 19:04 Niue
+-rw-r--r--  1 root admin 97 May 12 19:04 Nauru
+-rw-r--r--  1 root admin 89 May 12 19:04 Midway
+-rw-r--r--  1 root admin 65 May 12 19:04 Marquesas
+-rw-r--r--  1 root admin 77 May 12 19:04 Majuro
+-rw-r--r--  1 root admin 89 May 12 19:04 Kwajalein
+-rw-r--r--  1 root admin 85 May 12 19:04 Kosrae
+-rw-r--r--  1 root admin 89 May 12 19:04 Kiritimati
+-rw-r--r--  1 root admin 105 May 12 19:04 Honolulu
+-rw-r--r--  1 root admin 65 May 12 19:04 Guam
+-rw-r--r--  1 root admin 65 May 12 19:04 Guadalcanal
+-rw-r--r--  1 root admin 65 May 12 19:04 Gambier
+-rw-r--r--  1 root admin 77 May 12 19:04 Galapagos
+-rw-r--r--  1 root admin 65 May 12 19:04 Funafuti
+-rw-r--r--  1 root admin 588 May 12 19:04 Fiji
+-rw-r--r--  1 root admin 77 May 12 19:04 Fakaofo
+-rw-r--r--  1 root admin 89 May 12 19:04 Enderbury
+-rw-r--r--  1 root admin 233 May 12 19:04 Efate
+-rw-r--r--  1 root admin 1248 May 12 19:04 Easter
+-rw-r--r--  1 root admin 65 May 12 19:04 Chuuk
+-rw-r--r--  1 root admin 1124 May 12 19:04 Chatham
+-rw-r--r--  1 root admin 85 May 12 19:04 Bougainville
+-rw-r--r--  1 root admin 1348 May 12 19:04 Auckland
+-rw-r--r--  1 root admin 568 May 12 19:04 Apia
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/Indian :
+Total : 64
+-rw-r--r--  1 root admin 65 May 12 19:04 Reunion
+-rw-r--r--  1 root admin 105 May 12 19:04 Mauritius
+-rw-r--r--  1 root admin 65 May 12 19:04 Maldives
+-rw-r--r--  1 root admin 65 May 12 19:04 Mahe
+-rw-r--r--  1 root admin 65 May 12 19:04 Kerguelen
+-rw-r--r--  1 root admin 27 May 12 19:04 Cocos
+-rw-r--r--  1 root admin 27 May 12 19:04 Christmas
+-rw-r--r--  1 root admin 77 May 12 19:04 Chagos
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/Europe :
+Total : 336
+-rw-r--r--  1 root admin 1040 May 12 19:04 Zurich
+-rw-r--r--  1 root admin 1072 May 12 19:04 Zaporozhye
+-rw-r--r--  1 root admin 1416 May 12 19:04 Warsaw
+-rw-r--r--  1 root admin 573 May 12 19:04 Volgograd
+-rw-r--r--  1 root admin 1060 May 12 19:04 Vilnius
+-rw-r--r--  1 root admin 1200 May 12 19:04 Vienna
+-rw-r--r--  1 root admin 1052 May 12 19:04 Uzhgorod
+-rw-r--r--  1 root admin 1164 May 12 19:04 Tirane
+-rw-r--r--  1 root admin 1080 May 12 19:04 Tallinn
+-rw-r--r--  1 root admin 1040 May 12 19:04 Stockholm
+-rw-r--r--  1 root admin 1088 May 12 19:04 Sofia
+-rw-r--r--  1 root admin 661 May 12 19:04 Simferopol
+-rw-r--r--  1 root admin 581 May 12 19:04 Samara
+-rw-r--r--  1 root admin 1440 May 12 19:04 Rome
+-rw-r--r--  1 root admin 1108 May 12 19:04 Riga
+-rw-r--r--  1 root admin 1216 May 12 19:04 Prague
+-rw-r--r--  1 root admin 1568 May 12 19:04 Paris
+-rw-r--r--  1 root admin 1216 May 12 19:04 Oslo
+-rw-r--r--  1 root admin 701 May 12 19:04 Moscow
+-rw-r--r--  1 root admin 1576 May 12 19:04 Monaco
+-rw-r--r--  1 root admin 605 May 12 19:04 Minsk
+-rw-r--r--  1 root admin 1440 May 12 19:04 Malta
+-rw-r--r--  1 root admin 1416 May 12 19:04 Madrid
+-rw-r--r--  1 root admin 1568 May 12 19:04 Luxembourg
+-rw-r--r--  1 root admin 2024 May 12 19:04 London
+-rw-r--r--  1 root admin 1868 May 12 19:04 Lisbon
+-rw-r--r--  1 root admin 1064 May 12 19:04 Kiev
+-rw-r--r--  1 root admin 689 May 12 19:04 Kaliningrad
+-rw-r--r--  1 root admin 1464 May 12 19:04 Istanbul
+-rw-r--r--  1 root admin 1036 May 12 19:04 Helsinki
+-rw-r--r--  1 root admin 1676 May 12 19:04 Gibraltar
+-rw-r--r--  1 root admin 1916 May 12 19:04 Dublin
+-rw-r--r--  1 root admin 1152 May 12 19:04 Copenhagen
+-rw-r--r--  1 root admin 1212 May 12 19:04 Chisinau
+-rw-r--r--  1 root admin 1296 May 12 19:04 Budapest
+-rw-r--r--  1 root admin 1180 May 12 19:04 Bucharest
+-rw-r--r--  1 root admin 1564 May 12 19:04 Brussels
+-rw-r--r--  1 root admin 1236 May 12 19:04 Berlin
+-rw-r--r--  1 root admin 1040 May 12 19:04 Belgrade
+-rw-r--r--  1 root admin 1196 May 12 19:04 Athens
+-rw-r--r--  1 root admin 968 May 12 19:04 Andorra
+-rw-r--r--  1 root admin 1544 May 12 19:04 Amsterdam
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/Etc :
+Total : 232
+-rw-r--r--  1 root admin 27 May 12 19:04 UTC
+-rw-r--r--  1 root admin 27 May 12 19:04 UCT
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-9
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-8
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-7
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-6
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-5
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-4
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-3
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-2
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-14
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-13
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-12
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-11
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-10
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT-1
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT+9
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT+8
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT+7
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT+6
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT+5
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT+4
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT+3
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT+2
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT+12
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT+11
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT+10
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT+1
+-rw-r--r--  1 root admin 27 May 12 19:04 GMT
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/Australia :
+Total : 96
+-rw-r--r--  1 root admin 1224 May 12 19:04 Sydney
+-rw-r--r--  1 root admin 205 May 12 19:04 Perth
+-rw-r--r--  1 root admin 1224 May 12 19:04 Melbourne
+-rw-r--r--  1 root admin 1012 May 12 19:04 Lord_Howe
+-rw-r--r--  1 root admin 221 May 12 19:04 Lindeman
+-rw-r--r--  1 root admin 1288 May 12 19:04 Hobart
+-rw-r--r--  1 root admin 205 May 12 19:04 Eucla
+-rw-r--r--  1 root admin 125 May 12 19:04 Darwin
+-rw-r--r--  1 root admin 1224 May 12 19:04 Currie
+-rw-r--r--  1 root admin 1224 May 12 19:04 Broken_Hill
+-rw-r--r--  1 root admin 189 May 12 19:04 Brisbane
+-rw-r--r--  1 root admin 1224 May 12 19:04 Adelaide
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/Atlantic :
+Total : 72
+-rw-r--r--  1 root admin 621 May 12 19:04 Stanley
+-rw-r--r--  1 root admin 27 May 12 19:04 South_Georgia
+-rw-r--r--  1 root admin 577 May 12 19:04 Reykjavik
+-rw-r--r--  1 root admin 1864 May 12 19:04 Madeira
+-rw-r--r--  1 root admin 1016 May 12 19:04 Faroe
+-rw-r--r--  1 root admin 97 May 12 19:04 Cape_Verde
+-rw-r--r--  1 root admin 1044 May 12 19:04 Canary
+-rw-r--r--  1 root admin 1124 May 12 19:04 Bermuda
+-rw-r--r--  1 root admin 1868 May 12 19:04 Azores
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/Asia :
+Total : 656
+-rw-r--r--  1 root admin 565 May 12 19:04 Yerevan
+-rw-r--r--  1 root admin 601 May 12 19:04 Yekaterinburg
+-rw-r--r--  1 root admin 589 May 12 19:04 Yakutsk
+-rw-r--r--  1 root admin 589 May 12 19:04 Vladivostok
+-rw-r--r--  1 root admin 605 May 12 19:04 Ust-Nera
+-rw-r--r--  1 root admin 65 May 12 19:04 Urumqi
+-rw-r--r--  1 root admin 437 May 12 19:04 Ulaanbaatar
+-rw-r--r--  1 root admin 125 May 12 19:04 Tokyo
+-rw-r--r--  1 root admin 77 May 12 19:04 Thimphu
+-rw-r--r--  1 root admin 892 May 12 19:04 Tehran
+-rw-r--r--  1 root admin 469 May 12 19:04 Tbilisi
+-rw-r--r--  1 root admin 261 May 12 19:04 Tashkent
+-rw-r--r--  1 root admin 381 May 12 19:04 Taipei
+-rw-r--r--  1 root admin 589 May 12 19:04 Srednekolymsk
+-rw-r--r--  1 root admin 133 May 12 19:04 Singapore
+-rw-r--r--  1 root admin 201 May 12 19:04 Shanghai
+-rw-r--r--  1 root admin 233 May 12 19:04 Seoul
+-rw-r--r--  1 root admin 261 May 12 19:04 Samarkand
+-rw-r--r--  1 root admin 593 May 12 19:04 Sakhalin
+-rw-r--r--  1 root admin 4765 May 12 19:04 Riyadh89
+-rw-r--r--  1 root admin 4733 May 12 19:04 Riyadh88
+-rw-r--r--  1 root admin 4821 May 12 19:04 Riyadh87
+-rw-r--r--  1 root admin 65 May 12 19:04 Riyadh
+-rw-r--r--  1 root admin 85 May 12 19:04 Rangoon
+-rw-r--r--  1 root admin 465 May 12 19:04 Qyzylorda
+-rw-r--r--  1 root admin 77 May 12 19:04 Qatar
+-rw-r--r--  1 root admin 77 May 12 19:04 Pyongyang
+-rw-r--r--  1 root admin 125 May 12 19:04 Pontianak
+-rw-r--r--  1 root admin 461 May 12 19:04 Oral
+-rw-r--r--  1 root admin 589 May 12 19:04 Omsk
+-rw-r--r--  1 root admin 597 May 12 19:04 Novosibirsk
+-rw-r--r--  1 root admin 581 May 12 19:04 Novokuznetsk
+-rw-r--r--  1 root admin 1116 May 12 19:04 Nicosia
+-rw-r--r--  1 root admin 65 May 12 19:04 Muscat
+-rw-r--r--  1 root admin 125 May 12 19:04 Manila
+-rw-r--r--  1 root admin 85 May 12 19:04 Makassar
+-rw-r--r--  1 root admin 589 May 12 19:04 Magadan
+-rw-r--r--  1 root admin 393 May 12 19:04 Macau
+-rw-r--r--  1 root admin 65 May 12 19:04 Kuwait
+-rw-r--r--  1 root admin 217 May 12 19:04 Kuching
+-rw-r--r--  1 root admin 145 May 12 19:04 Kuala_Lumpur
+-rw-r--r--  1 root admin 589 May 12 19:04 Krasnoyarsk
+-rw-r--r--  1 root admin 97 May 12 19:04 Kolkata
+-rw-r--r--  1 root admin 609 May 12 19:04 Khandyga
+-rw-r--r--  1 root admin 77 May 12 19:04 Kathmandu
+-rw-r--r--  1 root admin 153 May 12 19:04 Karachi
+-rw-r--r--  1 root admin 581 May 12 19:04 Kamchatka
+-rw-r--r--  1 root admin 65 May 12 19:04 Kabul
+-rw-r--r--  1 root admin 1236 May 12 19:04 Jerusalem
+-rw-r--r--  1 root admin 85 May 12 19:04 Jayapura
+-rw-r--r--  1 root admin 129 May 12 19:04 Jakarta
+-rw-r--r--  1 root admin 589 May 12 19:04 Irkutsk
+-rw-r--r--  1 root admin 437 May 12 19:04 Hovd
+-rw-r--r--  1 root admin 617 May 12 19:04 Hong_Kong
+-rw-r--r--  1 root admin 141 May 12 19:04 Ho_Chi_Minh
+-rw-r--r--  1 root admin 1252 May 12 19:04 Hebron
+-rw-r--r--  1 root admin 1236 May 12 19:04 Gaza
+-rw-r--r--  1 root admin 261 May 12 19:04 Dushanbe
+-rw-r--r--  1 root admin 65 May 12 19:04 Dubai
+-rw-r--r--  1 root admin 93 May 12 19:04 Dili
+-rw-r--r--  1 root admin 121 May 12 19:04 Dhaka
+-rw-r--r--  1 root admin 1300 May 12 19:04 Damascus
+-rw-r--r--  1 root admin 129 May 12 19:04 Colombo
+-rw-r--r--  1 root admin 449 May 12 19:04 Choibalsan
+-rw-r--r--  1 root admin 589 May 12 19:04 Chita
+-rw-r--r--  1 root admin 77 May 12 19:04 Brunei
+-rw-r--r--  1 root admin 485 May 12 19:04 Bishkek
+-rw-r--r--  1 root admin 1208 May 12 19:04 Beirut
+-rw-r--r--  1 root admin 65 May 12 19:04 Bangkok
+-rw-r--r--  1 root admin 976 May 12 19:04 Baku
+-rw-r--r--  1 root admin 77 May 12 19:04 Bahrain
+-rw-r--r--  1 root admin 489 May 12 19:04 Baghdad
+-rw-r--r--  1 root admin 269 May 12 19:04 Ashgabat
+-rw-r--r--  1 root admin 453 May 12 19:04 Aqtobe
+-rw-r--r--  1 root admin 453 May 12 19:04 Aqtau
+-rw-r--r--  1 root admin 585 May 12 19:04 Anadyr
+-rw-r--r--  1 root admin 1036 May 12 19:04 Amman
+-rw-r--r--  1 root admin 453 May 12 19:04 Almaty
+-rw-r--r--  1 root admin 65 May 12 19:04 Aden
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/Antarctica :
+Total : 80
+-rw-r--r--  1 root admin 65 May 12 19:04 Vostok
+-rw-r--r--  1 root admin 620 May 12 19:04 Troll
+-rw-r--r--  1 root admin 65 May 12 19:04 Syowa
+-rw-r--r--  1 root admin 65 May 12 19:04 Rothera
+-rw-r--r--  1 root admin 1104 May 12 19:04 Palmer
+-rw-r--r--  1 root admin 77 May 12 19:04 Mawson
+-rw-r--r--  1 root admin 785 May 12 19:04 Macquarie
+-rw-r--r--  1 root admin 81 May 12 19:04 DumontDUrville
+-rw-r--r--  1 root admin 117 May 12 19:04 Davis
+-rw-r--r--  1 root admin 101 May 12 19:04 Casey
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/America :
+Total : 856
+-rw-r--r--  1 root admin 1068 May 12 19:04 Yellowknife
+-rw-r--r--  1 root admin 1220 May 12 19:04 Yakutat
+-rw-r--r--  1 root admin 1560 May 12 19:04 Winnipeg
+-rw-r--r--  1 root admin 1108 May 12 19:04 Whitehorse
+-rw-r--r--  1 root admin 1592 May 12 19:04 Vancouver
+-rw-r--r--  1 root admin 1928 May 12 19:04 Toronto
+-rw-r--r--  1 root admin 1276 May 12 19:04 Tijuana
+-rw-r--r--  1 root admin 1188 May 12 19:04 Thunder_Bay
+-rw-r--r--  1 root admin 852 May 12 19:04 Thule
+-rw-r--r--  1 root admin 121 May 12 19:04 Tegucigalpa
+-rw-r--r--  1 root admin 241 May 12 19:04 Swift_Current
+-rw-r--r--  1 root admin 2000 May 12 19:04 St_Johns
+-rw-r--r--  1 root admin 1224 May 12 19:04 Sitka
+-rw-r--r--  1 root admin 1040 May 12 19:04 Scoresbysund
+-rw-r--r--  1 root admin 1116 May 12 19:04 Sao_Paulo
+-rw-r--r--  1 root admin 201 May 12 19:04 Santo_Domingo
+-rw-r--r--  1 root admin 1368 May 12 19:04 Santiago
+-rw-r--r--  1 root admin 305 May 12 19:04 Santarem
+-rw-r--r--  1 root admin 1276 May 12 19:04 Santa_Isabel
+-rw-r--r--  1 root admin 313 May 12 19:04 Rio_Branco
+-rw-r--r--  1 root admin 1052 May 12 19:04 Resolute
+-rw-r--r--  1 root admin 481 May 12 19:04 Regina
+-rw-r--r--  1 root admin 377 May 12 19:04 Recife
+-rw-r--r--  1 root admin 1052 May 12 19:04 Rankin_Inlet
+-rw-r--r--  1 root admin 1144 May 12 19:04 Rainy_River
+-rw-r--r--  1 root admin 77 May 12 19:04 Puerto_Rico
+-rw-r--r--  1 root admin 297 May 12 19:04 Porto_Velho
+-rw-r--r--  1 root admin 65 May 12 19:04 Port_of_Spain
+-rw-r--r--  1 root admin 788 May 12 19:04 Port-au-Prince
+-rw-r--r--  1 root admin 141 May 12 19:04 Phoenix
+-rw-r--r--  1 root admin 101 May 12 19:04 Paramaribo
+-rw-r--r--  1 root admin 1076 May 12 19:04 Pangnirtung
+-rw-r--r--  1 root admin 65 May 12 19:04 Panama
+-rw-r--r--  1 root admin 816 May 12 19:04 Ojinaga
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mNorth_Dakota[0m
+-rw-r--r--  1 root admin 377 May 12 19:04 Noronha
+-rw-r--r--  1 root admin 1228 May 12 19:04 Nome
+-rw-r--r--  1 root admin 1144 May 12 19:04 Nipigon
+-rw-r--r--  1 root admin 1960 May 12 19:04 New_York
+-rw-r--r--  1 root admin 1284 May 12 19:04 Nassau
+-rw-r--r--  1 root admin 1928 May 12 19:04 Montreal
+-rw-r--r--  1 root admin 1152 May 12 19:04 Montevideo
+-rw-r--r--  1 root admin 788 May 12 19:04 Monterrey
+-rw-r--r--  1 root admin 1732 May 12 19:04 Moncton
+-rw-r--r--  1 root admin 928 May 12 19:04 Miquelon
+-rw-r--r--  1 root admin 880 May 12 19:04 Mexico_City
+-rw-r--r--  1 root admin 329 May 12 19:04 Metlakatla
+-rw-r--r--  1 root admin 788 May 12 19:04 Merida
+-rw-r--r--  1 root admin 1216 May 12 19:04 Menominee
+-rw-r--r--  1 root admin 840 May 12 19:04 Mazatlan
+-rw-r--r--  1 root admin 788 May 12 19:04 Matamoros
+-rw-r--r--  1 root admin 89 May 12 19:04 Martinique
+-rw-r--r--  1 root admin 313 May 12 19:04 Manaus
+-rw-r--r--  1 root admin 185 May 12 19:04 Managua
+-rw-r--r--  1 root admin 393 May 12 19:04 Maceio
+-rw-r--r--  1 root admin 1560 May 12 19:04 Los_Angeles
+-rw-r--r--  1 root admin 185 May 12 19:04 Lima
+-rw-r--r--  1 root admin 81 May 12 19:04 La_Paz
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mKentucky[0m
+-rw-r--r--  1 root admin 1224 May 12 19:04 Juneau
+-rw-r--r--  1 root admin 233 May 12 19:04 Jamaica
+-rw-r--r--  1 root admin 1064 May 12 19:04 Iqaluit
+-rw-r--r--  1 root admin 1060 May 12 19:04 Inuvik
+drwxr-xr-x  10 root admin 340 Mar 22 09:20 [36mIndiana[0m
+-rw-r--r--  1 root admin 189 May 12 19:04 Hermosillo
+-rw-r--r--  1 root admin 1340 May 12 19:04 Havana
+-rw-r--r--  1 root admin 1908 May 12 19:04 Halifax
+-rw-r--r--  1 root admin 89 May 12 19:04 Guyana
+-rw-r--r--  1 root admin 65 May 12 19:04 Guayaquil
+-rw-r--r--  1 root admin 137 May 12 19:04 Guatemala
+-rw-r--r--  1 root admin 669 May 12 19:04 Grand_Turk
+-rw-r--r--  1 root admin 1728 May 12 19:04 Goose_Bay
+-rw-r--r--  1 root admin 1036 May 12 19:04 Godthab
+-rw-r--r--  1 root admin 1204 May 12 19:04 Glace_Bay
+-rw-r--r--  1 root admin 377 May 12 19:04 Fortaleza
+-rw-r--r--  1 root admin 105 May 12 19:04 El_Salvador
+-rw-r--r--  1 root admin 329 May 12 19:04 Eirunepe
+-rw-r--r--  1 root admin 1316 May 12 19:04 Edmonton
+-rw-r--r--  1 root admin 1200 May 12 19:04 Detroit
+-rw-r--r--  1 root admin 1336 May 12 19:04 Denver
+-rw-r--r--  1 root admin 509 May 12 19:04 Dawson_Creek
+-rw-r--r--  1 root admin 1108 May 12 19:04 Dawson
+-rw-r--r--  1 root admin 341 May 12 19:04 Danmarkshavn
+-rw-r--r--  1 root admin 77 May 12 19:04 Curacao
+-rw-r--r--  1 root admin 1100 May 12 19:04 Cuiaba
+-rw-r--r--  1 root admin 73 May 12 19:04 Creston
+-rw-r--r--  1 root admin 137 May 12 19:04 Costa_Rica
+-rw-r--r--  1 root admin 816 May 12 19:04 Chihuahua
+-rw-r--r--  1 root admin 1960 May 12 19:04 Chicago
+-rw-r--r--  1 root admin 65 May 12 19:04 Cayman
+-rw-r--r--  1 root admin 77 May 12 19:04 Cayenne
+-rw-r--r--  1 root admin 85 May 12 19:04 Caracas
+-rw-r--r--  1 root admin 792 May 12 19:04 Cancun
+-rw-r--r--  1 root admin 1116 May 12 19:04 Campo_Grande
+-rw-r--r--  1 root admin 1076 May 12 19:04 Cambridge_Bay
+-rw-r--r--  1 root admin 1284 May 12 19:04 Boise
+-rw-r--r--  1 root admin 89 May 12 19:04 Bogota
+-rw-r--r--  1 root admin 329 May 12 19:04 Boa_Vista
+-rw-r--r--  1 root admin 93 May 12 19:04 Blanc-Sablon
+-rw-r--r--  1 root admin 513 May 12 19:04 Belize
+-rw-r--r--  1 root admin 297 May 12 19:04 Belem
+-rw-r--r--  1 root admin 137 May 12 19:04 Barbados
+-rw-r--r--  1 root admin 844 May 12 19:04 Bahia_Banderas
+-rw-r--r--  1 root admin 553 May 12 19:04 Bahia
+-rw-r--r--  1 root admin 93 May 12 19:04 Atikokan
+-rw-r--r--  1 root admin 1116 May 12 19:04 Asuncion
+drwxr-xr-x  14 root admin 476 Mar 22 09:20 [36mArgentina[0m
+-rw-r--r--  1 root admin 473 May 12 19:04 Araguaina
+-rw-r--r--  1 root admin 77 May 12 19:04 Antigua
+-rw-r--r--  1 root admin 1224 May 12 19:04 Anchorage
+-rw-r--r--  1 root admin 1224 May 12 19:04 Adak
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/America/North_Dakota :
+Total : 24
+-rw-r--r--  1 root admin 1276 May 12 19:04 New_Salem
+-rw-r--r--  1 root admin 1276 May 12 19:04 Center
+-rw-r--r--  1 root admin 1276 May 12 19:04 Beulah
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/America/Kentucky :
+Total : 16
+-rw-r--r--  1 root admin 1260 May 12 19:04 Monticello
+-rw-r--r--  1 root admin 1500 May 12 19:04 Louisville
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/America/Indiana :
+Total : 64
+-rw-r--r--  1 root admin 932 May 12 19:04 Winamac
+-rw-r--r--  1 root admin 884 May 12 19:04 Vincennes
+-rw-r--r--  1 root admin 724 May 12 19:04 Vevay
+-rw-r--r--  1 root admin 884 May 12 19:04 Tell_City
+-rw-r--r--  1 root admin 1004 May 12 19:04 Petersburg
+-rw-r--r--  1 root admin 900 May 12 19:04 Marengo
+-rw-r--r--  1 root admin 1304 May 12 19:04 Knox
+-rw-r--r--  1 root admin 868 May 12 19:04 Indianapolis
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/America/Argentina :
+Total : 96
+-rw-r--r--  1 root admin 549 May 12 19:04 Ushuaia
+-rw-r--r--  1 root admin 565 May 12 19:04 Tucuman
+-rw-r--r--  1 root admin 557 May 12 19:04 San_Luis
+-rw-r--r--  1 root admin 557 May 12 19:04 San_Juan
+-rw-r--r--  1 root admin 533 May 12 19:04 Salta
+-rw-r--r--  1 root admin 549 May 12 19:04 Rio_Gallegos
+-rw-r--r--  1 root admin 549 May 12 19:04 Mendoza
+-rw-r--r--  1 root admin 557 May 12 19:04 La_Rioja
+-rw-r--r--  1 root admin 533 May 12 19:04 Jujuy
+-rw-r--r--  1 root admin 549 May 12 19:04 Cordoba
+-rw-r--r--  1 root admin 549 May 12 19:04 Catamarca
+-rw-r--r--  1 root admin 549 May 12 19:04 Buenos_Aires
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/zi/Africa :
+Total : 144
+-rw-r--r--  1 root admin 824 May 12 19:04 Windhoek
+-rw-r--r--  1 root admin 329 May 12 19:04 Tunis
+-rw-r--r--  1 root admin 317 May 12 19:04 Tripoli
+-rw-r--r--  1 root admin 89 May 12 19:04 Ndjamena
+-rw-r--r--  1 root admin 97 May 12 19:04 Nairobi
+-rw-r--r--  1 root admin 77 May 12 19:04 Monrovia
+-rw-r--r--  1 root admin 65 May 12 19:04 Maputo
+-rw-r--r--  1 root admin 65 May 12 19:04 Lagos
+-rw-r--r--  1 root admin 337 May 12 19:04 Khartoum
+-rw-r--r--  1 root admin 105 May 12 19:04 Johannesburg
+-rw-r--r--  1 root admin 820 May 12 19:04 El_Aaiun
+-rw-r--r--  1 root admin 1112 May 12 19:04 Ceuta
+-rw-r--r--  1 root admin 904 May 12 19:04 Casablanca
+-rw-r--r--  1 root admin 1564 May 12 19:04 Cairo
+-rw-r--r--  1 root admin 77 May 12 19:04 Bissau
+-rw-r--r--  1 root admin 333 May 12 19:04 Algiers
+-rw-r--r--  1 root admin 437 May 12 19:04 Accra
+-rw-r--r--  1 root admin 65 May 12 19:04 Abidjan
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/xawt :
+Total : 744
+-rwxr-xr-x  1 root admin 377008 Nov 18 08:16 [31mlibmawt.dylib[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/server :
+Total : 20264
+-rwxr-xr-x  1 root admin 10366352 Nov 18 08:16 [31mlibjvm.dylib[0m
+lrwxr-xr-x  1 root admin 16 Mar 22 11:15 [35mlibjsig.dylib[0m -> ../libjsig.dylib
+-rw-r--r--  1 root admin 1423 May 12 18:59 Xusage.txt
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/security :
+Total : 248
+-rw-r--r--  1 root admin 1033 May 12 19:03 local_policy.jar
+-rw-r--r--  1 root admin 17942 May 12 19:01 java.security
+-rw-r--r--  1 root admin 2593 May 12 19:01 java.policy
+-rw-r--r--  1 root admin 92776 May 12 19:01 cacerts
+-rw-r--r--  1 root admin 613 May 12 19:03 US_export_policy.jar
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/management :
+Total : 56
+-rw-r--r--  1 root admin 3376 May 12 19:07 snmp.acl.template
+-rw-r--r--  1 root admin 14097 May 12 19:07 management.properties
+-rw-r--r--  1 root admin 2856 May 12 19:07 jmxremote.password.template
+-rw-r--r--  1 root admin 3998 May 12 19:07 jmxremote.access
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/lwawt :
+Total : 1448
+-rwxr-xr-x  1 root admin 739008 Nov 18 08:16 [31mliblwawt.dylib[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/jli :
+Total : 144
+-rwxr-xr-x  1 root admin 70960 Nov 18 08:16 [31mlibjli.dylib[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/images :
+drwxr-xr-x  10 root admin 340 Mar 22 09:20 [36mcursors[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/images/cursors :
+Total : 64
+-rw-r--r--  1 root admin 153 May 12 19:01 motif_MoveNoDrop32x32.gif
+-rw-r--r--  1 root admin 141 May 12 19:01 motif_MoveDrop32x32.gif
+-rw-r--r--  1 root admin 153 May 12 19:01 motif_LinkNoDrop32x32.gif
+-rw-r--r--  1 root admin 162 May 12 19:01 motif_LinkDrop32x32.gif
+-rw-r--r--  1 root admin 153 May 12 19:01 motif_CopyNoDrop32x32.gif
+-rw-r--r--  1 root admin 158 May 12 19:01 motif_CopyDrop32x32.gif
+-rw-r--r--  1 root admin 153 May 12 19:01 invalid32x32.gif
+-rw-r--r--  1 root admin 1274 May 12 19:01 cursors.properties
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/headless :
+Total : 88
+-rwxr-xr-x  1 root admin 41920 Nov 18 08:16 [31mlibmawt.dylib[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/ext :
+Total : 2112
+-rw-r--r--  1 root admin 68757 May 12 19:10 zipfs.jar
+-rw-r--r--  1 root admin 229823 May 12 19:04 sunpkcs11.jar
+-rw-r--r--  1 root admin 189805 May 12 19:08 sunjce_provider.jar
+-rw-r--r--  1 root admin 13423 May 12 19:04 sunec.jar
+-rw-r--r--  1 root admin 452 May 12 19:15 meta-index
+-rw-r--r--  1 root admin 550859 May 12 19:05 localedata.jar
+-rw-r--r--  1 root admin 8923 May 12 19:04 dnsns.jar
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/cmm :
+Total : 504
+-rw-r--r--  1 root admin 6876 May 12 19:07 sRGB.pf
+-rw-r--r--  1 root admin 234080 May 12 19:07 PYCC.pf
+-rw-r--r--  1 root admin 488 May 12 19:07 LINEAR_RGB.pf
+-rw-r--r--  1 root admin 556 May 12 19:07 GRAY.pf
+-rw-r--r--  1 root admin 784 May 12 19:07 CIEXYZ.pf
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/lib/applet :
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/java/bin :
+Total : 200
+-rwxr-xr-x  1 root admin 99072 Nov 18 08:16 [31mjava[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/bin :
+Total : 24
+-rwxr-xr-x  1 root admin 9169 Jan 13 16:49 [31miTMSTransporter[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/_CodeSignature :
+Total : 664
+-rw-r--r--  1 root admin 339530 Mar 16 01:33 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources :
+Total : 14608
+drwxr-xr-x  63 root admin 2142 Mar 22 09:20 [36mzh_TW.lproj[0m
+drwxr-xr-x  63 root admin 2142 Mar 22 09:20 [36mzh_CN.lproj[0m
+-rw-r--r--  1 root admin 856 Nov  3 19:46 window_bottom.png
+-rw-r--r--  1 root admin 17837 Nov  3 19:46 window_bg.png
+-rw-r--r--  1 root admin 20354 Nov  3 19:46 white-bar.tiff
+-rw-r--r--  1 root admin 8384 Nov  3 19:46 warning-icon.tiff
+-rw-r--r--  1 root admin 614 Nov  3 19:46 view-pricing-button-right.png
+-rw-r--r--  1 root admin 238 Nov  3 19:46 view-pricing-button-middle.png
+-rw-r--r--  1 root admin 587 Nov  3 19:46 view-pricing-button-left.png
+-rw-r--r--  1 root admin 3530 Nov  3 19:46 trackingCell.tiff
+-rw-r--r--  1 root admin 3566 Nov  3 19:46 trackingCell-selected.tiff
+-rw-r--r--  1 root admin 3670 Nov  3 19:46 trackingCell-selected-mouseDown.tiff
+-rw-r--r--  1 root admin 3652 Nov  3 19:46 trackingCell-mouseDown.tiff
+-rw-r--r--  1 root admin 237154 Nov  3 19:46 textbook-activity.tiff
+-rw-r--r--  1 root admin 11294 Nov  3 19:46 territory-codes.xml
+-rw-r--r--  1 root admin 17634 Nov  3 19:46 success-badge-icon.tiff
+-rw-r--r--  1 root admin 5172 Nov  3 19:46 subtract-icon.tiff
+-rw-r--r--  1 root admin 11092 Nov  3 19:46 submit.tiff
+-rw-r--r--  1 root admin 12274 Nov  3 19:46 submit-down.tiff
+-rw-r--r--  1 root admin 19874 Nov  3 19:46 spyglass-icon.tiff
+-rw-r--r--  1 root admin 418 Nov  3 19:46 software-types.xml
+-rw-r--r--  1 root admin 188 Nov  3 19:46 software-territory-groups.xml
+-rw-r--r--  1 root admin 1907 Nov  3 19:46 software-months.xml
+-rw-r--r--  1 root admin 3839 Nov  3 19:46 software-languages.xml
+-rw-r--r--  1 root admin 3640 Nov  3 19:46 software-iap-user-interface-tags.xml
+-rw-r--r--  1 root admin 1277 Nov  3 19:46 software-iap-types.xml
+-rw-r--r--  1 root admin 7318 Nov  3 19:46 software-iap-rng-validations.xml
+-rw-r--r--  1 root admin 10213 Nov  3 19:46 software-iap-mac-tier-names.xml
+-rw-r--r--  1 root admin 10208 Nov  3 19:46 software-iap-ios-tier-names.xml
+-rw-r--r--  1 root admin 386 Nov  3 19:46 sign-in-button-right.png
+-rw-r--r--  1 root admin 234 Nov  3 19:46 sign-in-button-middle.png
+-rw-r--r--  1 root admin 389 Nov  3 19:46 sign-in-button-left.png
+-rw-r--r--  1 root admin 3921 Nov  3 19:46 shadowLine.png
+-rw-r--r--  1 root admin 246 Nov  3 19:46 selected-row-right-top.png
+-rw-r--r--  1 root admin 212 Nov  3 19:46 selected-row-right-middle.png
+-rw-r--r--  1 root admin 234 Nov  3 19:46 selected-row-right-bottom.png
+-rw-r--r--  1 root admin 196 Nov  3 19:46 selected-row-middle-top.png
+-rw-r--r--  1 root admin 202 Nov  3 19:46 selected-row-middle-middle.png
+-rw-r--r--  1 root admin 196 Nov  3 19:46 selected-row-middle-bottom.png
+-rw-r--r--  1 root admin 240 Nov  3 19:46 selected-row-left-top.png
+-rw-r--r--  1 root admin 216 Nov  3 19:46 selected-row-left-middle.png
+-rw-r--r--  1 root admin 236 Nov  3 19:46 selected-row-left-bottom.png
+-rw-r--r--  1 root admin 23046 Nov  3 19:46 screenshot-placeholder.tiff
+-rw-r--r--  1 root admin 34102 Nov  3 19:46 screenshot-drop-target.tiff
+-rw-r--r--  1 root admin 190 Nov  3 19:46 rng-validations.xml
+-rw-r--r--  1 root admin 165896 Nov  3 19:46 ringtone-activity.tiff
+-rw-r--r--  1 root admin 5163 Nov  3 19:46 relaxng-input.xml
+-rw-r--r--  1 root admin 11393 Nov  3 19:46 publication-user-interface-tags.xml
+-rw-r--r--  1 root admin 918 Nov  3 19:46 publication-types.xml
+-rw-r--r--  1 root admin 204 Nov  3 19:46 publication-types-tiers.xml
+-rw-r--r--  1 root admin 1607 Nov  3 19:46 publication-title-types.xml
+-rw-r--r--  1 root admin 2456 Nov  3 19:46 publication-territory-groups.xml
+-rw-r--r--  1 root admin 27441 Nov  3 19:46 publication-target-audience-schemes.xml
+-rw-r--r--  1 root admin 1333 Nov  3 19:46 publication-subject-schemes.xml
+-rw-r--r--  1 root admin 841 Nov  3 19:46 publication-search-categories.xml
+-rw-r--r--  1 root admin 17493 Nov  3 19:46 publication-rng-validations.xml
+-rw-r--r--  1 root admin 1152 Nov  3 19:46 publication-related-products.xml
+-rw-r--r--  1 root admin 4515 Nov  3 19:46 publication-publishing-statuses.xml
+-rw-r--r--  1 root admin 2690 Nov  3 19:46 publication-publisher-roles.xml
+-rw-r--r--  1 root admin 2338 Nov  3 19:46 publication-publisher-code-types.xml
+-rw-r--r--  1 root admin 376 Nov  3 19:46 publication-primary.xml
+-rw-r--r--  1 root admin 16157 Nov  3 19:46 publication-main-subject-types.xml
+-rw-r--r--  1 root admin 14109 Nov  3 19:46 publication-languages.xml
+-rw-r--r--  1 root admin 1444 Nov  3 19:46 publication-identifiers.xml
+-rw-r--r--  1 root admin 7816 Nov  3 19:46 publication-free-rng-validations.xml
+-rw-r--r--  1 root admin 516 Nov  3 19:46 publication-explicit-content.xml
+-rw-r--r--  1 root admin 516 Nov  3 19:46 publication-created-with-ibooks-author.xml
+-rw-r--r--  1 root admin 16586 Nov  3 19:46 publication-contributor-roles.xml
+-rw-r--r--  1 root admin 20966 Nov  3 19:46 publication-clil-categories.xml
+-rw-r--r--  1 root admin 399 Nov  3 19:46 publication-book-types.xml
+-rw-r--r--  1 root admin 556218 Nov  3 19:46 publication-bisac-categories.xml
+-rw-r--r--  1 root admin 659126 Nov  3 19:46 publication-bic-categories.xml
+-rw-r--r--  1 root admin 21394 Nov  3 19:46 publication-available-territories.xml
+-rw-r--r--  1 root admin 2074 Nov  3 19:46 publication-asset_only-rng-validations.xml
+-rw-r--r--  1 root admin 665 Nov  3 19:46 publication-applies-to-version.xml
+-rw-r--r--  1 root admin 16165 Nov  3 19:46 publication-additional-subject-types.xml
+-rw-r--r--  1 root admin 10778 Nov  3 19:46 pricing-icon.tiff
+-rw-r--r--  1 root admin 11358 Nov  3 19:46 pricing-icon-down.tiff
+-rw-r--r--  1 root admin 8117 Nov  3 19:46 pricebutton.png
+-rw-r--r--  1 root admin 7806 Nov  3 19:46 preview-icon.tiff
+-rw-r--r--  1 root admin 5450 Nov  3 19:46 popoverInfo.tiff
+-rw-r--r--  1 root admin 1811 Nov  3 19:46 play-button-up.png
+-rw-r--r--  1 root admin 2422 Nov  3 19:46 play-button-over.png
+-rw-r--r--  1 root admin 5456 Nov  3 19:46 person.tiff
+-rw-r--r--  1 root admin 314 Nov  3 19:46 pane_bg-top.png
+-rw-r--r--  1 root admin 311 Nov  3 19:46 pane_bg-middle.png
+-rw-r--r--  1 root admin 244 Nov  3 19:46 pane_bg-bottom.png
+drwxr-xr-x  63 root admin 2142 Mar 22 09:20 [36mnl.lproj[0m
+-rw-r--r--  1 root admin 5831 Nov  3 19:46 music-user-interface-tags.xml
+-rw-r--r--  1 root admin 13429 Nov  3 19:46 music-track-tiers.xml
+-rw-r--r--  1 root admin 298 Nov  3 19:46 music-tone-types.xml
+-rw-r--r--  1 root admin 1728 Nov  3 19:46 music-territory-groups.xml
+-rw-r--r--  1 root admin 734 Nov  3 19:46 music-search-categories.xml
+-rw-r--r--  1 root admin 29628 Nov  3 19:46 music-rng-validations.xml
+-rw-r--r--  1 root admin 3753 Nov  3 19:46 music-ringtone-genres.xml
+-rw-r--r--  1 root admin 45543 Nov  3 19:46 music-ringtone-available-territories.xml
+-rw-r--r--  1 root admin 383 Nov  3 19:46 music-preorder-type-codes.xml
+-rw-r--r--  1 root admin 2512 Nov  3 19:46 music-locales.xml
+-rw-r--r--  1 root admin 18540 Nov  3 19:46 music-languages.xml
+-rw-r--r--  1 root admin 40215 Nov  3 19:46 music-genres.xml
+-rw-r--r--  1 root admin 522 Nov  3 19:46 music-explicit-content-types.xml
+-rw-r--r--  1 root admin 13771 Nov  3 19:46 music-default-track-tiers.xml
+-rw-r--r--  1 root admin 46349 Nov  3 19:46 music-available-territories.xml
+-rw-r--r--  1 root admin 566 Nov  3 19:46 music-audio-tone-genres.xml
+-rw-r--r--  1 root admin 38294 Nov  3 19:46 music-audio-tone-available-territories.xml
+-rw-r--r--  1 root admin 6465 Nov  3 19:46 music-artist-roles.xml
+-rw-r--r--  1 root admin 987 Nov  3 19:46 music-alertable-artist-strings.xml
+-rw-r--r--  1 root admin 65776 Nov  3 19:46 music-album-tiers.xml
+-rw-r--r--  1 root admin 783 Nov  3 19:46 music-album-price-tier-codes.xml
+-rw-r--r--  1 root admin 240830 Nov  3 19:46 movie-activity.tiff
+-rw-r--r--  1 root admin 8748 Nov  3 19:46 localizeList.xml
+-rw-r--r--  1 root admin 112144 Nov  3 19:46 linen-texture.png
+-rw-r--r--  1 root admin 5783 Nov  3 19:46 language-codes.xml
+drwxr-xr-x  63 root admin 2142 Mar 22 09:20 [36mko.lproj[0m
+drwxr-xr-x  63 root admin 2142 Mar 22 09:20 [36mja.lproj[0m
+-rw-r--r--  1 root admin 3478 Nov  3 19:46 itunespreview_en.png
+-rw-r--r--  1 root admin 6088 Nov  3 19:46 itunes_producer.png
+-rw-r--r--  1 root admin 7124 Nov  3 19:46 itmsp-foundation.rng
+drwxr-xr-x  63 root admin 2142 Mar 22 09:20 [36mit.lproj[0m
+-rw-r--r--  1 root admin 9932 Nov  3 19:46 info-icon.tiff
+-rw-r--r--  1 root admin 10396 Nov  3 19:46 info-icon-down.tiff
+-rw-r--r--  1 root admin 183800 Nov  3 19:46 in-app-purchase-activity.tiff
+-rw-r--r--  1 root admin 1303 Nov  3 19:46 icon_well-selected.png
+-rw-r--r--  1 root admin 523 Nov  3 19:46 icon_well-over.png
+-rw-r--r--  1 root admin 4849 Nov  3 19:46 icon_chooser_spreadsheet.png
+-rw-r--r--  1 root admin 7519 Nov  3 19:46 icon_chooser_asset.png
+-rw-r--r--  1 root admin 23038 Nov  3 19:46 ibooks-placeholder.tiff
+-rw-r--r--  1 root admin 82452 Nov  3 19:46 ibooks-file-icon.tiff
+-rw-r--r--  1 root admin 257959 Nov  3 19:46 iTunesProducer.icns
+-rw-r--r--  1 root admin 169 Nov  3 19:46 horizontal_rule.png
+-rw-r--r--  1 root admin 5444 Nov  3 19:46 help-icon.tiff
+-rw-r--r--  1 root admin 2917 Nov  3 19:46 help-anchor-mapping.xml
+drwxr-xr-x  63 root admin 2142 Mar 22 09:20 [36mfr.lproj[0m
+-rw-r--r--  1 root admin 2453 Nov  3 19:46 focus-ring.png
+-rw-r--r--  1 root admin 288 Nov  3 19:46 film-vod-type-codes.xml
+-rw-r--r--  1 root admin 6328 Nov  3 19:46 film-user-interface-tags.xml
+-rw-r--r--  1 root admin 526 Nov  3 19:46 film-time-code-format-codes.xml
+-rw-r--r--  1 root admin 188 Nov  3 19:46 film-territory-groups.xml
+-rw-r--r--  1 root admin 276 Nov  3 19:46 film-subtype-codes.xml
+-rw-r--r--  1 root admin 2750 Nov  3 19:46 film-rng-validations.xml
+-rw-r--r--  1 root admin 623 Nov  3 19:46 film-rating-system-codes.xml
+-rw-r--r--  1 root admin 6580 Nov  3 19:46 film-rating-codes.xml
+-rw-r--r--  1 root admin 1490 Nov  3 19:46 film-genre-codes.xml
+-rw-r--r--  1 root admin 13618 Nov  3 19:46 film-feature-tiers.xml
+-rw-r--r--  1 root admin 6594 Nov  3 19:46 film-available-territories.xml
+-rw-r--r--  1 root admin 246 Nov  3 19:46 film-allowed-vod-types.xml
+-rw-r--r--  1 root admin 386 Nov  3 19:46 film-allowed-time-code-formats.xml
+-rw-r--r--  1 root admin 240 Nov  3 19:46 film-allowed-subtypes.xml
+-rw-r--r--  1 root admin 470 Nov  3 19:46 film-allowed-rating-systems.xml
+-rw-r--r--  1 root admin 330 Nov  3 19:46 film-allowed-price-tiers.xml
+-rw-r--r--  1 root admin 768 Nov  3 19:46 film-allowed-locales.xml
+-rw-r--r--  1 root admin 907 Nov  3 19:46 film-allowed-genres.xml
+-rw-r--r--  1 root admin 1899 Nov  3 19:46 film-allowed-countries.xml
+-rw-r--r--  1 root admin 265 Nov  3 19:46 film-allowed-asset-types.xml
+-rw-r--r--  1 root admin 9068 Nov  3 19:46 files-icon.tiff
+-rw-r--r--  1 root admin 9408 Nov  3 19:46 files-icon-down.tiff
+-rw-r--r--  1 root admin 30496 Nov  3 19:46 file-drop-target.tiff
+-rw-r--r--  1 root admin 10724 Nov  3 19:46 failure-badge-icon.tiff
+drwxr-xr-x  63 root admin 2142 Mar 22 09:20 [36mes.lproj[0m
+-rw-r--r--  1 root admin 10282 Nov  3 19:46 error-icon.tiff
+-rw-r--r--  1 root admin 23034 Nov  3 19:46 epub-placeholder.tiff
+-rw-r--r--  1 root admin 89392 Nov  3 19:46 epub-file-icon.tiff
+drwxr-xr-x  62 root admin 2108 Mar 22 09:20 [36men.lproj[0m
+-rw-r--r--  1 root admin 3750 Nov  3 19:46 edit.tiff
+-rw-r--r--  1 root admin 9460 Nov  3 19:46 edit-menu.tiff
+-rw-r--r--  1 root admin 4770 Nov  3 19:46 digital-video.tiff
+-rw-r--r--  1 root admin 1626 Nov  3 19:46 digital-lp.tiff
+-rw-r--r--  1 root admin 4193 Nov  3 19:46 digital-booklet.png
+-rw-r--r--  1 root admin 11120 Nov  3 19:46 delete-icon.tiff
+-rw-r--r--  1 root admin 89335 Nov  3 19:46 default-schema.rng
+drwxr-xr-x  63 root admin 2142 Mar 22 09:20 [36mde.lproj[0m
+-rw-r--r--  1 root admin 23044 Nov  3 19:46 cover-art-placeholder.tiff
+-rw-r--r--  1 root admin 34100 Nov  3 19:46 cover-art-drop-target.tiff
+-rw-r--r--  1 root admin 361 Nov  3 19:46 checkmark.png
+-rw-r--r--  1 root admin 395 Nov  3 19:46 checkmark-selected.png
+-rw-r--r--  1 root admin 1847 Nov  3 19:46 card.png
+-rw-r--r--  1 root admin 722 Nov  3 19:46 btnglyph_upload-selected.png
+-rw-r--r--  1 root admin 752 Nov  3 19:46 btnglyph_upload-normal.png
+-rw-r--r--  1 root admin 182 Nov  3 19:46 btnglyph_new-selected.png
+-rw-r--r--  1 root admin 179 Nov  3 19:46 btnglyph_new-normal.png
+-rw-r--r--  1 root admin 11472 Nov  3 19:46 btnglyph_lookup-selected.tiff
+-rw-r--r--  1 root admin 10846 Nov  3 19:46 btnglyph_lookup-normal.tiff
+-rw-r--r--  1 root admin 616 Nov  3 19:46 btnglyph_account.png
+-rw-r--r--  1 root admin 564 Nov  3 19:46 btn_sm-over.png
+-rw-r--r--  1 root admin 540 Nov  3 19:46 btn_sm-normal.png
+-rw-r--r--  1 root admin 1016 Nov  3 19:46 btn_lg-selected.png
+-rw-r--r--  1 root admin 688 Nov  3 19:46 btn_lg-over.png
+-rw-r--r--  1 root admin 668 Nov  3 19:46 btn_lg-normal.png
+-rw-r--r--  1 root admin 921 Nov  3 19:46 btn_help.png
+-rw-r--r--  1 root admin 904 Nov  3 19:46 btn_help-active.png
+-rw-r--r--  1 root admin 8715 Nov  3 19:46 book_template.mustache.html
+-rw-r--r--  1 root admin 236472 Nov  3 19:46 book-activity.tiff
+-rw-r--r--  1 root admin 8590 Nov  3 19:46 blue-button-right.tiff
+-rw-r--r--  1 root admin 9226 Nov  3 19:46 blue-button-right-down.tiff
+-rw-r--r--  1 root admin 7470 Nov  3 19:46 blue-button-middle.tiff
+-rw-r--r--  1 root admin 7472 Nov  3 19:46 blue-button-middle-down.tiff
+-rw-r--r--  1 root admin 8142 Nov  3 19:46 blue-button-left.tiff
+-rw-r--r--  1 root admin 8844 Nov  3 19:46 blue-button-left-down.tiff
+-rw-r--r--  1 root admin 259 Nov  3 19:46 black-bar.png
+-rw-r--r--  1 root admin 17816 Nov  3 19:46 base-currencies.xml
+-rw-r--r--  1 root admin 171372 Nov  3 19:46 audio-file-activity.tiff
+-rw-r--r--  1 root admin 1922 Nov  3 19:46 asset_only-user-interface-tags.xml
+-rw-r--r--  1 root admin 2074 Nov  3 19:46 asset_only-rng-validations.xml
+-rw-r--r--  1 root admin 306 Nov  3 19:46 asset_only-package-type-codes.xml
+-rw-r--r--  1 root admin 320 Nov  3 19:46 asset_only-media-type-codes.xml
+-rw-r--r--  1 root admin 258 Nov  3 19:46 asset_only-allowed-package-types.xml
+-rw-r--r--  1 root admin 265 Nov  3 19:46 asset_only-allowed-media-types.xml
+-rw-r--r--  1 root admin 6088 Nov  3 19:46 application_loader.png
+-rw-r--r--  1 root admin 173622 Nov  3 19:46 app-activity.tiff
+-rw-r--r--  1 root admin 605 Nov  3 19:46 alt-row-right.png
+-rw-r--r--  1 root admin 208 Nov  3 19:46 alt-row-middle.png
+-rw-r--r--  1 root admin 614 Nov  3 19:46 alt-row-left.png
+-rw-r--r--  1 root admin 290 Nov  3 19:46 allowed-asset-data-file-roles.xml
+-rw-r--r--  1 root admin 304 Nov  3 19:46 allowed-asset-data-file-attributes.xml
+-rw-r--r--  1 root admin 6793 Nov  3 19:46 alert.png
+-rw-r--r--  1 root admin 165984 Nov  3 19:46 album-activity.tiff
+-rw-r--r--  1 root admin 7998 Nov  3 19:46 add.tiff
+-rw-r--r--  1 root admin 320 Nov  3 19:46 add-row-right.png
+-rw-r--r--  1 root admin 285 Nov  3 19:46 add-row-middle.png
+-rw-r--r--  1 root admin 309 Nov  3 19:46 add-row-left.png
+-rw-r--r--  1 root admin 8312 Nov  3 19:46 add-menu.tiff
+-rw-r--r--  1 root admin 5228 Nov  3 19:46 add-icon.tiff
+-rw-r--r--  1 root admin 23516 Nov  3 19:46 add-card.tiff
+-rw-r--r--  1 root admin 570 Nov  3 19:46 account_glyph_nf.png
+-rw-r--r--  1 root admin 570 Nov  3 19:46 account_glyph.png
+-rw-r--r--  1 root admin 384 Nov  3 19:46 account-button-right.png
+-rw-r--r--  1 root admin 221 Nov  3 19:46 account-button-middle.png
+-rw-r--r--  1 root admin 380 Nov  3 19:46 account-button-left.png
+-rw-r--r--  1 root admin 388 Nov  3 19:46 TrackPriceTierCodes.xml
+-rw-r--r--  1 root admin 4802 Nov  3 19:46 Stopped.tiff
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mSoftwareTemplates[0m
+-rw-r--r--  1 root admin 5164 Nov  3 19:46 RemovableDiskSmall.tiff
+-rw-r--r--  1 root admin 591 Nov  3 19:46 RNGValidationWarning.gif
+-rw-r--r--  1 root admin 605 Nov  3 19:46 RNGValidationError.gif
+-rw-r--r--  1 root admin 4978 Nov  3 19:46 Playing.tiff
+-rw-r--r--  1 root admin 26928 Nov  3 19:46 PlayerStopH.tif
+-rw-r--r--  1 root admin 4908 Nov  3 19:46 PlayerStop.tif
+-rw-r--r--  1 root admin 27128 Nov  3 19:46 PlayerPlayH.tif
+-rw-r--r--  1 root admin 5008 Nov  3 19:46 PlayerPlay.tif
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mMusicTemplates[0m
+-rw-r--r--  1 root admin 4008 Nov  3 19:46 Menu.directives
+-rw-r--r--  1 root admin 4838 Nov  3 19:48 MZUsernameToolbarItemView.nib
+-rw-r--r--  1 root admin 5014 Nov  3 19:46 Importing2.tiff
+-rw-r--r--  1 root admin 5016 Nov  3 19:46 Importing1.tiff
+-rw-r--r--  1 root admin 5152 Nov  3 19:46 ImportError.tiff
+-rw-r--r--  1 root admin 591 Nov  3 19:46 ITunesValidationWarning.gif
+-rw-r--r--  1 root admin 605 Nov  3 19:46 ITunesValidationError.gif
+-rw-r--r--  1 root admin 910648 Nov  3 19:46 ITMSP.icns
+-rw-r--r--  1 root admin 12245 Nov  3 19:46 GenericBookCover.jpg
+-rw-r--r--  1 root admin 2046 Nov  3 19:46 GeneralPreferences.tiff
+-rw-r--r--  1 root admin 3646 Nov  3 19:46 Eject.tiff
+-rw-r--r--  1 root admin 398357 Nov  3 19:46 EPUB.icns
+-rw-r--r--  1 root admin 420 Nov  3 19:46 DownloadStop_Selected.tif
+-rw-r--r--  1 root admin 420 Nov  3 19:46 DownloadStopRollover_Selected.tif
+-rw-r--r--  1 root admin 420 Nov  3 19:46 DownloadStopRollover.tif
+-rw-r--r--  1 root admin 422 Nov  3 19:46 DownloadStopPressed_Selected.tif
+-rw-r--r--  1 root admin 422 Nov  3 19:46 DownloadStopPressed.tif
+-rw-r--r--  1 root admin 420 Nov  3 19:46 DownloadStop.tif
+-rw-r--r--  1 root admin 478 Nov  3 19:46 DownloadRevealPressed.tif
+-rw-r--r--  1 root admin 528 Nov  3 19:46 DownloadReveal.tif
+-rw-r--r--  1 root admin 9709 Nov  3 19:46 DeliverySuccess.png
+-rw-r--r--  1 root admin 34452 Nov  3 19:46 DeliveryCompleted.aiff
+-rw-r--r--  1 root admin 5150 Nov  3 19:46 Completed.tiff
+-rw-r--r--  1 root admin 1068 Nov  3 19:46 Classic_NSNavGraySelection.tiff
+-rw-r--r--  1 root admin 1130 Nov  3 19:46 Classic_NSNavEjectButton.rollover.tiff
+-rw-r--r--  1 root admin 1138 Nov  3 19:46 Classic_NSNavEjectButton.pressed.tiff
+-rw-r--r--  1 root admin 950 Nov  3 19:46 Classic_NSNavEjectButton.normalSelected.tiff
+-rw-r--r--  1 root admin 956 Nov  3 19:46 Classic_NSNavEjectButton.normal.tiff
+-rw-r--r--  1 root admin 1070 Nov  3 19:46 Classic_NSNavBlueSelection.tiff
+-rw-r--r--  1 root admin 4784 Nov  3 19:46 CheckUnselectedHighlighted.tiff
+-rw-r--r--  1 root admin 4796 Nov  3 19:46 CheckUnselected.tiff
+-rw-r--r--  1 root admin 4880 Nov  3 19:46 CheckSelectedHighlighted.tiff
+-rw-r--r--  1 root admin 4882 Nov  3 19:46 CheckSelected.tiff
+-rw-r--r--  1 root admin 1017 Nov  3 19:46 CDSmall.icns
+-rw-r--r--  1 root admin 54378 Nov  3 19:46 CD.icns
+-rw-r--r--  1 root admin 25685 Nov  3 19:46 BrokenLink.icns
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mBookTemplates[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mBase.lproj[0m
+-rw-r--r--  1 root admin 257959 Nov  3 19:46 ApplicationLoader.icns
+-rw-r--r--  1 root admin 243 Nov  3 19:46 AllowedTrackPriceTiers.xml
+-rw-r--r--  1 root admin 1989 Nov  3 19:46 AllowedTerritories.xml
+-rw-r--r--  1 root admin 3690 Nov  3 19:46 AdvancedPreferences.tiff
+-rw-r--r--  1 root admin 10777 Nov  3 19:46 3-navigation.css
+-rw-r--r--  1 root admin 111617 Nov  3 19:46 2-web-storefront-preview.css
+-rw-r--r--  1 root admin 32105 Nov  3 19:46 1-web-storefront-base.css
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/zh_TW.lproj :
+Total : 1384
+-rw-r--r--  1 root admin 361 Nov 12 01:52 software-months.strings
+-rw-r--r--  1 root admin 798 Nov 12 01:52 software-languages.strings
+-rw-r--r--  1 root admin 206 Nov 12 01:52 software-iap-types.strings
+-rw-r--r--  1 root admin 270 Nov 12 01:52 software-iap-rng-validations.strings
+-rw-r--r--  1 root admin 2525 Nov 12 01:52 software-iap-mac-tier-names.strings
+-rw-r--r--  1 root admin 2525 Nov 12 01:52 software-iap-ios-tier-names.strings
+-rw-r--r--  1 root admin 106 Nov 12 01:52 publication-types.strings
+-rw-r--r--  1 root admin 193 Nov 12 01:52 publication-territory-groups.strings
+-rw-r--r--  1 root admin 4018 Nov 12 01:52 publication-target-audience-schemes.strings
+-rw-r--r--  1 root admin 183 Nov 12 01:52 publication-subject-schemes.strings
+-rw-r--r--  1 root admin 157 Mar 15 23:56 publication-search-categories.strings
+-rw-r--r--  1 root admin 1723 Mar 15 23:56 publication-rng-validations.strings
+-rw-r--r--  1 root admin 660 Nov 12 01:52 publication-related-products.strings
+-rw-r--r--  1 root admin 59 Nov 12 01:52 publication-primary.strings
+-rw-r--r--  1 root admin 13658 Nov 12 01:52 publication-main-subject-types.strings
+-rw-r--r--  1 root admin 4083 Nov 12 01:52 publication-languages.strings
+-rw-r--r--  1 root admin 7845 Nov 12 01:52 publication-input-help.strings
+-rw-r--r--  1 root admin 543 Mar 15 23:56 publication-free-rng-validations.strings
+-rw-r--r--  1 root admin 63 Nov 12 01:52 publication-explicit-content.strings
+-rw-r--r--  1 root admin 63 Nov 12 01:52 publication-created-with-ibooks-author.strings
+-rw-r--r--  1 root admin 4618 Nov 12 01:52 publication-contributor-roles.strings
+-rw-r--r--  1 root admin 76 Nov 12 01:52 publication-book-types.strings
+-rw-r--r--  1 root admin 1199 Mar 15 23:56 publication-available-territories.strings
+-rw-r--r--  1 root admin 93 Nov 12 01:52 publication-applies-to-version.strings
+-rw-r--r--  1 root admin 60 Nov 12 01:52 music-tone-types.strings
+-rw-r--r--  1 root admin 110 Nov 12 01:52 music-territory-groups.strings
+-rw-r--r--  1 root admin 148 Nov 12 01:52 music-search-categories.strings
+-rw-r--r--  1 root admin 1781 Mar 15 23:56 music-rng-validations.strings
+-rw-r--r--  1 root admin 719 Mar 15 23:56 music-ringtone-genres.strings
+-rw-r--r--  1 root admin 2722 Mar 15 23:56 music-ringtone-available-territories.strings
+-rw-r--r--  1 root admin 697 Nov 12 01:52 music-locales.strings
+-rw-r--r--  1 root admin 1482 Nov 12 01:52 music-languages.strings
+-rw-r--r--  1 root admin 14140 Mar 15 23:56 music-genres.strings
+-rw-r--r--  1 root admin 95 Nov 12 01:52 music-explicit-content-types.strings
+-rw-r--r--  1 root admin 2762 Mar 15 23:56 music-available-territories.strings
+-rw-r--r--  1 root admin 98 Nov 12 01:52 music-audio-tone-genres.strings
+-rw-r--r--  1 root admin 2896 Mar 15 23:56 music-audio-tone-available-territories.strings
+-rw-r--r--  1 root admin 1205 Nov 12 01:52 music-artist-roles.strings
+-rw-r--r--  1 root admin 12238 Nov  3 20:38 TerritoryGroupInformation.nib
+-rw-r--r--  1 root admin 12088 Nov  3 20:38 TerritoryGroupChooser.nib
+-rw-r--r--  1 root admin 24318 Nov  3 20:38 StartupWizard.nib
+-rw-r--r--  1 root admin 128338 Mar 15 20:44 SoftwareInAppPurchaseEditor.nib
+-rw-r--r--  1 root admin 1870 Mar 15 23:56 Server.strings
+-rw-r--r--  1 root admin 20789 Mar 15 20:44 SearchResults.nib
+-rw-r--r--  1 root admin 9079 Nov  3 20:38 PriceTierDisplay.nib
+-rw-r--r--  1 root admin 26923 Nov  3 20:38 Preferences.nib
+-rw-r--r--  1 root admin 9842 Nov  3 20:38 OperationResultPanel.nib
+-rw-r--r--  1 root admin 4112 Mar 15 20:44 MetadataLookupSpinner.nib
+-rw-r--r--  1 root admin 829 Nov 12 01:52 Menu.strings
+-rw-r--r--  1 root admin 27051 Mar 15 20:44 MassPricing.nib
+-rw-r--r--  1 root admin 34235 Mar 15 20:44 MainMenu.nib
+-rw-r--r--  1 root admin 6734 Nov  3 20:38 MZLiveTransporterLog.nib
+-rw-r--r--  1 root admin 59 Nov 12 01:52 MZDocument.strings
+-rw-r--r--  1 root admin 8303 Mar 15 20:44 LookupMetadata.nib
+-rw-r--r--  1 root admin 52947 Mar 15 23:56 Localizable.strings
+-rw-r--r--  1 root admin 10854 Nov  3 20:38 LicenseAgreement.nib
+-rw-r--r--  1 root admin 27322 Aug 11 19:20 License.rtf
+-rw-r--r--  1 root admin 12321 Nov  3 20:38 DeliveryDetails.nib
+-rw-r--r--  1 root admin 11257 Nov  3 20:38 ContentProviderUploadStatus.nib
+-rw-r--r--  1 root admin 26919 Mar 15 20:44 ActivitySelector.nib
+-rw-r--r--  1 root admin 656 Mar 15 23:56 Activities.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/zh_CN.lproj :
+Total : 1400
+-rw-r--r--  1 root admin 361 Nov 12 01:52 software-months.strings
+-rw-r--r--  1 root admin 802 Nov 12 01:52 software-languages.strings
+-rw-r--r--  1 root admin 194 Nov 12 01:52 software-iap-types.strings
+-rw-r--r--  1 root admin 272 Nov 12 01:52 software-iap-rng-validations.strings
+-rw-r--r--  1 root admin 2525 Nov 12 01:52 software-iap-mac-tier-names.strings
+-rw-r--r--  1 root admin 2525 Nov 12 01:52 software-iap-ios-tier-names.strings
+-rw-r--r--  1 root admin 104 Nov 12 01:52 publication-types.strings
+-rw-r--r--  1 root admin 195 Nov 12 01:52 publication-territory-groups.strings
+-rw-r--r--  1 root admin 4103 Nov 12 01:52 publication-target-audience-schemes.strings
+-rw-r--r--  1 root admin 183 Nov 12 01:52 publication-subject-schemes.strings
+-rw-r--r--  1 root admin 159 Nov 12 01:52 publication-search-categories.strings
+-rw-r--r--  1 root admin 1737 Nov 12 01:52 publication-rng-validations.strings
+-rw-r--r--  1 root admin 654 Nov 12 01:52 publication-related-products.strings
+-rw-r--r--  1 root admin 59 Nov 12 01:52 publication-primary.strings
+-rw-r--r--  1 root admin 13939 Nov 12 01:52 publication-main-subject-types.strings
+-rw-r--r--  1 root admin 4115 Nov 12 01:52 publication-languages.strings
+-rw-r--r--  1 root admin 7733 Nov 12 01:52 publication-input-help.strings
+-rw-r--r--  1 root admin 541 Nov 12 01:52 publication-free-rng-validations.strings
+-rw-r--r--  1 root admin 63 Nov 12 01:52 publication-explicit-content.strings
+-rw-r--r--  1 root admin 63 Nov 12 01:52 publication-created-with-ibooks-author.strings
+-rw-r--r--  1 root admin 4612 Nov 12 01:52 publication-contributor-roles.strings
+-rw-r--r--  1 root admin 74 Nov 12 01:52 publication-book-types.strings
+-rw-r--r--  1 root admin 1201 Nov 12 01:52 publication-available-territories.strings
+-rw-r--r--  1 root admin 97 Nov 12 01:52 publication-applies-to-version.strings
+-rw-r--r--  1 root admin 60 Nov 12 01:52 music-tone-types.strings
+-rw-r--r--  1 root admin 110 Nov 12 01:52 music-territory-groups.strings
+-rw-r--r--  1 root admin 150 Nov 12 01:52 music-search-categories.strings
+-rw-r--r--  1 root admin 1733 Mar 15 23:56 music-rng-validations.strings
+-rw-r--r--  1 root admin 770 Mar 15 23:56 music-ringtone-genres.strings
+-rw-r--r--  1 root admin 2802 Nov 12 01:52 music-ringtone-available-territories.strings
+-rw-r--r--  1 root admin 701 Nov 12 01:52 music-locales.strings
+-rw-r--r--  1 root admin 1484 Nov 12 01:52 music-languages.strings
+-rw-r--r--  1 root admin 14267 Mar 15 23:56 music-genres.strings
+-rw-r--r--  1 root admin 87 Nov 12 01:52 music-explicit-content-types.strings
+-rw-r--r--  1 root admin 2842 Nov 12 01:52 music-available-territories.strings
+-rw-r--r--  1 root admin 102 Nov 12 01:52 music-audio-tone-genres.strings
+-rw-r--r--  1 root admin 2976 Nov 12 01:52 music-audio-tone-available-territories.strings
+-rw-r--r--  1 root admin 1219 Mar 15 23:56 music-artist-roles.strings
+-rw-r--r--  1 root admin 12259 Nov  3 20:32 TerritoryGroupInformation.nib
+-rw-r--r--  1 root admin 12069 Nov  3 20:32 TerritoryGroupChooser.nib
+-rw-r--r--  1 root admin 24308 Nov  3 20:32 StartupWizard.nib
+-rw-r--r--  1 root admin 129363 Mar 15 21:09 SoftwareInAppPurchaseEditor.nib
+-rw-r--r--  1 root admin 1868 Nov 12 01:52 Server.strings
+-rw-r--r--  1 root admin 20770 Nov  3 20:32 SearchResults.nib
+-rw-r--r--  1 root admin 9080 Nov  3 20:32 PriceTierDisplay.nib
+-rw-r--r--  1 root admin 26946 Nov  3 20:32 Preferences.nib
+-rw-r--r--  1 root admin 9843 Nov  3 20:32 OperationResultPanel.nib
+-rw-r--r--  1 root admin 4110 Nov  3 20:32 MetadataLookupSpinner.nib
+-rw-r--r--  1 root admin 801 Mar 15 23:56 Menu.strings
+-rw-r--r--  1 root admin 27085 Nov  3 20:32 MassPricing.nib
+-rw-r--r--  1 root admin 34179 Nov  3 20:32 MainMenu.nib
+-rw-r--r--  1 root admin 6756 Nov  3 20:32 MZLiveTransporterLog.nib
+-rw-r--r--  1 root admin 59 Nov 12 01:52 MZDocument.strings
+-rw-r--r--  1 root admin 8360 Nov  3 20:32 LookupMetadata.nib
+-rw-r--r--  1 root admin 53229 Mar 15 23:56 Localizable.strings
+-rw-r--r--  1 root admin 10854 Nov  3 20:32 LicenseAgreement.nib
+-rw-r--r--  1 root admin 27124 Aug 11 19:20 License.rtf
+-rw-r--r--  1 root admin 12334 Nov  3 20:32 DeliveryDetails.nib
+-rw-r--r--  1 root admin 11260 Nov  3 20:32 ContentProviderUploadStatus.nib
+-rw-r--r--  1 root admin 26915 Nov  3 20:32 ActivitySelector.nib
+-rw-r--r--  1 root admin 646 Nov 12 01:52 Activities.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/nl.lproj :
+Total : 1424
+-rw-r--r--  1 root admin 258 Mar 15 23:56 software-months.strings
+-rw-r--r--  1 root admin 895 Nov 12 01:52 software-languages.strings
+-rw-r--r--  1 root admin 272 Nov 12 01:52 software-iap-types.strings
+-rw-r--r--  1 root admin 336 Nov 12 01:52 software-iap-rng-validations.strings
+-rw-r--r--  1 root admin 2814 Nov 12 01:52 software-iap-mac-tier-names.strings
+-rw-r--r--  1 root admin 2814 Nov 12 01:52 software-iap-ios-tier-names.strings
+-rw-r--r--  1 root admin 125 Nov 12 01:52 publication-types.strings
+-rw-r--r--  1 root admin 269 Nov 12 01:52 publication-territory-groups.strings
+-rw-r--r--  1 root admin 4493 Nov 12 01:52 publication-target-audience-schemes.strings
+-rw-r--r--  1 root admin 204 Nov 12 01:52 publication-subject-schemes.strings
+-rw-r--r--  1 root admin 174 Nov 12 01:52 publication-search-categories.strings
+-rw-r--r--  1 root admin 2122 Nov 12 01:52 publication-rng-validations.strings
+-rw-r--r--  1 root admin 826 Nov 12 01:52 publication-related-products.strings
+-rw-r--r--  1 root admin 62 Nov 12 01:52 publication-primary.strings
+-rw-r--r--  1 root admin 15865 Nov 12 01:52 publication-main-subject-types.strings
+-rw-r--r--  1 root admin 4364 Nov 12 01:52 publication-languages.strings
+-rw-r--r--  1 root admin 9690 Nov 12 01:52 publication-input-help.strings
+-rw-r--r--  1 root admin 654 Nov 12 01:52 publication-free-rng-validations.strings
+-rw-r--r--  1 root admin 64 Nov 12 01:52 publication-explicit-content.strings
+-rw-r--r--  1 root admin 64 Nov 12 01:52 publication-created-with-ibooks-author.strings
+-rw-r--r--  1 root admin 6078 Nov 12 01:52 publication-contributor-roles.strings
+-rw-r--r--  1 root admin 80 Nov 12 01:52 publication-book-types.strings
+-rw-r--r--  1 root admin 1385 Nov 12 01:52 publication-available-territories.strings
+-rw-r--r--  1 root admin 114 Nov 12 01:52 publication-applies-to-version.strings
+-rw-r--r--  1 root admin 63 Nov 12 01:52 music-tone-types.strings
+-rw-r--r--  1 root admin 128 Nov 12 01:52 music-territory-groups.strings
+-rw-r--r--  1 root admin 157 Nov 12 01:52 music-search-categories.strings
+-rw-r--r--  1 root admin 2041 Nov 12 01:52 music-rng-validations.strings
+-rw-r--r--  1 root admin 774 Nov 12 01:52 music-ringtone-genres.strings
+-rw-r--r--  1 root admin 3211 Nov 12 01:52 music-ringtone-available-territories.strings
+-rw-r--r--  1 root admin 826 Nov 12 01:52 music-locales.strings
+-rw-r--r--  1 root admin 1528 Nov 12 01:52 music-languages.strings
+-rw-r--r--  1 root admin 15742 Nov 12 01:52 music-genres.strings
+-rw-r--r--  1 root admin 95 Nov 12 01:52 music-explicit-content-types.strings
+-rw-r--r--  1 root admin 3257 Nov 12 01:52 music-available-territories.strings
+-rw-r--r--  1 root admin 118 Nov 12 01:52 music-audio-tone-genres.strings
+-rw-r--r--  1 root admin 3418 Nov 12 01:52 music-audio-tone-available-territories.strings
+-rw-r--r--  1 root admin 1283 Nov 12 01:52 music-artist-roles.strings
+-rw-r--r--  1 root admin 12349 Nov  3 20:15 TerritoryGroupInformation.nib
+-rw-r--r--  1 root admin 12161 Nov  3 20:15 TerritoryGroupChooser.nib
+-rw-r--r--  1 root admin 24441 Nov  3 20:15 StartupWizard.nib
+-rw-r--r--  1 root admin 130911 Mar 15 21:09 SoftwareInAppPurchaseEditor.nib
+-rw-r--r--  1 root admin 2184 Nov 12 01:52 Server.strings
+-rw-r--r--  1 root admin 20793 Nov  3 20:15 SearchResults.nib
+-rw-r--r--  1 root admin 9132 Nov  3 20:15 PriceTierDisplay.nib
+-rw-r--r--  1 root admin 27311 Nov  3 20:15 Preferences.nib
+-rw-r--r--  1 root admin 9866 Nov  3 20:15 OperationResultPanel.nib
+-rw-r--r--  1 root admin 4123 Nov  3 20:15 MetadataLookupSpinner.nib
+-rw-r--r--  1 root admin 903 Nov 12 01:52 Menu.strings
+-rw-r--r--  1 root admin 27616 Nov  3 20:15 MassPricing.nib
+-rw-r--r--  1 root admin 34771 Nov  3 20:15 MainMenu.nib
+-rw-r--r--  1 root admin 6744 Nov  3 20:15 MZLiveTransporterLog.nib
+-rw-r--r--  1 root admin 62 Nov 12 01:52 MZDocument.strings
+-rw-r--r--  1 root admin 8360 Nov  3 20:15 LookupMetadata.nib
+-rw-r--r--  1 root admin 65617 Mar 15 23:55 Localizable.strings
+-rw-r--r--  1 root admin 10873 Nov  3 20:15 LicenseAgreement.nib
+-rw-r--r--  1 root admin 14349 Aug 11 19:20 License.rtf
+-rw-r--r--  1 root admin 12418 Nov  3 20:15 DeliveryDetails.nib
+-rw-r--r--  1 root admin 11246 Nov  3 20:15 ContentProviderUploadStatus.nib
+-rw-r--r--  1 root admin 26953 Mar 15 21:09 ActivitySelector.nib
+-rw-r--r--  1 root admin 777 Nov 12 01:52 Activities.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/ko.lproj :
+Total : 1448
+-rw-r--r--  1 root admin 312 Nov 12 01:52 software-months.strings
+-rw-r--r--  1 root admin 902 Nov 12 01:52 software-languages.strings
+-rw-r--r--  1 root admin 206 Nov 12 01:52 software-iap-types.strings
+-rw-r--r--  1 root admin 280 Nov 12 01:52 software-iap-rng-validations.strings
+-rw-r--r--  1 root admin 2171 Nov 12 01:52 software-iap-mac-tier-names.strings
+-rw-r--r--  1 root admin 2171 Nov 12 01:52 software-iap-ios-tier-names.strings
+-rw-r--r--  1 root admin 114 Nov 12 01:52 publication-types.strings
+-rw-r--r--  1 root admin 225 Nov 12 01:52 publication-territory-groups.strings
+-rw-r--r--  1 root admin 4233 Nov 12 01:52 publication-target-audience-schemes.strings
+-rw-r--r--  1 root admin 201 Nov 12 01:52 publication-subject-schemes.strings
+-rw-r--r--  1 root admin 161 Nov 12 01:52 publication-search-categories.strings
+-rw-r--r--  1 root admin 1939 Nov 12 01:52 publication-rng-validations.strings
+-rw-r--r--  1 root admin 736 Nov 12 01:52 publication-related-products.strings
+-rw-r--r--  1 root admin 59 Nov 12 01:52 publication-primary.strings
+-rw-r--r--  1 root admin 15016 Nov 12 01:52 publication-main-subject-types.strings
+-rw-r--r--  1 root admin 4393 Nov 12 01:52 publication-languages.strings
+-rw-r--r--  1 root admin 9181 Nov 12 01:52 publication-input-help.strings
+-rw-r--r--  1 root admin 587 Nov 12 01:52 publication-free-rng-validations.strings
+-rw-r--r--  1 root admin 67 Nov 12 01:52 publication-explicit-content.strings
+-rw-r--r--  1 root admin 67 Nov 12 01:52 publication-created-with-ibooks-author.strings
+-rw-r--r--  1 root admin 5186 Nov 12 01:52 publication-contributor-roles.strings
+-rw-r--r--  1 root admin 72 Nov 12 01:52 publication-book-types.strings
+-rw-r--r--  1 root admin 1259 Nov 12 01:52 publication-available-territories.strings
+-rw-r--r--  1 root admin 99 Nov 12 01:52 publication-applies-to-version.strings
+-rw-r--r--  1 root admin 62 Nov 12 01:52 music-tone-types.strings
+-rw-r--r--  1 root admin 120 Nov 12 01:52 music-territory-groups.strings
+-rw-r--r--  1 root admin 156 Nov 12 01:52 music-search-categories.strings
+-rw-r--r--  1 root admin 1877 Nov 12 01:52 music-rng-validations.strings
+-rw-r--r--  1 root admin 775 Nov 12 01:52 music-ringtone-genres.strings
+-rw-r--r--  1 root admin 2906 Nov 12 01:52 music-ringtone-available-territories.strings
+-rw-r--r--  1 root admin 757 Nov 12 01:52 music-locales.strings
+-rw-r--r--  1 root admin 1586 Nov 12 01:52 music-languages.strings
+-rw-r--r--  1 root admin 15837 Nov 12 01:52 music-genres.strings
+-rw-r--r--  1 root admin 95 Nov 12 01:52 music-explicit-content-types.strings
+-rw-r--r--  1 root admin 2948 Nov 12 01:52 music-available-territories.strings
+-rw-r--r--  1 root admin 106 Nov 12 01:52 music-audio-tone-genres.strings
+-rw-r--r--  1 root admin 3096 Nov 12 01:52 music-audio-tone-available-territories.strings
+-rw-r--r--  1 root admin 1252 Nov 12 01:52 music-artist-roles.strings
+-rw-r--r--  1 root admin 12297 Nov  3 20:26 TerritoryGroupInformation.nib
+-rw-r--r--  1 root admin 12144 Nov  3 20:26 TerritoryGroupChooser.nib
+-rw-r--r--  1 root admin 24439 Nov  3 20:26 StartupWizard.nib
+-rw-r--r--  1 root admin 130490 Mar 15 21:08 SoftwareInAppPurchaseEditor.nib
+-rw-r--r--  1 root admin 2204 Nov 12 01:52 Server.strings
+-rw-r--r--  1 root admin 20794 Nov  3 20:26 SearchResults.nib
+-rw-r--r--  1 root admin 9079 Nov  3 20:26 PriceTierDisplay.nib
+-rw-r--r--  1 root admin 27241 Nov  3 20:26 Preferences.nib
+-rw-r--r--  1 root admin 9846 Nov  3 20:26 OperationResultPanel.nib
+-rw-r--r--  1 root admin 4120 Nov  3 20:26 MetadataLookupSpinner.nib
+-rw-r--r--  1 root admin 935 Nov 12 01:52 Menu.strings
+-rw-r--r--  1 root admin 27405 Mar 15 21:08 MassPricing.nib
+-rw-r--r--  1 root admin 34638 Mar 15 21:08 MainMenu.nib
+-rw-r--r--  1 root admin 6656 Mar 15 21:08 MZLiveTransporterLog.nib
+-rw-r--r--  1 root admin 61 Nov 12 01:52 MZDocument.strings
+-rw-r--r--  1 root admin 8373 Nov  3 20:26 LookupMetadata.nib
+-rw-r--r--  1 root admin 62828 Mar 15 23:55 Localizable.strings
+-rw-r--r--  1 root admin 10862 Nov  3 20:26 LicenseAgreement.nib
+-rw-r--r--  1 root admin 31974 Aug 11 19:20 License.rtf
+-rw-r--r--  1 root admin 12362 Nov  3 20:26 DeliveryDetails.nib
+-rw-r--r--  1 root admin 11264 Nov  3 20:26 ContentProviderUploadStatus.nib
+-rw-r--r--  1 root admin 26967 Mar 15 21:08 ActivitySelector.nib
+-rw-r--r--  1 root admin 746 Nov 12 01:52 Activities.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/ja.lproj :
+Total : 1464
+-rw-r--r--  1 root admin 361 Nov 12 01:52 software-months.strings
+-rw-r--r--  1 root admin 948 Nov 12 01:52 software-languages.strings
+-rw-r--r--  1 root admin 204 Nov 12 01:52 software-iap-types.strings
+-rw-r--r--  1 root admin 278 Nov 12 01:52 software-iap-rng-validations.strings
+-rw-r--r--  1 root admin 2713 Nov 12 01:52 software-iap-mac-tier-names.strings
+-rw-r--r--  1 root admin 2713 Nov 12 01:52 software-iap-ios-tier-names.strings
+-rw-r--r--  1 root admin 120 Nov 12 01:52 publication-types.strings
+-rw-r--r--  1 root admin 203 Nov 12 01:52 publication-territory-groups.strings
+-rw-r--r--  1 root admin 4046 Nov 12 01:52 publication-target-audience-schemes.strings
+-rw-r--r--  1 root admin 195 Nov 12 01:52 publication-subject-schemes.strings
+-rw-r--r--  1 root admin 171 Nov 12 01:52 publication-search-categories.strings
+-rw-r--r--  1 root admin 1933 Nov 12 01:52 publication-rng-validations.strings
+-rw-r--r--  1 root admin 798 Nov 12 01:52 publication-related-products.strings
+-rw-r--r--  1 root admin 65 Nov 12 01:52 publication-primary.strings
+-rw-r--r--  1 root admin 15328 Nov 12 01:52 publication-main-subject-types.strings
+-rw-r--r--  1 root admin 4593 Nov 12 01:52 publication-languages.strings
+-rw-r--r--  1 root admin 8825 Mar 15 23:55 publication-input-help.strings
+-rw-r--r--  1 root admin 619 Nov 12 01:52 publication-free-rng-validations.strings
+-rw-r--r--  1 root admin 69 Nov 12 01:52 publication-explicit-content.strings
+-rw-r--r--  1 root admin 69 Nov 12 01:52 publication-created-with-ibooks-author.strings
+-rw-r--r--  1 root admin 5138 Nov 12 01:52 publication-contributor-roles.strings
+-rw-r--r--  1 root admin 86 Nov 12 01:52 publication-book-types.strings
+-rw-r--r--  1 root admin 1365 Nov 12 01:52 publication-available-territories.strings
+-rw-r--r--  1 root admin 95 Nov 12 01:52 publication-applies-to-version.strings
+-rw-r--r--  1 root admin 62 Nov 12 01:52 music-tone-types.strings
+-rw-r--r--  1 root admin 126 Nov 12 01:52 music-territory-groups.strings
+-rw-r--r--  1 root admin 166 Nov 12 01:52 music-search-categories.strings
+-rw-r--r--  1 root admin 2131 Nov 12 01:52 music-rng-validations.strings
+-rw-r--r--  1 root admin 871 Nov 12 01:52 music-ringtone-genres.strings
+-rw-r--r--  1 root admin 3114 Nov 12 01:52 music-ringtone-available-territories.strings
+-rw-r--r--  1 root admin 823 Nov 12 01:52 music-locales.strings
+-rw-r--r--  1 root admin 1678 Nov 12 01:52 music-languages.strings
+-rw-r--r--  1 root admin 16799 Nov 12 01:52 music-genres.strings
+-rw-r--r--  1 root admin 119 Nov 12 01:52 music-explicit-content-types.strings
+-rw-r--r--  1 root admin 3162 Nov 12 01:52 music-available-territories.strings
+-rw-r--r--  1 root admin 126 Nov 12 01:52 music-audio-tone-genres.strings
+-rw-r--r--  1 root admin 3314 Nov 12 01:52 music-audio-tone-available-territories.strings
+-rw-r--r--  1 root admin 1362 Nov 12 01:52 music-artist-roles.strings
+-rw-r--r--  1 root admin 12294 Nov  3 20:15 TerritoryGroupInformation.nib
+-rw-r--r--  1 root admin 12138 Nov  3 20:15 TerritoryGroupChooser.nib
+-rw-r--r--  1 root admin 24528 Nov  3 20:15 StartupWizard.nib
+-rw-r--r--  1 root admin 130516 Mar 15 21:09 SoftwareInAppPurchaseEditor.nib
+-rw-r--r--  1 root admin 2078 Nov 12 01:52 Server.strings
+-rw-r--r--  1 root admin 20786 Nov  3 20:15 SearchResults.nib
+-rw-r--r--  1 root admin 9079 Nov  3 20:15 PriceTierDisplay.nib
+-rw-r--r--  1 root admin 27175 Nov  3 20:15 Preferences.nib
+-rw-r--r--  1 root admin 9846 Nov  3 20:15 OperationResultPanel.nib
+-rw-r--r--  1 root admin 4125 Nov  3 20:15 MetadataLookupSpinner.nib
+-rw-r--r--  1 root admin 971 Nov 12 01:52 Menu.strings
+-rw-r--r--  1 root admin 27326 Mar 15 21:09 MassPricing.nib
+-rw-r--r--  1 root admin 34841 Nov  3 20:15 MainMenu.nib
+-rw-r--r--  1 root admin 6753 Nov  3 20:15 MZLiveTransporterLog.nib
+-rw-r--r--  1 root admin 65 Nov 12 01:52 MZDocument.strings
+-rw-r--r--  1 root admin 8536 Nov  3 20:15 LookupMetadata.nib
+-rw-r--r--  1 root admin 61884 Mar 15 23:55 Localizable.strings
+-rw-r--r--  1 root admin 10874 Nov  3 20:15 LicenseAgreement.nib
+-rw-r--r--  1 root admin 38315 Aug 19 03:48 License.rtf
+-rw-r--r--  1 root admin 13328 Nov  3 20:15 DeliveryDetails.nib
+-rw-r--r--  1 root admin 11261 Nov  3 20:15 ContentProviderUploadStatus.nib
+-rw-r--r--  1 root admin 27055 Nov  3 20:15 ActivitySelector.nib
+-rw-r--r--  1 root admin 770 Nov 12 01:52 Activities.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/it.lproj :
+Total : 1472
+-rw-r--r--  1 root admin 258 Nov 12 01:52 software-months.strings
+-rw-r--r--  1 root admin 926 Mar 15 23:55 software-languages.strings
+-rw-r--r--  1 root admin 260 Mar 15 23:55 software-iap-types.strings
+-rw-r--r--  1 root admin 353 Nov 12 01:52 software-iap-rng-validations.strings
+-rw-r--r--  1 root admin 2613 Nov 12 01:52 software-iap-mac-tier-names.strings
+-rw-r--r--  1 root admin 2613 Nov 12 01:52 software-iap-ios-tier-names.strings
+-rw-r--r--  1 root admin 125 Nov 12 01:52 publication-types.strings
+-rw-r--r--  1 root admin 214 Nov 12 01:52 publication-territory-groups.strings
+-rw-r--r--  1 root admin 4603 Nov 12 01:52 publication-target-audience-schemes.strings
+-rw-r--r--  1 root admin 207 Nov 12 01:52 publication-subject-schemes.strings
+-rw-r--r--  1 root admin 168 Nov 12 01:52 publication-search-categories.strings
+-rw-r--r--  1 root admin 2260 Nov 12 01:52 publication-rng-validations.strings
+-rw-r--r--  1 root admin 900 Nov 12 01:52 publication-related-products.strings
+-rw-r--r--  1 root admin 65 Nov 12 01:52 publication-primary.strings
+-rw-r--r--  1 root admin 16769 Nov 12 01:52 publication-main-subject-types.strings
+-rw-r--r--  1 root admin 4343 Nov 12 01:52 publication-languages.strings
+-rw-r--r--  1 root admin 12270 Nov 12 01:52 publication-input-help.strings
+-rw-r--r--  1 root admin 693 Nov 12 01:52 publication-free-rng-validations.strings
+-rw-r--r--  1 root admin 65 Nov 12 01:51 publication-explicit-content.strings
+-rw-r--r--  1 root admin 65 Nov 12 01:51 publication-created-with-ibooks-author.strings
+-rw-r--r--  1 root admin 6869 Nov 12 01:51 publication-contributor-roles.strings
+-rw-r--r--  1 root admin 85 Nov 12 01:51 publication-book-types.strings
+-rw-r--r--  1 root admin 1304 Nov 12 01:51 publication-available-territories.strings
+-rw-r--r--  1 root admin 120 Nov 12 01:51 publication-applies-to-version.strings
+-rw-r--r--  1 root admin 64 Nov 12 01:51 music-tone-types.strings
+-rw-r--r--  1 root admin 130 Nov 12 01:51 music-territory-groups.strings
+-rw-r--r--  1 root admin 161 Nov 12 01:51 music-search-categories.strings
+-rw-r--r--  1 root admin 2176 Nov 12 01:51 music-rng-validations.strings
+-rw-r--r--  1 root admin 814 Nov 12 01:51 music-ringtone-genres.strings
+-rw-r--r--  1 root admin 3050 Nov 12 01:51 music-ringtone-available-territories.strings
+-rw-r--r--  1 root admin 804 Nov 12 01:51 music-locales.strings
+-rw-r--r--  1 root admin 1512 Nov 12 01:51 music-languages.strings
+-rw-r--r--  1 root admin 16403 Nov 12 01:51 music-genres.strings
+-rw-r--r--  1 root admin 111 Nov 12 01:51 music-explicit-content-types.strings
+-rw-r--r--  1 root admin 3095 Nov 12 01:51 music-available-territories.strings
+-rw-r--r--  1 root admin 113 Nov 12 01:51 music-audio-tone-genres.strings
+-rw-r--r--  1 root admin 3228 Nov 12 01:51 music-audio-tone-available-territories.strings
+-rw-r--r--  1 root admin 1350 Nov 12 01:51 music-artist-roles.strings
+-rw-r--r--  1 root admin 12332 Nov  3 20:01 TerritoryGroupInformation.nib
+-rw-r--r--  1 root admin 12171 Nov  3 20:01 TerritoryGroupChooser.nib
+-rw-r--r--  1 root admin 24458 Nov  3 20:01 StartupWizard.nib
+-rw-r--r--  1 root admin 134890 Mar 15 20:44 SoftwareInAppPurchaseEditor.nib
+-rw-r--r--  1 root admin 2771 Nov 12 01:51 Server.strings
+-rw-r--r--  1 root admin 20794 Nov  3 20:01 SearchResults.nib
+-rw-r--r--  1 root admin 9137 Nov  3 20:01 PriceTierDisplay.nib
+-rw-r--r--  1 root admin 27518 Nov  3 20:01 Preferences.nib
+-rw-r--r--  1 root admin 9888 Nov  3 20:01 OperationResultPanel.nib
+-rw-r--r--  1 root admin 4119 Nov  3 20:01 MetadataLookupSpinner.nib
+-rw-r--r--  1 root admin 933 Nov 12 01:51 Menu.strings
+-rw-r--r--  1 root admin 28192 Mar 15 20:44 MassPricing.nib
+-rw-r--r--  1 root admin 34964 Nov  3 20:01 MainMenu.nib
+-rw-r--r--  1 root admin 6742 Nov  3 20:01 MZLiveTransporterLog.nib
+-rw-r--r--  1 root admin 63 Nov 12 01:51 MZDocument.strings
+-rw-r--r--  1 root admin 8570 Nov  3 20:01 LookupMetadata.nib
+-rw-r--r--  1 root admin 79687 Mar 15 23:55 Localizable.strings
+-rw-r--r--  1 root admin 10852 Nov  3 20:01 LicenseAgreement.nib
+-rw-r--r--  1 root admin 13974 Aug 11 19:20 License.rtf
+-rw-r--r--  1 root admin 12364 Nov  3 20:01 DeliveryDetails.nib
+-rw-r--r--  1 root admin 11248 Nov  3 20:01 ContentProviderUploadStatus.nib
+-rw-r--r--  1 root admin 27045 Mar 15 20:44 ActivitySelector.nib
+-rw-r--r--  1 root admin 762 Nov 12 01:51 Activities.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/fr.lproj :
+Total : 1552
+-rw-r--r--  1 root admin 282 Nov 12 01:51 software-months.strings
+-rw-r--r--  1 root admin 1051 Nov 12 01:51 software-languages.strings
+-rw-r--r--  1 root admin 263 Nov 12 01:51 software-iap-types.strings
+-rw-r--r--  1 root admin 377 Nov 12 01:51 software-iap-rng-validations.strings
+-rw-r--r--  1 root admin 3392 Nov 12 01:51 software-iap-mac-tier-names.strings
+-rw-r--r--  1 root admin 3392 Nov 12 01:51 software-iap-ios-tier-names.strings
+-rw-r--r--  1 root admin 169 Nov 12 01:51 publication-types.strings
+-rw-r--r--  1 root admin 265 Nov 12 01:51 publication-territory-groups.strings
+-rw-r--r--  1 root admin 5301 Nov 12 01:51 publication-target-audience-schemes.strings
+-rw-r--r--  1 root admin 273 Nov 12 01:51 publication-subject-schemes.strings
+-rw-r--r--  1 root admin 199 Nov 12 01:51 publication-search-categories.strings
+-rw-r--r--  1 root admin 2659 Nov 12 01:51 publication-rng-validations.strings
+-rw-r--r--  1 root admin 1151 Nov 12 01:51 publication-related-products.strings
+-rw-r--r--  1 root admin 65 Nov 12 01:51 publication-primary.strings
+-rw-r--r--  1 root admin 19731 Nov 12 01:51 publication-main-subject-types.strings
+-rw-r--r--  1 root admin 4862 Nov 12 01:51 publication-languages.strings
+-rw-r--r--  1 root admin 13824 Nov 12 01:51 publication-input-help.strings
+-rw-r--r--  1 root admin 906 Nov 12 01:51 publication-free-rng-validations.strings
+-rw-r--r--  1 root admin 65 Nov 12 01:51 publication-explicit-content.strings
+-rw-r--r--  1 root admin 65 Nov 12 01:51 publication-created-with-ibooks-author.strings
+-rw-r--r--  1 root admin 8286 Nov 12 01:51 publication-contributor-roles.strings
+-rw-r--r--  1 root admin 77 Nov 12 01:51 publication-book-types.strings
+-rw-r--r--  1 root admin 1410 Nov 12 01:51 publication-available-territories.strings
+-rw-r--r--  1 root admin 126 Nov 12 01:51 publication-applies-to-version.strings
+-rw-r--r--  1 root admin 64 Nov 12 01:51 music-tone-types.strings
+-rw-r--r--  1 root admin 164 Nov 12 01:51 music-territory-groups.strings
+-rw-r--r--  1 root admin 207 Nov 12 01:51 music-search-categories.strings
+-rw-r--r--  1 root admin 2707 Nov 12 01:51 music-rng-validations.strings
+-rw-r--r--  1 root admin 829 Nov 12 01:51 music-ringtone-genres.strings
+-rw-r--r--  1 root admin 3505 Nov 12 01:51 music-ringtone-available-territories.strings
+-rw-r--r--  1 root admin 912 Nov 12 01:51 music-locales.strings
+-rw-r--r--  1 root admin 1638 Nov 12 01:51 music-languages.strings
+-rw-r--r--  1 root admin 18596 Nov 12 01:51 music-genres.strings
+-rw-r--r--  1 root admin 108 Nov 12 01:51 music-explicit-content-types.strings
+-rw-r--r--  1 root admin 3551 Nov 12 01:51 music-available-territories.strings
+-rw-r--r--  1 root admin 115 Nov 12 01:51 music-audio-tone-genres.strings
+-rw-r--r--  1 root admin 3690 Nov 12 01:51 music-audio-tone-available-territories.strings
+-rw-r--r--  1 root admin 1374 Nov 12 01:51 music-artist-roles.strings
+-rw-r--r--  1 root admin 12445 Nov  3 20:32 TerritoryGroupInformation.nib
+-rw-r--r--  1 root admin 12354 Nov  3 20:32 TerritoryGroupChooser.nib
+-rw-r--r--  1 root admin 24881 Nov  3 20:32 StartupWizard.nib
+-rw-r--r--  1 root admin 137338 Mar 15 20:45 SoftwareInAppPurchaseEditor.nib
+-rw-r--r--  1 root admin 3268 Nov 12 01:51 Server.strings
+-rw-r--r--  1 root admin 20863 Nov  3 20:32 SearchResults.nib
+-rw-r--r--  1 root admin 9127 Nov  3 20:32 PriceTierDisplay.nib
+-rw-r--r--  1 root admin 28201 Nov  3 20:32 Preferences.nib
+-rw-r--r--  1 root admin 9875 Nov  3 20:32 OperationResultPanel.nib
+-rw-r--r--  1 root admin 4156 Nov  3 20:32 MetadataLookupSpinner.nib
+-rw-r--r--  1 root admin 1322 Nov 12 01:51 Menu.strings
+-rw-r--r--  1 root admin 28677 Nov  3 20:32 MassPricing.nib
+-rw-r--r--  1 root admin 36069 Nov  3 20:32 MainMenu.nib
+-rw-r--r--  1 root admin 6759 Nov  3 20:32 MZLiveTransporterLog.nib
+-rw-r--r--  1 root admin 69 Nov 12 01:51 MZDocument.strings
+-rw-r--r--  1 root admin 9124 Nov  3 20:32 LookupMetadata.nib
+-rw-r--r--  1 root admin 95930 Mar 15 23:55 Localizable.strings
+-rw-r--r--  1 root admin 10853 Nov  3 20:32 LicenseAgreement.nib
+-rw-r--r--  1 root admin 15291 Aug 11 19:20 License.rtf
+-rw-r--r--  1 root admin 12599 Nov  3 20:32 DeliveryDetails.nib
+-rw-r--r--  1 root admin 11329 Nov  3 20:32 ContentProviderUploadStatus.nib
+-rw-r--r--  1 root admin 27279 Mar 15 20:45 ActivitySelector.nib
+-rw-r--r--  1 root admin 1076 Nov 12 01:51 Activities.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/es.lproj :
+Total : 1512
+-rw-r--r--  1 root admin 261 Nov 12 01:51 software-months.strings
+-rw-r--r--  1 root admin 1098 Nov 12 01:51 software-languages.strings
+-rw-r--r--  1 root admin 334 Nov 12 01:51 software-iap-types.strings
+-rw-r--r--  1 root admin 366 Nov 12 01:51 software-iap-rng-validations.strings
+-rw-r--r--  1 root admin 2427 Nov 12 01:51 software-iap-mac-tier-names.strings
+-rw-r--r--  1 root admin 2427 Nov 12 01:51 software-iap-ios-tier-names.strings
+-rw-r--r--  1 root admin 131 Nov 12 01:51 publication-types.strings
+-rw-r--r--  1 root admin 279 Nov 12 01:51 publication-territory-groups.strings
+-rw-r--r--  1 root admin 5081 Nov 12 01:51 publication-target-audience-schemes.strings
+-rw-r--r--  1 root admin 267 Nov 12 01:51 publication-subject-schemes.strings
+-rw-r--r--  1 root admin 187 Nov 12 01:51 publication-search-categories.strings
+-rw-r--r--  1 root admin 2896 Nov 12 01:51 publication-rng-validations.strings
+-rw-r--r--  1 root admin 1115 Nov 12 01:51 publication-related-products.strings
+-rw-r--r--  1 root admin 64 Nov 12 01:51 publication-primary.strings
+-rw-r--r--  1 root admin 19978 Nov 12 01:51 publication-main-subject-types.strings
+-rw-r--r--  1 root admin 4903 Nov 12 01:51 publication-languages.strings
+-rw-r--r--  1 root admin 13944 Nov 12 01:51 publication-input-help.strings
+-rw-r--r--  1 root admin 892 Nov 12 01:51 publication-free-rng-validations.strings
+-rw-r--r--  1 root admin 65 Nov 12 01:51 publication-explicit-content.strings
+-rw-r--r--  1 root admin 65 Nov 12 01:51 publication-created-with-ibooks-author.strings
+-rw-r--r--  1 root admin 7387 Nov 12 01:51 publication-contributor-roles.strings
+-rw-r--r--  1 root admin 85 Nov 12 01:51 publication-book-types.strings
+-rw-r--r--  1 root admin 1399 Nov 12 01:51 publication-available-territories.strings
+-rw-r--r--  1 root admin 161 Nov 12 01:51 publication-applies-to-version.strings
+-rw-r--r--  1 root admin 60 Nov 12 01:51 music-tone-types.strings
+-rw-r--r--  1 root admin 148 Nov 12 01:51 music-territory-groups.strings
+-rw-r--r--  1 root admin 205 Nov 12 01:51 music-search-categories.strings
+-rw-r--r--  1 root admin 2991 Nov 12 01:51 music-rng-validations.strings
+-rw-r--r--  1 root admin 885 Nov 12 01:51 music-ringtone-genres.strings
+-rw-r--r--  1 root admin 3399 Nov 12 01:51 music-ringtone-available-territories.strings
+-rw-r--r--  1 root admin 1006 Nov 12 01:51 music-locales.strings
+-rw-r--r--  1 root admin 1648 Nov 12 01:51 music-languages.strings
+-rw-r--r--  1 root admin 19165 Nov 12 01:51 music-genres.strings
+-rw-r--r--  1 root admin 162 Nov 12 01:51 music-explicit-content-types.strings
+-rw-r--r--  1 root admin 3444 Nov 12 01:51 music-available-territories.strings
+-rw-r--r--  1 root admin 131 Nov 12 01:51 music-audio-tone-genres.strings
+-rw-r--r--  1 root admin 3611 Nov 12 01:51 music-audio-tone-available-territories.strings
+-rw-r--r--  1 root admin 1409 Nov 12 01:51 music-artist-roles.strings
+-rw-r--r--  1 root admin 12436 Nov  3 20:01 TerritoryGroupInformation.nib
+-rw-r--r--  1 root admin 12218 Nov  3 20:01 TerritoryGroupChooser.nib
+-rw-r--r--  1 root admin 24886 Nov  3 20:01 StartupWizard.nib
+-rw-r--r--  1 root admin 135772 Mar 15 21:07 SoftwareInAppPurchaseEditor.nib
+-rw-r--r--  1 root admin 2976 Mar 15 23:55 Server.strings
+-rw-r--r--  1 root admin 20824 Nov  3 20:01 SearchResults.nib
+-rw-r--r--  1 root admin 9126 Nov  3 20:01 PriceTierDisplay.nib
+-rw-r--r--  1 root admin 27983 Nov  3 20:01 Preferences.nib
+-rw-r--r--  1 root admin 9863 Nov  3 20:01 OperationResultPanel.nib
+-rw-r--r--  1 root admin 4144 Nov  3 20:01 MetadataLookupSpinner.nib
+-rw-r--r--  1 root admin 1195 Nov 12 01:51 Menu.strings
+-rw-r--r--  1 root admin 28558 Mar 15 21:07 MassPricing.nib
+-rw-r--r--  1 root admin 35665 Mar 15 21:07 MainMenu.nib
+-rw-r--r--  1 root admin 6755 Nov  3 20:01 MZLiveTransporterLog.nib
+-rw-r--r--  1 root admin 62 Nov 12 01:51 MZDocument.strings
+-rw-r--r--  1 root admin 8832 Nov  3 20:01 LookupMetadata.nib
+-rw-r--r--  1 root admin 86673 Mar 15 23:55 Localizable.strings
+-rw-r--r--  1 root admin 10866 Nov  3 20:01 LicenseAgreement.nib
+-rw-r--r--  1 root admin 14361 Aug 11 19:20 License.rtf
+-rw-r--r--  1 root admin 12474 Nov  3 20:01 DeliveryDetails.nib
+-rw-r--r--  1 root admin 11257 Nov  3 20:01 ContentProviderUploadStatus.nib
+-rw-r--r--  1 root admin 27095 Mar 15 21:07 ActivitySelector.nib
+-rw-r--r--  1 root admin 969 Nov 12 01:51 Activities.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/en.lproj :
+Total : 1408
+-rw-r--r--  1 root admin 258 Nov 12 01:51 software-months.strings
+-rw-r--r--  1 root admin 895 Nov 12 01:51 software-languages.strings
+-rw-r--r--  1 root admin 240 Nov 12 01:51 software-iap-types.strings
+-rw-r--r--  1 root admin 304 Nov 12 01:51 software-iap-rng-validations.strings
+-rw-r--r--  1 root admin 2317 Nov 12 01:51 software-iap-mac-tier-names.strings
+-rw-r--r--  1 root admin 2317 Nov 12 01:51 software-iap-ios-tier-names.strings
+-rw-r--r--  1 root admin 116 Nov 12 01:51 publication-types.strings
+-rw-r--r--  1 root admin 228 Nov 12 01:51 publication-territory-groups.strings
+-rw-r--r--  1 root admin 4383 Nov 12 01:51 publication-target-audience-schemes.strings
+-rw-r--r--  1 root admin 198 Nov 12 01:51 publication-subject-schemes.strings
+-rw-r--r--  1 root admin 160 Nov 12 01:51 publication-search-categories.strings
+-rw-r--r--  1 root admin 2085 Nov 12 01:51 publication-rng-validations.strings
+-rw-r--r--  1 root admin 813 Nov 12 01:51 publication-related-products.strings
+-rw-r--r--  1 root admin 62 Nov 12 01:51 publication-primary.strings
+-rw-r--r--  1 root admin 15023 Nov 12 01:51 publication-main-subject-types.strings
+-rw-r--r--  1 root admin 4309 Nov 12 01:51 publication-languages.strings
+-rw-r--r--  1 root admin 8945 Nov 12 01:51 publication-input-help.strings
+-rw-r--r--  1 root admin 633 Nov 12 01:51 publication-free-rng-validations.strings
+-rw-r--r--  1 root admin 64 Nov 12 01:51 publication-explicit-content.strings
+-rw-r--r--  1 root admin 64 Nov 12 01:51 publication-created-with-ibooks-author.strings
+-rw-r--r--  1 root admin 5721 Nov 12 01:51 publication-contributor-roles.strings
+-rw-r--r--  1 root admin 78 Nov 12 01:51 publication-book-types.strings
+-rw-r--r--  1 root admin 1285 Nov 12 01:51 publication-available-territories.strings
+-rw-r--r--  1 root admin 98 Nov 12 01:51 publication-applies-to-version.strings
+-rw-r--r--  1 root admin 64 Nov 12 01:51 music-tone-types.strings
+-rw-r--r--  1 root admin 124 Nov 12 01:51 music-territory-groups.strings
+-rw-r--r--  1 root admin 150 Nov 12 01:51 music-search-categories.strings
+-rw-r--r--  1 root admin 1975 Nov 12 01:51 music-rng-validations.strings
+-rw-r--r--  1 root admin 771 Nov 12 01:51 music-ringtone-genres.strings
+-rw-r--r--  1 root admin 3015 Nov 12 01:51 music-ringtone-available-territories.strings
+-rw-r--r--  1 root admin 781 Nov 12 01:51 music-locales.strings
+-rw-r--r--  1 root admin 1499 Nov 12 01:51 music-languages.strings
+-rw-r--r--  1 root admin 15836 Nov 12 01:51 music-genres.strings
+-rw-r--r--  1 root admin 94 Nov 12 01:51 music-explicit-content-types.strings
+-rw-r--r--  1 root admin 3059 Nov 12 01:51 music-available-territories.strings
+-rw-r--r--  1 root admin 112 Nov 12 01:51 music-audio-tone-genres.strings
+-rw-r--r--  1 root admin 3191 Nov 12 01:51 music-audio-tone-available-territories.strings
+-rw-r--r--  1 root admin 1285 Nov 12 01:51 music-artist-roles.strings
+-rw-r--r--  1 root admin 12299 Nov  3 19:48 TerritoryGroupInformation.nib
+-rw-r--r--  1 root admin 12122 Nov  3 19:48 TerritoryGroupChooser.nib
+-rw-r--r--  1 root admin 24339 Nov  3 19:48 StartupWizard.nib
+-rw-r--r--  1 root admin 128506 Mar 15 20:31 SoftwareInAppPurchaseEditor.nib
+-rw-r--r--  1 root admin 2123 Nov 12 01:51 Server.strings
+-rw-r--r--  1 root admin 20804 Nov  3 19:48 SearchResults.nib
+-rw-r--r--  1 root admin 9076 Nov  3 19:48 PriceTierDisplay.nib
+-rw-r--r--  1 root admin 36706 Nov  3 19:48 Preferences.nib
+-rw-r--r--  1 root admin 9852 Nov  3 19:48 OperationResultPanel.nib
+-rw-r--r--  1 root admin 4120 Nov  3 19:48 MetadataLookupSpinner.nib
+-rw-r--r--  1 root admin 877 Nov 12 01:51 Menu.strings
+-rw-r--r--  1 root admin 27515 Nov  3 19:48 MassPricing.nib
+-rw-r--r--  1 root admin 34378 Nov  3 19:48 MainMenu.nib
+-rw-r--r--  1 root admin 6737 Nov  3 19:48 MZLiveTransporterLog.nib
+-rw-r--r--  1 root admin 8337 Nov  3 19:48 LookupMetadata.nib
+-rw-r--r--  1 root admin 59280 Mar 15 23:55 Localizable.strings
+-rw-r--r--  1 root admin 10821 Nov  3 19:48 LicenseAgreement.nib
+-rw-r--r--  1 root admin 11897 Nov  3 19:46 License.rtf
+-rw-r--r--  1 root admin 12311 Nov  3 19:48 DeliveryDetails.nib
+-rw-r--r--  1 root admin 11214 Nov  3 19:48 ContentProviderUploadStatus.nib
+-rw-r--r--  1 root admin 26917 Nov  3 19:48 ActivitySelector.nib
+-rw-r--r--  1 root admin 735 Nov 12 01:51 Activities.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/de.lproj :
+Total : 1528
+-rw-r--r--  1 root admin 264 Nov 12 01:51 software-months.strings
+-rw-r--r--  1 root admin 1057 Nov 12 01:51 software-languages.strings
+-rw-r--r--  1 root admin 340 Nov 12 01:51 software-iap-types.strings
+-rw-r--r--  1 root admin 326 Nov 12 01:51 software-iap-rng-validations.strings
+-rw-r--r--  1 root admin 2898 Nov 12 01:51 software-iap-mac-tier-names.strings
+-rw-r--r--  1 root admin 2898 Nov 12 01:51 software-iap-ios-tier-names.strings
+-rw-r--r--  1 root admin 145 Nov 12 01:51 publication-types.strings
+-rw-r--r--  1 root admin 224 Nov 12 01:51 publication-territory-groups.strings
+-rw-r--r--  1 root admin 4873 Nov 12 01:51 publication-target-audience-schemes.strings
+-rw-r--r--  1 root admin 189 Nov 12 01:51 publication-subject-schemes.strings
+-rw-r--r--  1 root admin 177 Nov 12 01:51 publication-search-categories.strings
+-rw-r--r--  1 root admin 3015 Nov 12 01:51 publication-rng-validations.strings
+-rw-r--r--  1 root admin 983 Nov 12 01:51 publication-related-products.strings
+-rw-r--r--  1 root admin 67 Nov 12 01:51 publication-primary.strings
+-rw-r--r--  1 root admin 17961 Nov 12 01:51 publication-main-subject-types.strings
+-rw-r--r--  1 root admin 4691 Nov 12 01:51 publication-languages.strings
+-rw-r--r--  1 root admin 14194 Nov 12 01:51 publication-input-help.strings
+-rw-r--r--  1 root admin 798 Nov 12 01:51 publication-free-rng-validations.strings
+-rw-r--r--  1 root admin 65 Nov 12 01:51 publication-explicit-content.strings
+-rw-r--r--  1 root admin 65 Nov 12 01:51 publication-created-with-ibooks-author.strings
+-rw-r--r--  1 root admin 7553 Nov 12 01:51 publication-contributor-roles.strings
+-rw-r--r--  1 root admin 78 Nov 12 01:51 publication-book-types.strings
+-rw-r--r--  1 root admin 1447 Nov 12 01:51 publication-available-territories.strings
+-rw-r--r--  1 root admin 97 Nov 12 01:51 publication-applies-to-version.strings
+-rw-r--r--  1 root admin 66 Nov 12 01:51 music-tone-types.strings
+-rw-r--r--  1 root admin 122 Nov 12 01:51 music-territory-groups.strings
+-rw-r--r--  1 root admin 164 Nov 12 01:51 music-search-categories.strings
+-rw-r--r--  1 root admin 2203 Nov 12 01:51 music-rng-validations.strings
+-rw-r--r--  1 root admin 838 Nov 12 01:51 music-ringtone-genres.strings
+-rw-r--r--  1 root admin 3247 Nov 12 01:51 music-ringtone-available-territories.strings
+-rw-r--r--  1 root admin 913 Nov 12 01:51 music-locales.strings
+-rw-r--r--  1 root admin 1724 Nov 12 01:51 music-languages.strings
+-rw-r--r--  1 root admin 17508 Nov 12 01:51 music-genres.strings
+-rw-r--r--  1 root admin 109 Nov 12 01:51 music-explicit-content-types.strings
+-rw-r--r--  1 root admin 3294 Nov 12 01:51 music-available-territories.strings
+-rw-r--r--  1 root admin 107 Nov 12 01:51 music-audio-tone-genres.strings
+-rw-r--r--  1 root admin 3450 Nov 12 01:51 music-audio-tone-available-territories.strings
+-rw-r--r--  1 root admin 1298 Nov 12 01:51 music-artist-roles.strings
+-rw-r--r--  1 root admin 12340 Nov  3 20:26 TerritoryGroupInformation.nib
+-rw-r--r--  1 root admin 12302 Nov  3 20:26 TerritoryGroupChooser.nib
+-rw-r--r--  1 root admin 24598 Nov  3 20:26 StartupWizard.nib
+-rw-r--r--  1 root admin 136581 Mar 15 21:08 SoftwareInAppPurchaseEditor.nib
+-rw-r--r--  1 root admin 3091 Nov 12 01:51 Server.strings
+-rw-r--r--  1 root admin 20818 Nov  3 20:26 SearchResults.nib
+-rw-r--r--  1 root admin 9131 Nov  3 20:26 PriceTierDisplay.nib
+-rw-r--r--  1 root admin 28108 Nov  3 20:26 Preferences.nib
+-rw-r--r--  1 root admin 9859 Nov  3 20:26 OperationResultPanel.nib
+-rw-r--r--  1 root admin 4144 Nov  3 20:26 MetadataLookupSpinner.nib
+-rw-r--r--  1 root admin 1045 Nov 12 01:51 Menu.strings
+-rw-r--r--  1 root admin 28652 Mar 15 21:08 MassPricing.nib
+-rw-r--r--  1 root admin 35541 Nov  3 20:26 MainMenu.nib
+-rw-r--r--  1 root admin 6742 Nov  3 20:26 MZLiveTransporterLog.nib
+-rw-r--r--  1 root admin 62 Nov 12 01:51 MZDocument.strings
+-rw-r--r--  1 root admin 8783 Nov  3 20:26 LookupMetadata.nib
+-rw-r--r--  1 root admin 91099 Mar 15 23:55 Localizable.strings
+-rw-r--r--  1 root admin 10859 Nov  3 20:26 LicenseAgreement.nib
+-rw-r--r--  1 root admin 14696 Aug 11 19:20 License.rtf
+-rw-r--r--  1 root admin 12519 Nov  3 20:26 DeliveryDetails.nib
+-rw-r--r--  1 root admin 11238 Nov  3 20:26 ContentProviderUploadStatus.nib
+-rw-r--r--  1 root admin 27087 Nov  3 20:26 ActivitySelector.nib
+-rw-r--r--  1 root admin 810 Nov 12 01:51 Activities.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/SoftwareTemplates :
+Total : 8
+-rw-r--r--  1 root admin 680 Nov  3 19:46 AppMassImportTemplate.txt
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/MusicTemplates :
+Total : 48
+-rw-r--r--  1 root admin 719 Nov  3 19:46 Ringtone.txt
+-rw-r--r--  1 root admin 7416 Nov  3 19:46 Multiple_artist.txt
+-rw-r--r--  1 root admin 11146 Nov  3 19:46 Localization.txt
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/BookTemplates :
+Total : 16
+-rw-r--r--  1 root admin 2943 Nov  3 19:46 BookFileImportTemplate.txt
+-rw-r--r--  1 root admin 2300 Nov  3 19:46 BookFileImportTemplate-JP.txt
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Resources/Base.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3361 Nov  3 19:48 MZDocument.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns :
+drwxr-xr-x  3 root admin 102 Mar 15 20:29 [36mMZSoftware.iTunesProducerPlugIn[0m
+drwxr-xr-x  3 root admin 102 Mar 15 20:29 [36mMZAssetOnly.iTunesProducerPlugIn[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn :
+drwxr-xr-x  7 root admin 238 Mar 15 20:31 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents :
+Total : 24
+-rw-r--r--  1 root admin 464 Mar 15 20:31 version.plist
+drwxr-xr-x  3 root admin 102 Mar 15 20:31 [36m_CodeSignature[0m
+drwxr-xr-x  15 root admin 510 Mar 22 09:20 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 4588 Mar 15 20:29 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/_CodeSignature :
+Total : 48
+-rw-r--r--  1 root admin 21166 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/Resources :
+Total : 40
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mzh_TW.lproj[0m
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mzh_CN.lproj[0m
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mnl.lproj[0m
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mko.lproj[0m
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mja.lproj[0m
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mit.lproj[0m
+-rw-r--r--  1 root admin 8307 Nov  3 19:46 icon_chooser_inapp.png
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mfr.lproj[0m
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mes.lproj[0m
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36men.lproj[0m
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mde.lproj[0m
+-rw-r--r--  1 root admin 591 Nov  3 19:46 ITunesValidationWarning.gif
+-rw-r--r--  1 root admin 605 Nov  3 19:46 ITunesValidationError.gif
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/Resources/zh_TW.lproj :
+Total : 320
+-rw-r--r--  1 root admin 42394 Nov  3 20:38 iTunesConnectAppUpload.nib
+-rw-r--r--  1 root admin 48956 Nov  3 20:38 SoftwareEditor.nib
+-rw-r--r--  1 root admin 23257 Nov  3 20:38 SoftwareApplicationLookupViewer.nib
+-rw-r--r--  1 root admin 33880 Nov  3 20:38 ITunesPAPAUploadDocument.nib
+-rw-r--r--  1 root admin 4838 Nov  3 20:38 IAPPricingMatrix.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/Resources/zh_CN.lproj :
+Total : 328
+-rw-r--r--  1 root admin 42442 Mar 15 21:09 iTunesConnectAppUpload.nib
+-rw-r--r--  1 root admin 49391 Nov  3 20:32 SoftwareEditor.nib
+-rw-r--r--  1 root admin 23210 Mar 15 21:09 SoftwareApplicationLookupViewer.nib
+-rw-r--r--  1 root admin 34891 Mar 15 21:09 ITunesPAPAUploadDocument.nib
+-rw-r--r--  1 root admin 4840 Nov  3 20:32 IAPPricingMatrix.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/Resources/nl.lproj :
+Total : 328
+-rw-r--r--  1 root admin 42138 Nov  3 20:15 iTunesConnectAppUpload.nib
+-rw-r--r--  1 root admin 50332 Nov  3 20:15 SoftwareEditor.nib
+-rw-r--r--  1 root admin 23212 Nov  3 20:15 SoftwareApplicationLookupViewer.nib
+-rw-r--r--  1 root admin 34093 Nov  3 20:15 ITunesPAPAUploadDocument.nib
+-rw-r--r--  1 root admin 4836 Nov  3 20:15 IAPPricingMatrix.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/Resources/ko.lproj :
+Total : 328
+-rw-r--r--  1 root admin 42788 Mar 15 21:08 iTunesConnectAppUpload.nib
+-rw-r--r--  1 root admin 50277 Mar 15 21:08 SoftwareEditor.nib
+-rw-r--r--  1 root admin 23708 Nov  3 20:26 SoftwareApplicationLookupViewer.nib
+-rw-r--r--  1 root admin 34227 Mar 15 21:08 ITunesPAPAUploadDocument.nib
+-rw-r--r--  1 root admin 4842 Nov  3 20:26 IAPPricingMatrix.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/Resources/ja.lproj :
+Total : 328
+-rw-r--r--  1 root admin 42805 Nov  3 20:15 iTunesConnectAppUpload.nib
+-rw-r--r--  1 root admin 50250 Nov  3 20:15 SoftwareEditor.nib
+-rw-r--r--  1 root admin 23355 Nov  3 20:15 SoftwareApplicationLookupViewer.nib
+-rw-r--r--  1 root admin 34093 Nov  3 20:15 ITunesPAPAUploadDocument.nib
+-rw-r--r--  1 root admin 4856 Nov  3 20:15 IAPPricingMatrix.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/Resources/it.lproj :
+Total : 328
+-rw-r--r--  1 root admin 42555 Nov  3 20:01 iTunesConnectAppUpload.nib
+-rw-r--r--  1 root admin 51764 Nov  3 20:01 SoftwareEditor.nib
+-rw-r--r--  1 root admin 23322 Nov  3 20:01 SoftwareApplicationLookupViewer.nib
+-rw-r--r--  1 root admin 34373 Nov  3 20:01 ITunesPAPAUploadDocument.nib
+-rw-r--r--  1 root admin 4837 Nov  3 20:01 IAPPricingMatrix.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/Resources/fr.lproj :
+Total : 328
+-rw-r--r--  1 root admin 43299 Mar 15 20:45 iTunesConnectAppUpload.nib
+-rw-r--r--  1 root admin 53023 Mar 15 20:45 SoftwareEditor.nib
+-rw-r--r--  1 root admin 23638 Nov  3 20:32 SoftwareApplicationLookupViewer.nib
+-rw-r--r--  1 root admin 34882 Nov  3 20:32 ITunesPAPAUploadDocument.nib
+-rw-r--r--  1 root admin 4903 Nov  3 20:32 IAPPricingMatrix.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/Resources/es.lproj :
+Total : 328
+-rw-r--r--  1 root admin 42950 Mar 15 21:07 iTunesConnectAppUpload.nib
+-rw-r--r--  1 root admin 52344 Mar 15 21:07 SoftwareEditor.nib
+-rw-r--r--  1 root admin 23599 Nov  3 20:01 SoftwareApplicationLookupViewer.nib
+-rw-r--r--  1 root admin 34815 Nov  3 20:01 ITunesPAPAUploadDocument.nib
+-rw-r--r--  1 root admin 4852 Nov  3 20:01 IAPPricingMatrix.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/Resources/en.lproj :
+Total : 328
+-rw-r--r--  1 root admin 42111 Mar 15 20:31 iTunesConnectAppUpload.nib
+-rw-r--r--  1 root admin 50523 Nov  3 19:48 SoftwareEditor.nib
+-rw-r--r--  1 root admin 23193 Nov  3 19:48 SoftwareApplicationLookupViewer.nib
+-rw-r--r--  1 root admin 34136 Nov  3 19:48 ITunesPAPAUploadDocument.nib
+-rw-r--r--  1 root admin 4838 Nov  3 19:48 IAPPricingMatrix.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/Resources/de.lproj :
+Total : 328
+-rw-r--r--  1 root admin 43130 Nov  3 20:26 iTunesConnectAppUpload.nib
+-rw-r--r--  1 root admin 52484 Nov  3 20:26 SoftwareEditor.nib
+-rw-r--r--  1 root admin 23394 Nov  3 20:26 SoftwareApplicationLookupViewer.nib
+-rw-r--r--  1 root admin 34641 Nov  3 20:26 ITunesPAPAUploadDocument.nib
+-rw-r--r--  1 root admin 4843 Nov  3 20:26 IAPPricingMatrix.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZSoftware.iTunesProducerPlugIn/Contents/MacOS :
+Total : 576
+-rwxr-xr-x  1 root admin 294064 Mar 16 01:32 [31mMZSoftware[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn :
+drwxr-xr-x  7 root admin 238 Mar 15 20:31 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents :
+Total : 16
+-rw-r--r--  1 root admin 464 Mar 15 20:31 version.plist
+drwxr-xr-x  3 root admin 102 Mar 15 20:31 [36m_CodeSignature[0m
+drwxr-xr-x  12 root admin 408 Mar 22 09:20 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 2258 Mar 15 20:29 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/_CodeSignature :
+Total : 16
+-rw-r--r--  1 root admin 5726 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/Resources :
+drwxr-xr-x  3 root admin 102 Mar 15 20:44 [36mzh_TW.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 21:09 [36mzh_CN.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mnl.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mko.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mja.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 20:44 [36mit.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 20:45 [36mfr.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mes.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36men.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mde.lproj[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/Resources/zh_TW.lproj :
+Total : 128
+-rw-r--r--  1 root admin 61606 Mar 15 20:44 AssetOnlyEditor.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/Resources/zh_CN.lproj :
+Total : 128
+-rw-r--r--  1 root admin 61792 Mar 15 21:09 AssetOnlyEditor.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/Resources/nl.lproj :
+Total : 128
+-rw-r--r--  1 root admin 62343 Nov  3 20:15 AssetOnlyEditor.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/Resources/ko.lproj :
+Total : 128
+-rw-r--r--  1 root admin 62140 Nov  3 20:26 AssetOnlyEditor.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/Resources/ja.lproj :
+Total : 128
+-rw-r--r--  1 root admin 62164 Nov  3 20:15 AssetOnlyEditor.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/Resources/it.lproj :
+Total : 128
+-rw-r--r--  1 root admin 62538 Mar 15 20:44 AssetOnlyEditor.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/Resources/fr.lproj :
+Total : 128
+-rw-r--r--  1 root admin 63690 Mar 15 20:45 AssetOnlyEditor.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/Resources/es.lproj :
+Total : 128
+-rw-r--r--  1 root admin 63497 Nov  3 20:01 AssetOnlyEditor.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/Resources/en.lproj :
+Total : 128
+-rw-r--r--  1 root admin 62088 Nov  3 19:48 AssetOnlyEditor.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/Resources/de.lproj :
+Total : 128
+-rw-r--r--  1 root admin 63343 Nov  3 20:26 AssetOnlyEditor.nib
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/PlugIns/MZAssetOnly.iTunesProducerPlugIn/Contents/MacOS :
+Total : 64
+-rwxr-xr-x  1 root admin 31248 Mar 16 01:32 [31mMZAssetOnly[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/MacOS :
+Total : 2528
+-rwxr-xr-x  1 root admin 1291632 Mar 16 01:33 [31mApplication Loader[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Library :
+drwxr-xr-x  3 root admin 102 Mar 15 20:29 [36mSpotlight[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Library/Spotlight :
+drwxr-xr-x  3 root admin 102 Mar 15 20:29 [36mMZSpotlight.mdimporter[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Library/Spotlight/MZSpotlight.mdimporter :
+drwxr-xr-x  7 root admin 238 Mar 22 09:20 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Library/Spotlight/MZSpotlight.mdimporter/Contents :
+Total : 16
+-rw-r--r--  1 root admin 464 Mar 15 20:31 version.plist
+drwxr-xr-x  3 root admin 102 Mar 15 20:31 [36m_CodeSignature[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mResources[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:32 [36mMacOS[0m
+-rw-r--r--  1 root admin 1852 Mar 15 20:29 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Library/Spotlight/MZSpotlight.mdimporter/Contents/_CodeSignature :
+Total : 8
+-rw-r--r--  1 root admin 2342 Mar 16 01:32 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Library/Spotlight/MZSpotlight.mdimporter/Contents/Resources :
+Total : 8
+-rw-r--r--  1 root admin 1977 Nov  3 19:46 schema.xml
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Library/Spotlight/MZSpotlight.mdimporter/Contents/MacOS :
+Total : 112
+-rwxr-xr-x  1 root admin 56128 Mar 16 01:32 [31mMZSpotlight[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks :
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mMZXMLMarshalling.framework[0m
+drwxr-xr-x  6 root admin 204 Mar 22 09:20 [36mITunesSoftwareService.framework[0m
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mITunesPackage.framework[0m
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mITunesConnectFoundation.framework[0m
+drwxr-xr-x  5 root admin 170 Mar 22 09:20 [36mITunesConnectAppKit.framework[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework :
+Total : 16
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mVersions[0m
+lrwxr-xr-x  1 root admin 26 Mar 22 11:15 [35mResources[0m -> Versions/Current/Resources
+lrwxr-xr-x  1 root admin 33 Mar 22 11:15 [35mMZXMLMarshalling[0m -> Versions/Current/MZXMLMarshalling
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions :
+Total : 8
+lrwxr-xr-x  1 root admin 1 Mar 22 11:15 [35mCurrent[0m -> A
+drwxr-xr-x  5 root admin 170 Mar 16 01:31 [36mA[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A :
+Total : 280
+drwxr-xr-x  3 root admin 102 Mar 15 20:31 [36m_CodeSignature[0m
+drwxr-xr-x  14 root admin 476 Mar 22 09:20 [36mResources[0m
+-rwxr-xr-x  1 root admin 140848 Mar 16 01:31 [31mMZXMLMarshalling[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A/_CodeSignature :
+Total : 16
+-rw-r--r--  1 root admin 5914 Mar 16 01:31 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A/Resources :
+Total : 16
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mzh_TW.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mzh_CN.lproj[0m
+-rw-r--r--  1 root admin 464 Mar 15 20:31 version.plist
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mnl.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mko.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mja.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mit.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mfr.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mes.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36men.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mde.lproj[0m
+-rw-r--r--  1 root admin 1178 Mar 15 20:29 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A/Resources/zh_TW.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3016 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A/Resources/zh_CN.lproj :
+Total : 8
+-rw-r--r--  1 root admin 2994 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A/Resources/nl.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3474 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A/Resources/ko.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3592 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A/Resources/ja.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3502 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A/Resources/it.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3534 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A/Resources/fr.lproj :
+Total : 16
+-rw-r--r--  1 root admin 5182 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A/Resources/es.lproj :
+Total : 16
+-rw-r--r--  1 root admin 4416 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A/Resources/en.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3247 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/MZXMLMarshalling.framework/Versions/A/Resources/de.lproj :
+Total : 16
+-rw-r--r--  1 root admin 4177 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework :
+Total : 24
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mVersions[0m
+lrwxr-xr-x  1 root admin 24 Mar 22 11:15 [35mSupport[0m -> Versions/Current/Support
+lrwxr-xr-x  1 root admin 26 Mar 22 11:15 [35mResources[0m -> Versions/Current/Resources
+lrwxr-xr-x  1 root admin 38 Mar 22 11:15 [35mITunesSoftwareService[0m -> Versions/Current/ITunesSoftwareService
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions :
+Total : 8
+lrwxr-xr-x  1 root admin 1 Mar 22 11:15 [35mCurrent[0m -> A
+drwxr-xr-x  6 root admin 204 Mar 16 01:31 [36mA[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A :
+Total : 1848
+drwxr-xr-x  3 root admin 102 Mar 15 20:31 [36m_CodeSignature[0m
+drwxr-xr-x  3 root admin 102 Mar 16 01:31 [36mSupport[0m
+drwxr-xr-x  19 root admin 646 Mar 22 09:20 [36mResources[0m
+-rwxr-xr-x  1 root admin 942992 Mar 16 01:31 [31mITunesSoftwareService[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/_CodeSignature :
+Total : 16
+-rw-r--r--  1 root admin 7016 Mar 16 01:31 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Support :
+Total : 96
+-rwxr-xr-x  1 root admin 46240 Mar 16 01:31 [31maltool[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Resources :
+Total : 104
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mzh_TW.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mzh_CN.lproj[0m
+-rw-r--r--  1 root admin 464 Mar 15 20:31 version.plist
+-rw-r--r--  1 root admin 643 Mar 15 20:29 purple-metadata-template.xml
+-rw-r--r--  1 root admin 652 Mar 15 20:29 package-metadata-template.xml
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mnl.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mko.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mja.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mit.lproj[0m
+-rw-r--r--  1 root admin 665 Mar 15 20:29 iap-metadata-template.xml
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mfr.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mes.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36men.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mde.lproj[0m
+-rw-r--r--  1 root admin 1295 Mar 15 20:29 Info.plist
+-rw-r--r--  1 root admin 2612 Nov  3 19:46 ITunesSoftwareServiceConfiguration.xml
+-rwxr-xr-x  1 root admin 28352 Mar 16 01:31 [31mDTAppAnalyzerExtractor[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Resources/zh_TW.lproj :
+Total : 32
+-rw-r--r--  1 root admin 12536 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Resources/zh_CN.lproj :
+Total : 32
+-rw-r--r--  1 root admin 12544 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Resources/nl.lproj :
+Total : 32
+-rw-r--r--  1 root admin 13686 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Resources/ko.lproj :
+Total : 32
+-rw-r--r--  1 root admin 14402 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Resources/ja.lproj :
+Total : 32
+-rw-r--r--  1 root admin 14840 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Resources/it.lproj :
+Total : 32
+-rw-r--r--  1 root admin 15923 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Resources/fr.lproj :
+Total : 48
+-rw-r--r--  1 root admin 20595 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Resources/es.lproj :
+Total : 40
+-rw-r--r--  1 root admin 18602 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Resources/en.lproj :
+Total : 32
+-rw-r--r--  1 root admin 13215 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesSoftwareService.framework/Versions/A/Resources/de.lproj :
+Total : 40
+-rw-r--r--  1 root admin 18687 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework :
+Total : 16
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mVersions[0m
+lrwxr-xr-x  1 root admin 26 Mar 22 11:15 [35mResources[0m -> Versions/Current/Resources
+lrwxr-xr-x  1 root admin 30 Mar 22 11:15 [35mITunesPackage[0m -> Versions/Current/ITunesPackage
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions :
+Total : 8
+lrwxr-xr-x  1 root admin 1 Mar 22 11:15 [35mCurrent[0m -> A
+drwxr-xr-x  5 root admin 170 Mar 16 01:31 [36mA[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A :
+Total : 1696
+drwxr-xr-x  3 root admin 102 Mar 15 20:31 [36m_CodeSignature[0m
+drwxr-xr-x  24 root admin 816 Mar 22 09:20 [36mResources[0m
+-rwxr-xr-x  1 root admin 867536 Mar 16 01:31 [31mITunesPackage[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A/_CodeSignature :
+Total : 16
+-rw-r--r--  1 root admin 7810 Mar 16 01:31 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A/Resources :
+Total : 344
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mzh_TW.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mzh_CN.lproj[0m
+-rw-r--r--  1 root admin 464 Mar 15 20:31 version.plist
+-rw-r--r--  1 root admin 12828 Mar 15 20:29 software5.4-output.xml
+-rw-r--r--  1 root admin 9321 Nov  3 19:46 publication5.0-output.xml
+-rw-r--r--  1 root admin 82217 Nov  3 19:46 onix2.1-output.xml
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mnl.lproj[0m
+-rw-r--r--  1 root admin 15968 Nov  3 19:46 music5.1-output.xml
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mko.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mja.lproj[0m
+-rw-r--r--  1 root admin 733 Mar 15 20:29 itp-type-version-info.plist
+-rw-r--r--  1 root admin 2524 Mar 15 20:29 itmsp-output.xml
+-rw-r--r--  1 root admin 7531 Nov  3 19:46 itmsp-basic-classes.xml
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mit.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mfr.lproj[0m
+-rw-r--r--  1 root admin 9426 Nov  3 19:46 film3.3.1-output.xml
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mes.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36men.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mde.lproj[0m
+-rw-r--r--  1 root admin 560 Nov  3 19:46 bulk4.3-output.xml
+-rw-r--r--  1 root admin 1158 Nov  3 19:46 artist5.1-output.xml
+-rw-r--r--  1 root admin 1169 Mar 15 20:29 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A/Resources/zh_TW.lproj :
+Total : 8
+-rw-r--r--  1 root admin 2266 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A/Resources/zh_CN.lproj :
+Total : 8
+-rw-r--r--  1 root admin 2230 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A/Resources/nl.lproj :
+Total : 8
+-rw-r--r--  1 root admin 2756 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A/Resources/ko.lproj :
+Total : 8
+-rw-r--r--  1 root admin 2708 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A/Resources/ja.lproj :
+Total : 8
+-rw-r--r--  1 root admin 2692 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A/Resources/it.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3376 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A/Resources/fr.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3898 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A/Resources/es.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3121 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A/Resources/en.lproj :
+Total : 8
+-rw-r--r--  1 root admin 2607 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesPackage.framework/Versions/A/Resources/de.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3464 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework :
+Total : 16
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mVersions[0m
+lrwxr-xr-x  1 root admin 26 Mar 22 11:15 [35mResources[0m -> Versions/Current/Resources
+lrwxr-xr-x  1 root admin 40 Mar 22 11:15 [35mITunesConnectFoundation[0m -> Versions/Current/ITunesConnectFoundation
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions :
+Total : 8
+lrwxr-xr-x  1 root admin 1 Mar 22 11:15 [35mCurrent[0m -> A
+drwxr-xr-x  5 root admin 170 Mar 16 01:32 [36mA[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A :
+Total : 1336
+drwxr-xr-x  3 root admin 102 Mar 15 20:31 [36m_CodeSignature[0m
+drwxr-xr-x  14 root admin 476 Mar 15 21:11 [36mResources[0m
+-rwxr-xr-x  1 root admin 681424 Mar 16 01:32 [31mITunesConnectFoundation[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A/_CodeSignature :
+Total : 16
+-rw-r--r--  1 root admin 5914 Mar 16 01:31 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A/Resources :
+Total : 16
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mzh_TW.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mzh_CN.lproj[0m
+-rw-r--r--  1 root admin 464 Mar 15 20:31 version.plist
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mnl.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mko.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mja.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mit.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mfr.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mes.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36men.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mde.lproj[0m
+-rw-r--r--  1 root admin 1199 Mar 15 20:29 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A/Resources/zh_TW.lproj :
+Total : 48
+-rw-r--r--  1 root admin 22246 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A/Resources/zh_CN.lproj :
+Total : 48
+-rw-r--r--  1 root admin 22304 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A/Resources/nl.lproj :
+Total : 56
+-rw-r--r--  1 root admin 25264 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A/Resources/ko.lproj :
+Total : 56
+-rw-r--r--  1 root admin 26027 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A/Resources/ja.lproj :
+Total : 56
+-rw-r--r--  1 root admin 26000 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A/Resources/it.lproj :
+Total : 56
+-rw-r--r--  1 root admin 28467 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A/Resources/fr.lproj :
+Total : 80
+-rw-r--r--  1 root admin 37120 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A/Resources/es.lproj :
+Total : 72
+-rw-r--r--  1 root admin 34280 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A/Resources/en.lproj :
+Total : 48
+-rw-r--r--  1 root admin 24169 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectFoundation.framework/Versions/A/Resources/de.lproj :
+Total : 64
+-rw-r--r--  1 root admin 32659 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework :
+Total : 16
+drwxr-xr-x  4 root admin 136 Mar 22 09:20 [36mVersions[0m
+lrwxr-xr-x  1 root admin 26 Mar 22 11:15 [35mResources[0m -> Versions/Current/Resources
+lrwxr-xr-x  1 root admin 36 Mar 22 11:15 [35mITunesConnectAppKit[0m -> Versions/Current/ITunesConnectAppKit
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions :
+Total : 8
+lrwxr-xr-x  1 root admin 1 Mar 22 11:15 [35mCurrent[0m -> A
+drwxr-xr-x  5 root admin 170 Mar 16 01:31 [36mA[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A :
+Total : 408
+drwxr-xr-x  3 root admin 102 Mar 15 20:31 [36m_CodeSignature[0m
+drwxr-xr-x  24 root admin 816 Mar 22 09:20 [36mResources[0m
+-rwxr-xr-x  1 root admin 205792 Mar 16 01:31 [31mITunesConnectAppKit[0m
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A/_CodeSignature :
+Total : 16
+-rw-r--r--  1 root admin 7838 Mar 16 01:31 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A/Resources :
+Total : 96
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mzh_TW.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mzh_CN.lproj[0m
+-rw-r--r--  1 root admin 464 Mar 15 20:31 version.plist
+-rw-r--r--  1 root admin 3182 Nov  3 19:46 scrollbar-upperCap.png
+-rw-r--r--  1 root admin 2860 Nov  3 19:46 scrollbar-track.png
+-rw-r--r--  1 root admin 3711 Nov  3 19:46 scrollbar-thumb.png
+-rw-r--r--  1 root admin 3220 Nov  3 19:46 scrollbar-h-upperCap.png
+-rw-r--r--  1 root admin 2797 Nov  3 19:46 scrollbar-h-track.png
+-rw-r--r--  1 root admin 3835 Nov  3 19:46 scrollbar-h-thumb.png
+-rw-r--r--  1 root admin 4042 Nov  3 19:46 scrollbar-h-arrowUp2.png
+-rw-r--r--  1 root admin 3521 Nov  3 19:46 scrollbar-h-arrowDown2.png
+-rw-r--r--  1 root admin 3930 Nov  3 19:46 scrollbar-arrowUp2.png
+-rw-r--r--  1 root admin 3438 Nov  3 19:46 scrollbar-arrowDown2.png
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mnl.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mko.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mja.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mit.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mfr.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 15 23:55 [36mes.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36men.lproj[0m
+drwxr-xr-x  3 root admin 102 Mar 22 09:20 [36mde.lproj[0m
+-rw-r--r--  1 root admin 1187 Mar 15 20:29 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A/Resources/zh_TW.lproj :
+Total : 8
+-rw-r--r--  1 root admin 1680 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A/Resources/zh_CN.lproj :
+Total : 8
+-rw-r--r--  1 root admin 1730 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A/Resources/nl.lproj :
+Total : 8
+-rw-r--r--  1 root admin 2070 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A/Resources/ko.lproj :
+Total : 8
+-rw-r--r--  1 root admin 2076 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A/Resources/ja.lproj :
+Total : 8
+-rw-r--r--  1 root admin 2108 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A/Resources/it.lproj :
+Total : 8
+-rw-r--r--  1 root admin 2553 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A/Resources/fr.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3060 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A/Resources/es.lproj :
+Total : 8
+-rw-r--r--  1 root admin 2511 Mar 15 23:55 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A/Resources/en.lproj :
+Total : 8
+-rw-r--r--  1 root admin 1931 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/Frameworks/ITunesConnectAppKit.framework/Versions/A/Resources/de.lproj :
+Total : 8
+-rw-r--r--  1 root admin 3085 Nov 12 01:51 Localizable.strings
+
+/Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app :
+drwxr-xr-x  8 root admin 272 Mar 22 09:20 [36mContents[0m
+
+/Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app/Contents :
+Total : 24
+-rw-r--r--  1 root admin 469 Feb 11 01:25 version.plist
+drwxr-xr-x  3 root admin 102 Feb 11 01:25 [36m_CodeSignature[0m
+drwxr-xr-x  14 root admin 476 Mar 22 09:20 [36mResources[0m
+-rw-r--r--  1 root admin 8 Nov 12 01:44 PkgInfo
+drwxr-xr-x  3 root admin 102 Mar 16 01:33 [36mMacOS[0m
+-rw-r--r--  1 root admin 1786 Feb 11 01:25 Info.plist
+
+/Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app/Contents/_CodeSignature :
+Total : 16
+-rw-r--r--  1 root admin 7894 Mar 16 01:33 CodeResources
+
+/Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app/Contents/Resources :
+Total : 1424
+-rw-r--r--  1 root admin 1436 Nov 12 01:43 Warning32.png
+-rw-r--r--  1 root admin 2374 Nov 12 01:43 Warning16.tiff
+-rw-r--r--  1 root admin 486 Nov 12 01:43 Warning12.tiff
+-rw-r--r--  1 root admin 115 Nov 12 01:43 HighlightOnTemplate.png
+-rw-r--r--  1 root admin 135 Nov 12 01:43 HighlightOffTemplate.png
+-rw-r--r--  1 root admin 1186 Nov 12 01:43 Error32.png
+-rw-r--r--  1 root admin 898 Nov 12 01:43 Error16.tiff
+-rw-r--r--  1 root admin 476 Nov 12 01:43 Error12.tiff
+drwxr-xr-x  12 root admin 408 Mar 22 09:20 [36mEnglish.lproj[0m
+-rw-r--r--  1 root admin 379846 Nov 12 01:43 AccessibilityDefinitions.plist
+-rw-r--r--  1 root admin 293003 Nov 12 01:43 Accessibility Inspector.icns
+-rw-r--r--  1 root admin 19114 Nov 12 01:43 AXAPI2Definitions.plist
+
+/Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app/Contents/Resources/English.lproj :
+Total : 272
+-rw-r--r--  1 root admin 28457 Nov 12 01:44 VerifierWindow.nib
+-rw-r--r--  1 root admin 4676 Nov 12 01:44 UIElementValueInspector.nib
+-rw-r--r--  1 root admin 9597 Nov 12 01:44 TwoValueInspector.nib
+-rw-r--r--  1 root admin 10864 Nov 12 01:44 StringValueInspector.nib
+-rw-r--r--  1 root admin 4123 Nov 12 01:44 SpecialValueInspector.nib
+-rw-r--r--  1 root admin 8726 Nov 12 01:44 NumberValueInspector.nib
+-rw-r--r--  1 root admin 19239 Nov 12 01:44 MainMenu.nib
+-rw-r--r--  1 root admin 4914 Nov 12 01:44 Localizable.strings
+-rw-r--r--  1 root admin 19176 Nov 12 01:44 InspectorWindow.nib
+-rw-r--r--  1 root admin 4528 Nov 12 01:44 ArrayValueInspector.nib
+
+/Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app/Contents/MacOS :
+Total : 536
+-rwxr-xr-x  1 root admin 272416 Mar 16 01:33 [31mAccessibility Inspector[0m
