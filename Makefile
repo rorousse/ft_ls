@@ -6,7 +6,7 @@
 #    By: rorousse <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/01 03:14:08 by rorousse          #+#    #+#              #
-#    Updated: 2016/03/26 17:25:49 by rorousse         ###   ########.fr        #
+#    Updated: 2016/03/30 11:50:58 by rorousse         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -22,13 +22,13 @@ OBJ = $(SRC:.c=.o )
 all : lib $(NAME)
 
 $(NAME) : $(OBJ)
-	gcc $(OBJ) $(LIBS) -o $(NAME)
+	gcc -Wall -Werror -Wextra $(OBJ) $(LIBS) -g -o $(NAME)
 
 lib :
 	make -C ft_printf/
 
 $(OBJ_PATH)%.o:$(SRC_PATH)%.c
-	gcc -Wall -Werror -Wextra -o $@ -c $<
+	gcc -Wall -Werror -Wextra -g -o $@ -c $<
 
 clean :
 	/bin/rm -f $(OBJ)

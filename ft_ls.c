@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:27 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/27 17:00:40 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/30 14:30:31 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,11 @@ int			ft_ls(int argc, char **argv, char *path)
 	t_file_list		*lst;
 	t_build			build;
 
+	init_build(&build);
 	lst = fill_list(path, search_flags(argv, argc, 'a'),
 	search_flags(argv, argc, 't'), &build);
 	if (lst == NULL)
 		return (0);
-	init_build(&build);
 	build.color = search_flags(argv, argc, 'G');
 	if (search_flags(argv, argc, 'r') == 1)
 	{
@@ -35,8 +35,6 @@ int			ft_ls(int argc, char **argv, char *path)
 		aff_list(lst, build);
 	if (search_flags(argv, argc, 'R') == 1)
 		recursion(argc, argv, path, lst);
-	while (lst != NULL && lst->prec != NULL)
-		lst = lst->prec;
 	free_list(&lst);
 	return (0);
 }

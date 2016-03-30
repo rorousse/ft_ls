@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/27 19:03:06 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/30 13:30:23 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,18 +16,22 @@ t_file_list	*new_elem(t_dirent *mydirent, char *path, t_build *build)
 {
 	t_file_list *new;
 	char		*absolute_path;
+	int			end;
 
+	new = (t_file_list *)malloc(sizeof(t_file_list));
+	ft_strcpy(new->d_name, mydirent->d_name);
 	absolute_path = create_path(path, mydirent->d_name);
-	new = (t_file_list*)malloc(sizeof(t_file_list));
 	new->d_ino = mydirent->d_ino;
 	new->d_type = mydirent->d_type;
 	new->next = NULL;
 	new->prec = NULL;
 	new->d_date = NULL;
 	lstat(absolute_path, &(new->infos));
-	ft_bzero(new->link_name, 255);
 	if (S_ISLNK((new->infos).st_mode))
-		readlink(absolute_path, new->link_name, 255);
+	{
+		end = readlink(absolute_path, new->link_name, 255);
+		new->link_name[end] = '\0';
+	}
 	if ((new->d_user = getpwuid((new->infos).st_uid)) != NULL)
 		new->taille_user = ft_strlen((new->d_user)->pw_name);
 	else
@@ -37,10 +41,10 @@ t_file_list	*new_elem(t_dirent *mydirent, char *path, t_build *build)
 	else
 		new->taille_group = ft_size_number((new->infos).st_gid);
 	new->d_date = ft_strdup(ctime(&((new->infos).st_mtime)));
-	formatage_date(&(new->d_date));
-	ft_strcpy(new->d_name, mydirent->d_name);
+	if (new->d_date != NULL)
+		formatage_date(&(new->d_date));
 	define_sizes_build(new, build);
-//	free(absolute_path);
+	free(absolute_path);
 	return (new);
 }
 
@@ -58,7 +62,6 @@ void		free_list(t_file_list **lst)
 		free(*lst);
 		*lst = temp;
 	}
-	*lst = NULL;
 }
 
 void		list_add_elem(t_file_list **lst,

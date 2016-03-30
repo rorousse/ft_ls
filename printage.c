@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/24 15:37:36 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/27 14:10:20 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/30 13:42:11 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,11 @@ void		print_name(t_file_list *lst, t_build build)
 	|| ((lst->infos).st_mode & S_IXOTH)))
 		ft_printf("{rouge}%s{eoc}", lst->d_name);
 	else if (S_ISLNK((lst->infos).st_mode) && build.color == 1)
-		ft_printf("{magenta}%s{eoc}", lst->d_name);
+	{
+		ft_putstr("\033[35m");
+		ft_putstr(lst->d_name);
+		ft_putstr("\033[0m");
+	}
 	else
 		ft_putstr(lst->d_name);
 	if (S_ISLNK((lst->infos).st_mode))
