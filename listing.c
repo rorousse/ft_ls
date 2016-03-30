@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/30 13:30:23 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/30 18:45:56 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,15 +81,15 @@ void		list_add_elem(t_file_list **lst,
 		temp->next = new;
 		new->prec = temp;
 	}
-	if (lecture.mode == 0)
+	if (build->mode == 0)
 		insertion(*lst);
-	else
+	else if (build->mode == 1)
 		time_insertion(*lst);
 	while ((*lst)->prec != NULL)
 		*lst = (*lst)->prec;
 }
 
-t_file_list	*fill_list(char *path, int hidden, int mode, t_build *build)
+t_file_list	*fill_list(char *path, int hidden,  t_build *build)
 {
 	DIR					*mydir;
 	t_dir_ext			lecture;
@@ -97,7 +97,6 @@ t_file_list	*fill_list(char *path, int hidden, int mode, t_build *build)
 
 	lst = NULL;
 	lecture.path = path;
-	lecture.mode = mode;
 	if ((mydir = opendir(path)) == NULL)
 	{
 		perror("Erreur");

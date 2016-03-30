@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/30 15:50:10 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/30 18:50:27 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,7 @@ struct						s_build
 	int						aff_inode;
 	int						color;
 	unsigned int			inode;
+	int						mode;
 };
 
 typedef struct s_build		t_build;
@@ -63,7 +64,6 @@ struct						s_dir_ext
 {
 	t_dirent				*mydirent;
 	char					*path;
-	int						mode;
 };
 
 typedef struct s_dir_ext	t_dir_ext;
@@ -113,7 +113,7 @@ void						list_add_elem(t_file_list **lst,
 							t_dir_ext lecture,
 							t_build *taillemax);
 t_file_list					*fill_list(char *path, int hidden,
-							int mode, t_build *taillemax);
+							t_build *taillemax);
 void						reverse_list(t_file_list *lst);
 
 /*

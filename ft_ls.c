@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:27 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/30 15:49:46 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/30 18:48:00 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,7 @@ int			ft_ls(int argc, char **argv, char *path)
 	t_build			build;
 
 	init_build(&build, argc, argv);
-	lst = fill_list(path, search_flags(argv, argc, 'a'),
-	search_flags(argv, argc, 't'), &build);
+	lst = fill_list(path, search_flags(argv, argc, 'a'), &build);
 	if (lst == NULL)
 		return (0);
 	if (search_flags(argv, argc, 'r') == 1)

@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 19:21:25 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/30 18:47:21 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,10 @@ struct						s_build
 	unsigned int			username;
 	unsigned int			groupname;
 	unsigned int			octets;
+	int						aff_inode;
 	int						color;
+	unsigned int			inode;
+	int						mode;
 };
 
 typedef struct s_build		t_build;
@@ -61,7 +64,6 @@ struct						s_dir_ext
 {
 	t_dirent				*mydirent;
 	char					*path;
-	int						mode;
 };
 
 typedef struct s_dir_ext	t_dir_ext;
@@ -70,6 +72,7 @@ typedef struct s_dir_ext	t_dir_ext;
 ** AFFICHAGE_C
 */
 
+void						print_inode(t_file_list *lst, t_build build);
 void						aff_list(t_file_list *lst, t_build taillemax);
 void						aff_extended(t_file_list *lst, t_build taillemax);
 
@@ -77,7 +80,7 @@ void						aff_extended(t_file_list *lst, t_build taillemax);
 ** BUILD_C
 */
 
-void						init_build(t_build *build);
+void						init_build(t_build *build, int argc, char **argv);
 void						define_sizes_build(t_file_list *lst,
 							t_build *build);
 
@@ -105,7 +108,7 @@ int							ft_ls(int argc, char **argv, char *path);
 
 t_file_list					*new_elem(t_dirent *mydirent,
 							char *path, t_build *taillemax);
-void						free_list(t_file_list *lst);
+void						free_list(t_file_list **lst);
 void						list_add_elem(t_file_list **lst,
 							t_dir_ext lecture,
 							t_build *taillemax);

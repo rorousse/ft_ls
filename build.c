@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/26 17:21:41 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/30 15:50:24 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/30 18:49:52 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,12 @@ void	init_build(t_build *build, int argc, char **argv)
 	build->inode = 0;
 	build->color = search_flags(argv, argc, 'G');
 	build->aff_inode = search_flags(argv, argc, 'i');
-	
+	if (search_flags(argv, argc, 't') == 1)
+		build->mode = 1;
+	else if (search_flags(argv, argc, 'f') == 1)
+		build->mode = -1;
+	else
+		build->mode = 0;
 }
 
 void	define_sizes_build(t_file_list *new, t_build *build)
