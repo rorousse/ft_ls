@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/20 16:33:50 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/30 14:17:27 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/30 15:51:34 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,19 @@ static void	set_padding(int nb)
 	}
 }
 
+void		print_inode(t_file_list *lst, t_build build)
+{
+	ft_printf("%*ld ",build.inode, lst->d_ino);
+}
+
 void		aff_list(t_file_list *lst, t_build build)
 {
 	while (lst != NULL && lst->prec != NULL)
 		lst = lst->prec;
 	while (lst != NULL)
 	{
+		if (build.aff_inode == 1)
+			print_inode(lst, build);
 		print_name(lst, build);
 		lst = lst->next;
 	}
@@ -43,10 +50,12 @@ void		aff_extended(t_file_list *lst, t_build build)
 		lst = lst->prec;
 	while (lst != NULL)
 	{
+		if (build.aff_inode == 1)
+			print_inode(lst, build);
 		print_typage((lst->infos).st_mode);
 		print_rights((lst->infos).st_mode);
 		ft_putstr("  ");
-		ft_printf("%-*d", build.nblinks, (lst->infos).st_nlink);
+		ft_printf("%*d", build.nblinks, (lst->infos).st_nlink);
 		ft_putchar(' ');
 		if (lst->d_user != NULL) 
 			ft_putstr((lst->d_user)->pw_name);
@@ -60,7 +69,7 @@ void		aff_extended(t_file_list *lst, t_build build)
 			ft_putnbr((lst->infos).st_gid);
 		set_padding(build.groupname - lst->taille_group);
 		ft_putchar(' ');
-		ft_printf("%-*lld", build.octets, (lst->infos).st_size);
+		ft_printf("%*lld", build.octets, (lst->infos).st_size);
 		ft_putchar(' ');
 		ft_putstr(lst->d_date);
 		ft_putchar(' ');

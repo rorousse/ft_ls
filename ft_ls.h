@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/29 12:59:00 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/30 15:50:10 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,9 @@ struct						s_build
 	unsigned int			username;
 	unsigned int			groupname;
 	unsigned int			octets;
+	int						aff_inode;
 	int						color;
+	unsigned int			inode;
 };
 
 typedef struct s_build		t_build;
@@ -70,6 +72,7 @@ typedef struct s_dir_ext	t_dir_ext;
 ** AFFICHAGE_C
 */
 
+void						print_inode(t_file_list *lst, t_build build);
 void						aff_list(t_file_list *lst, t_build taillemax);
 void						aff_extended(t_file_list *lst, t_build taillemax);
 
@@ -77,7 +80,7 @@ void						aff_extended(t_file_list *lst, t_build taillemax);
 ** BUILD_C
 */
 
-void						init_build(t_build *build);
+void						init_build(t_build *build, int argc, char **argv);
 void						define_sizes_build(t_file_list *lst,
 							t_build *build);
 

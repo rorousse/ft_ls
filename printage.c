@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/24 15:37:36 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/30 13:42:11 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/03/30 16:07:12 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,12 @@ void		print_rights(mode_t st_mode)
 	put_condition(st_mode & S_IXGRP, 'x');
 	put_condition(st_mode & S_IROTH, 'r');
 	put_condition(st_mode & S_IWOTH, 'w');
-	put_condition(st_mode & S_IXOTH, 'x');
+	if (st_mode & S_ISVTX)
+		ft_putchar('t');
+	else if (st_mode & S_IXOTH)
+		ft_putchar('x');
+	else
+		ft_putchar('-');
 }
 
 void		print_name(t_file_list *lst, t_build build)
