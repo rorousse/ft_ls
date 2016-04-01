@@ -6,11 +6,24 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/30 18:45:56 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/01 13:00:25 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ls.h"
+
+static void	init_new_elem(t_file_list **new, t_dirent *mydirent,
+char *absolute_path)
+{
+	*new = (t_file_list *)malloc(sizeof(t_file_list));
+	ft_strcpy((*new)->d_name, mydirent->d_name);
+	(*new)->d_ino = mydirent->d_ino;
+	(*new)->d_type = mydirent->d_type;
+	(*new)->next = NULL;
+	(*new)->prec = NULL;
+	(*new)->d_date = NULL;
+	lstat(absolute_path, &((*new)->infos));
+}
 
 t_file_list	*new_elem(t_dirent *mydirent, char *path, t_build *build)
 {
@@ -18,15 +31,8 @@ t_file_list	*new_elem(t_dirent *mydirent, char *path, t_build *build)
 	char		*absolute_path;
 	int			end;
 
-	new = (t_file_list *)malloc(sizeof(t_file_list));
-	ft_strcpy(new->d_name, mydirent->d_name);
 	absolute_path = create_path(path, mydirent->d_name);
-	new->d_ino = mydirent->d_ino;
-	new->d_type = mydirent->d_type;
-	new->next = NULL;
-	new->prec = NULL;
-	new->d_date = NULL;
-	lstat(absolute_path, &(new->infos));
+	init_new_elem(&new, mydirent, absolute_path);
 	if (S_ISLNK((new->infos).st_mode))
 	{
 		end = readlink(absolute_path, new->link_name, 255);
@@ -89,7 +95,7 @@ void		list_add_elem(t_file_list **lst,
 		*lst = (*lst)->prec;
 }
 
-t_file_list	*fill_list(char *path, int hidden,  t_build *build)
+t_file_list	*fill_list(char *path, int hidden, t_build *build)
 {
 	DIR					*mydir;
 	t_dir_ext			lecture;
@@ -109,19 +115,4 @@ t_file_list	*fill_list(char *path, int hidden,  t_build *build)
 	}
 	closedir(mydir);
 	return (lst);
-}
-
-void		reverse_list(t_file_list *lst)
-{
-	t_file_list *temp;
-
-	while (lst != NULL && lst->prec != NULL)
-		lst = lst->prec;
-	while (lst != NULL)
-	{
-		temp = lst->prec;
-		lst->prec = lst->next;
-		lst->next = temp;
-		lst = lst->prec;
-	}
 }

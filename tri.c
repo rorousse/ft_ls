@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 13:10:44 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/26 17:08:48 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/01 13:01:08 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,5 +65,20 @@ void	time_insertion(t_file_list *lst)
 		cmp->next = lst;
 		if (lst->next != NULL)
 			(lst->next)->prec = lst;
+	}
+}
+
+void	reverse_list(t_file_list *lst)
+{
+	t_file_list *temp;
+
+	while (lst != NULL && lst->prec != NULL)
+		lst = lst->prec;
+	while (lst != NULL)
+	{
+		temp = lst->prec;
+		lst->prec = lst->next;
+		lst->next = temp;
+		lst = lst->prec;
 	}
 }

@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/20 16:33:50 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/30 15:51:34 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/01 12:42:04 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,20 @@ static void	set_padding(int nb)
 	}
 }
 
+static void	aff_extended_normay(t_file_list *lst, t_build build)
+{
+	set_padding(build.groupname - lst->taille_group);
+	ft_putchar(' ');
+	ft_printf("%*lld", build.octets, (lst->infos).st_size);
+	ft_putchar(' ');
+	ft_putstr(lst->d_date);
+	ft_putchar(' ');
+	print_name(lst, build);
+}
+
 void		print_inode(t_file_list *lst, t_build build)
 {
-	ft_printf("%*ld ",build.inode, lst->d_ino);
+	ft_printf("%*ld ", build.inode, lst->d_ino);
 }
 
 void		aff_list(t_file_list *lst, t_build build)
@@ -44,7 +55,7 @@ void		aff_list(t_file_list *lst, t_build build)
 }
 
 void		aff_extended(t_file_list *lst, t_build build)
-{	
+{
 	print_total_blocks(lst);
 	while (lst != NULL && lst->prec != NULL)
 		lst = lst->prec;
@@ -57,7 +68,7 @@ void		aff_extended(t_file_list *lst, t_build build)
 		ft_putstr("  ");
 		ft_printf("%*d", build.nblinks, (lst->infos).st_nlink);
 		ft_putchar(' ');
-		if (lst->d_user != NULL) 
+		if (lst->d_user != NULL)
 			ft_putstr((lst->d_user)->pw_name);
 		else
 			ft_putnbr((lst->infos).st_uid);
@@ -67,13 +78,7 @@ void		aff_extended(t_file_list *lst, t_build build)
 			ft_putstr((lst->d_group)->gr_name);
 		else
 			ft_putnbr((lst->infos).st_gid);
-		set_padding(build.groupname - lst->taille_group);
-		ft_putchar(' ');
-		ft_printf("%*lld", build.octets, (lst->infos).st_size);
-		ft_putchar(' ');
-		ft_putstr(lst->d_date);
-		ft_putchar(' ');
-		print_name(lst, build);
+		aff_extended_normay(lst, build);
 		lst = lst->next;
 	}
 }

@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/30 18:50:27 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/01 12:45:27 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,7 +114,6 @@ void						list_add_elem(t_file_list **lst,
 							t_build *taillemax);
 t_file_list					*fill_list(char *path, int hidden,
 							t_build *taillemax);
-void						reverse_list(t_file_list *lst);
 
 /*
 ** PATHS_H
@@ -144,5 +143,6 @@ void						recursion(int argc, char **argv,
 
 void						insertion(t_file_list *lst);
 void						time_insertion(t_file_list *lst);
+void						reverse_list(t_file_list *lst);
 
 #endif
