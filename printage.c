@@ -6,17 +6,17 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/24 15:37:36 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/30 16:07:12 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/02 16:12:39 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ls.h"
 
-static void	put_condition(int bool, char c)
+static void	put_condition(int bool, char c, int repl)
 {
 	if (bool > 0)
 		ft_putchar(c);
-	else
+	else if (repl == 1)
 		ft_putchar('-');
 }
 
@@ -40,20 +40,24 @@ void		print_typage(mode_t st_mode)
 
 void		print_rights(mode_t st_mode)
 {
-	put_condition(st_mode & S_IRUSR, 'r');
-	put_condition(st_mode & S_IWUSR, 'w');
-	put_condition(st_mode & S_IXUSR, 'x');
-	put_condition(st_mode & S_IRGRP, 'r');
-	put_condition(st_mode & S_IWGRP, 'w');
-	put_condition(st_mode & S_IXGRP, 'x');
-	put_condition(st_mode & S_IROTH, 'r');
-	put_condition(st_mode & S_IWOTH, 'w');
-	if (st_mode & S_ISVTX)
-		ft_putchar('t');
-	else if (st_mode & S_IXOTH)
-		ft_putchar('x');
-	else
-		ft_putchar('-');
+	put_condition(st_mode & S_IRUSR, 'r', 1);
+	put_condition(st_mode & S_IWUSR, 'w', 1);
+	put_condition((st_mode & S_IXUSR) && (st_mode & S_ISUID), 's', 0);
+	put_condition(!(st_mode & S_IXUSR) && (st_mode & S_ISUID), 'S', 0);
+	put_condition((st_mode & S_IXUSR) && !(st_mode & S_ISUID), 'x', 0);
+	put_condition(!(st_mode & S_IXUSR) && !(st_mode & S_ISUID), '-', 0);
+	put_condition(st_mode & S_IRGRP, 'r', 1);
+	put_condition(st_mode & S_IWGRP, 'w', 1);
+	put_condition((st_mode & S_IXGRP) && (st_mode & S_ISGID), 's', 0);
+	put_condition(!(st_mode & S_IXGRP) && (st_mode & S_ISGID), 'S', 0);
+	put_condition((st_mode & S_IXGRP) && !(st_mode & S_ISGID), 'x', 0);
+	put_condition(!(st_mode & S_IXGRP) && !(st_mode & S_ISGID), '-', 0);
+	put_condition(st_mode & S_IROTH, 'r', 1);
+	put_condition(st_mode & S_IWOTH, 'w', 1);
+	put_condition((st_mode & S_IXOTH) && (st_mode & S_ISVTX), 't', 0);
+	put_condition(!(st_mode & S_IXOTH) && (st_mode & S_ISVTX), 'T', 0);
+	put_condition((st_mode & S_IXOTH) && !(st_mode & S_ISVTX), 'x', 0);
+	put_condition(!(st_mode & S_IXOTH) && !(st_mode & S_ISVTX), '-', 0);
 }
 
 void		print_name(t_file_list *lst, t_build build)
@@ -93,5 +97,5 @@ void		print_total_blocks(t_file_list *lst)
 		lst = lst->next;
 	}
 	if (count != 0)
-		ft_printf("Total : %u\n", count);
+		ft_printf("Total %u\n", count);
 }

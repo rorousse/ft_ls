@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 18:37:20 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/02 18:56:54 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/01 13:40:40 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,6 +106,5 @@ extern wchar_t		*ft_uni_strjoin(wchar_t *s1, wchar_t *s2);
 extern int			ft_uni_size(wchar_t c);
 extern void			ft_free_strjoin(char **s1, char *s2);
 extern unsigned int	ft_size_number(long long int nb);
-extern void			ft_tri_chaine(char **str);
 
 #endif
