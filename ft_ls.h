@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/01 12:45:27 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/02 13:03:06 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -145,4 +145,9 @@ void						insertion(t_file_list *lst);
 void						time_insertion(t_file_list *lst);
 void						reverse_list(t_file_list *lst);
 
+/*
+** USAGE_C
+*/
+
+int							usage(int argc, char **argv);
 #endif

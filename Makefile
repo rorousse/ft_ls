@@ -6,7 +6,7 @@
 #    By: rorousse <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/01 03:14:08 by rorousse          #+#    #+#              #
-#    Updated: 2016/03/30 11:50:58 by rorousse         ###   ########.fr        #
+#    Updated: 2016/04/02 13:02:04 by rorousse         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -15,7 +15,7 @@ HEADER = ft_printf.h libft/libft.h
 SRC_PATH=./
 OBJ_PATH=./
 LIBS= ft_printf/libftprintf.a
-SRC = main.c listing.c tri.c flags.c ft_ls.c paths.c recursion.c affichage.c printage.c date.c build.c
+SRC = main.c listing.c tri.c flags.c ft_ls.c paths.c recursion.c affichage.c printage.c date.c build.c usage.c
 
 OBJ = $(SRC:.c=.o )
 
