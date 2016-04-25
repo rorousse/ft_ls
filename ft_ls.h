@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/25 10:54:02 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/25 15:37:30 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -120,6 +120,12 @@ void						list_add_elem(t_file_list **lst,
 							t_build *taillemax);
 t_file_list					*fill_list(char *path, int hidden,
 							t_build *taillemax);
+
+/*
+** META_AFFICHAGE_C
+*/
+
+void						meta_affichage(int argc, char **argv, t_file_list *lst, t_build build);
 
 /*
 ** PATHS_H

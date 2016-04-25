@@ -6,23 +6,24 @@
 #    By: rorousse <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/01 03:14:08 by rorousse          #+#    #+#              #
-#    Updated: 2016/04/25 11:04:01 by rorousse         ###   ########.fr        #
+#    Updated: 2016/04/25 15:36:03 by rorousse         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
-SRCNAME =	affichage.c		\
-			build.c			\
-			date.c			\
-			flags.c			\
-			ft_ls.c			\
-			listing.c		\
-			main.c			\
-			paths.c			\
-			printage.c		\
-			recursion.c		\
-			tri.c			\
-			usage.c			\
-			check_error.c	\
+SRCNAME =	affichage.c			\
+			build.c				\
+			date.c				\
+			flags.c				\
+			ft_ls.c				\
+			listing.c			\
+			main.c				\
+			paths.c				\
+			printage.c			\
+			recursion.c			\
+			tri.c				\
+			usage.c				\
+			check_error.c		\
+			meta_affichage.c	\
 
 SRCPATH = ./srcs/
 

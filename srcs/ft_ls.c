@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:27 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/30 18:48:00 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/25 15:37:06 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,7 @@ int			ft_ls(int argc, char **argv, char *path)
 		while (lst != NULL && lst->prec != NULL)
 			lst = lst->prec;
 	}
-	if (search_flags(argv, argc, 'l') == 1)
-		aff_extended(lst, build);
-	else
-		aff_list(lst, build);
+	meta_affichage(argc, argv, lst, build);
 	if (search_flags(argv, argc, 'R') == 1)
 		recursion(argc, argv, path, lst);
 	free_list(&lst);
