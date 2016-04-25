@@ -6,22 +6,23 @@
 #    By: rorousse <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/01 03:14:08 by rorousse          #+#    #+#              #
-#    Updated: 2016/04/10 15:21:41 by rorousse         ###   ########.fr        #
+#    Updated: 2016/04/25 11:04:01 by rorousse         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
-SRCNAME =	affichage.c	\
-			build.c		\
-			date.c		\
-			flags.c		\
-			ft_ls.c		\
-			listing.c	\
-			main.c		\
-			paths.c		\
-			printage.c	\
-			recursion.c	\
-			tri.c		\
-			usage.c		\
+SRCNAME =	affichage.c		\
+			build.c			\
+			date.c			\
+			flags.c			\
+			ft_ls.c			\
+			listing.c		\
+			main.c			\
+			paths.c			\
+			printage.c		\
+			recursion.c		\
+			tri.c			\
+			usage.c			\
+			check_error.c	\
 
 SRCPATH = ./srcs/
 
@@ -39,15 +40,18 @@ FLAGS = -Wall -Werror -Wextra
 
 all: $(NAME)
 
-$(NAME):	$(OBJ)
+$(NAME):	create_obj $(OBJ)
 	make -C ft_printf/
 	gcc $(FLAG) $(OBJ) ft_printf/libftprintf.a -o $(NAME)
 
 $(OBJPATH)%.o:	$(SRCPATH)%.c
 	gcc $(FLAGS) -I ./ -c $< -o $@
 
+create_obj :
+	mkdir -p $(OBJPATH)
+
 clean:
-	/bin/rm $(OBJ)
+	/bin/rm -rf $(OBJPATH)
 	make -C ./ft_printf/ clean
 
 fclean: clean

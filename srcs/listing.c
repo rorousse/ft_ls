@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/01 13:00:25 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/25 10:25:19 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,10 +104,7 @@ t_file_list	*fill_list(char *path, int hidden, t_build *build)
 	lst = NULL;
 	lecture.path = path;
 	if ((mydir = opendir(path)) == NULL)
-	{
-		perror("Erreur");
 		return (NULL);
-	}
 	while ((lecture.mydirent = readdir(mydir)) != NULL)
 	{
 		if (((lecture.mydirent)->d_name)[0] != '.' || hidden == 1)

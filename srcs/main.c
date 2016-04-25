@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:37 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/14 11:14:02 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/25 10:53:06 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,28 +33,39 @@ static void	fill_arg(char **argv, char ***str, int argc)
 	ft_tri_chaine(*str);
 }
 
-int			main(int argc, char **argv)
+static void	boucle_dir(int argc, int *arg_name, char **argv, char **str)
 {
 	int		i;
+	DIR		*mydir;
 	char	*path;
+
+	i = 0;
+	while (str[i] != NULL)
+	{
+		if ((mydir = opendir(str[i])) != NULL)
+			ft_printf("%s :\n", str[i]);
+		*arg_name = 1;
+		path = str[i];
+		ft_ls(argc, argv, path);
+		ft_putstr("\n");
+		if (mydir != NULL)
+			closedir(mydir);
+		i++;
+	}
+}
+
+int			main(int argc, char **argv)
+{
 	char	**str;
 	int		arg_name;
 
-	i = 0;
 	arg_name = 0;
 	str = NULL;
 	fill_arg(argv, &str, argc);
 	if (usage(argc, argv) == 0)
 		return (0);
-	while (str[i] != NULL)
-	{
-		ft_printf("%s :\n", str[i]);
-		arg_name = 1;
-		path = str[i];
-		ft_ls(argc, argv, path);
-		ft_putstr("\n");
-		i++;
-	}
+	check_error(str);
+	boucle_dir(argc, &arg_name, argv, str);
 	if (arg_name == 0)
 		ft_ls(argc, argv, ".");
 	free(str);

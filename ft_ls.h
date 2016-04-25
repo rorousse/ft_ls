@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/02 13:03:06 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/25 10:54:02 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,6 +83,12 @@ void						aff_extended(t_file_list *lst, t_build taillemax);
 void						init_build(t_build *build, int argc, char **argv);
 void						define_sizes_build(t_file_list *lst,
 							t_build *build);
+
+/*
+** CHECK_ERROR_C
+*/
+
+void						check_error(char **str);
 
 /*
 ** DATE_C
