@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/25 10:25:19 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/26 17:36:21 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@ char *absolute_path)
 	*new = (t_file_list *)malloc(sizeof(t_file_list));
 	ft_strcpy((*new)->d_name, mydirent->d_name);
 	(*new)->d_ino = mydirent->d_ino;
-	(*new)->d_type = mydirent->d_type;
 	(*new)->next = NULL;
 	(*new)->prec = NULL;
 	(*new)->d_date = NULL;
@@ -100,11 +99,17 @@ t_file_list	*fill_list(char *path, int hidden, t_build *build)
 	DIR					*mydir;
 	t_dir_ext			lecture;
 	t_file_list			*lst;
+	struct stat			verif;
 
 	lst = NULL;
 	lecture.path = path;
 	if ((mydir = opendir(path)) == NULL)
-		return (NULL);
+	{
+		if (lstat(path, &verif) == -1)
+			return (NULL);
+		lst = one_file(path, build);
+		return (lst);
+	}
 	while ((lecture.mydirent = readdir(mydir)) != NULL)
 	{
 		if (((lecture.mydirent)->d_name)[0] != '.' || hidden == 1)

@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/25 15:37:30 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/26 17:36:14 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -126,6 +126,12 @@ t_file_list					*fill_list(char *path, int hidden,
 */
 
 void						meta_affichage(int argc, char **argv, t_file_list *lst, t_build build);
+
+/*
+** ONE_FILE_C
+*/
+
+t_file_list					*one_file(char *file, t_build *build);
 
 /*
 ** PATHS_H

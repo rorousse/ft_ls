@@ -6,7 +6,7 @@
 #    By: rorousse <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/01 03:14:08 by rorousse          #+#    #+#              #
-#    Updated: 2016/04/25 15:36:03 by rorousse         ###   ########.fr        #
+#    Updated: 2016/04/26 17:36:39 by rorousse         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -24,6 +24,7 @@ SRCNAME =	affichage.c			\
 			usage.c				\
 			check_error.c		\
 			meta_affichage.c	\
+			one_file.c
 
 SRCPATH = ./srcs/
 

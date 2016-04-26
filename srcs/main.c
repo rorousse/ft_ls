@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:37 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/25 10:53:06 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/26 18:03:20 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,23 +37,42 @@ static void	boucle_dir(int argc, int *arg_name, char **argv, char **str)
 {
 	int		i;
 	DIR		*mydir;
-	char	*path;
 
 	i = 0;
 	while (str[i] != NULL)
 	{
 		if ((mydir = opendir(str[i])) != NULL)
+		{
 			ft_printf("%s :\n", str[i]);
-		*arg_name = 1;
-		path = str[i];
-		ft_ls(argc, argv, path);
-		ft_putstr("\n");
+			*arg_name = 1;
+			ft_ls(argc, argv, str[i]);
+			ft_putstr("\n");
+			if (mydir != NULL)
+				closedir(mydir);
+		}
+		i++;
+	}
+}
+
+static void	boucle_file(int argc, char **argv, char **str)
+{
+	int	i;
+	DIR	*mydir;
+
+	i = 0;
+	while (str[i] != NULL)
+	{
+		if ((mydir = opendir(str[i])) == NULL)
+		{
+			ft_ls(argc, argv, str[i]);
+			ft_putstr("\n");
+		}
 		if (mydir != NULL)
 			closedir(mydir);
 		i++;
 	}
 }
-
+			
 int			main(int argc, char **argv)
 {
 	char	**str;
@@ -65,6 +84,7 @@ int			main(int argc, char **argv)
 	if (usage(argc, argv) == 0)
 		return (0);
 	check_error(str);
+	boucle_file(argc, argv, str);
 	boucle_dir(argc, &arg_name, argv, str);
 	if (arg_name == 0)
 		ft_ls(argc, argv, ".");
