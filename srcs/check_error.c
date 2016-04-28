@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/04/25 10:28:33 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/25 15:14:22 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/28 16:49:39 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,7 @@ void	check_error(char **str)
 		{
 			ft_putstr("Erreur : ");
 			ft_putstr(str[i]);
-			ft_putstr(" : ");
-			perror("");
+			ft_putstr(" : No such file or directory\n");
 		}
 		i++;
 	}
