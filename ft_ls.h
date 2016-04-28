@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/26 17:36:14 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/28 16:22:09 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 # include <sys/stat.h>
 # include <unistd.h>
 # include <sys/types.h>
+# include <time.h>
 # include <pwd.h>
 # include <grp.h>
 # include "ft_printf/ft_printf.h"
@@ -125,7 +126,8 @@ t_file_list					*fill_list(char *path, int hidden,
 ** META_AFFICHAGE_C
 */
 
-void						meta_affichage(int argc, char **argv, t_file_list *lst, t_build build);
+void						meta_affichage(int argc, char **argv,
+							t_file_list *lst, t_build build);
 
 /*
 ** ONE_FILE_C

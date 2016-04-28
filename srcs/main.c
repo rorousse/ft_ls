@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:37 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/26 18:03:20 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/28 15:14:19 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ static void	boucle_file(int argc, char **argv, char **str)
 		i++;
 	}
 }
-			
+
 int			main(int argc, char **argv)
 {
 	char	**str;

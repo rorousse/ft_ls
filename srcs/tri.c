@@ -6,13 +6,20 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 13:10:44 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/01 13:01:08 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/04/28 15:20:52 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ls.h"
 
-void	insertion(t_file_list *lst)
+static void	fuck_the_norminette(t_file_list *lst, t_file_list *cmp)
+{
+	lst->prec = NULL;
+	lst->next = cmp;
+	cmp->prec = lst;
+}
+
+void		insertion(t_file_list *lst)
 {
 	t_file_list		*cmp;
 
@@ -40,7 +47,7 @@ void	insertion(t_file_list *lst)
 	}
 }
 
-void	time_insertion(t_file_list *lst)
+void		time_insertion(t_file_list *lst)
 {
 	t_file_list	*cmp;
 
@@ -50,14 +57,15 @@ void	time_insertion(t_file_list *lst)
 		return ;
 	cmp = lst->prec;
 	cmp->next = NULL;
-	while (cmp->prec != NULL && (lst->infos).st_mtime > (cmp->infos).st_mtime)
+	while (cmp->prec != NULL
+	&& ((lst->infos).st_mtimespec.tv_sec > (cmp->infos).st_mtimespec.tv_sec
+	|| ((lst->infos).st_mtimespec.tv_sec == (cmp->infos).st_mtimespec.tv_sec
+	&& (lst->infos).st_mtimespec.tv_nsec > (cmp->infos).st_mtimespec.tv_nsec)))
 		cmp = cmp->prec;
-	if ((lst->infos).st_mtime > (cmp->infos).st_mtime)
-	{
-		lst->prec = NULL;
-		lst->next = cmp;
-		cmp->prec = lst;
-	}
+	if ((lst->infos).st_mtimespec.tv_sec > (cmp->infos).st_mtimespec.tv_sec
+	|| ((lst->infos).st_mtimespec.tv_sec == (cmp->infos).st_mtimespec.tv_sec
+	&& (lst->infos).st_mtimespec.tv_nsec > (cmp->infos).st_mtimespec.tv_nsec))
+		fuck_the_norminette(lst, cmp);
 	else
 	{
 		lst->prec = cmp;
@@ -68,7 +76,7 @@ void	time_insertion(t_file_list *lst)
 	}
 }
 
-void	reverse_list(t_file_list *lst)
+void		reverse_list(t_file_list *lst)
 {
 	t_file_list *temp;
 
