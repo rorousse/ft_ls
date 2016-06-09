@@ -6,7 +6,7 @@
 #    By: rorousse <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/01 03:14:08 by rorousse          #+#    #+#              #
-#    Updated: 2016/04/26 17:36:39 by rorousse         ###   ########.fr        #
+#    Updated: 2016/06/07 14:15:21 by rorousse         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -38,7 +38,7 @@ OBJ = $(addprefix $(OBJPATH), $(OBJNAME))
 
 NAME = ft_ls
 
-FLAGS = -Wall -Werror -Wextra
+FLAGS = -Wall -Wextra -O0 -g -Wmissing-prototypes -Werror
 
 all: $(NAME)
 
@@ -57,7 +57,7 @@ clean:
 	make -C ./ft_printf/ clean
 
 fclean: clean
-	/bin/rm $(NAME)
+	/bin/rm -f $(NAME)
 	make -C ./ft_printf/ fclean
 
 re:	fclean  all

@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:27 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/25 15:37:06 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/09 11:28:22 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int			ft_ls(int argc, char **argv, char *path)
 	init_build(&build, argc, argv);
 	lst = fill_list(path, search_flags(argv, argc, 'a'), &build);
 	if (lst == NULL)
-		return (0);
+		return (-1);
 	if (search_flags(argv, argc, 'r') == 1)
 	{
 		reverse_list(lst);

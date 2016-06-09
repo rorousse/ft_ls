@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/26 17:21:41 by rorousse          #+#    #+#             */
-/*   Updated: 2016/03/30 18:49:52 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/09 11:22:33 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@ void	init_build(t_build *build, int argc, char **argv)
 	build->groupname = 0;
 	build->octets = 0;
 	build->inode = 0;
+	build->unicity = 0;
 	build->color = search_flags(argv, argc, 'G');
 	build->aff_inode = search_flags(argv, argc, 'i');
 	if (search_flags(argv, argc, 't') == 1)

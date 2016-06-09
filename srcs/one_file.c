@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/04/26 17:25:56 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/28 15:13:46 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/09 11:22:53 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ t_file_list		*one_file(char *file, t_build *build)
 	int			end;
 
 	new = (t_file_list *)malloc(sizeof(t_file_list));
+	build->unicity = 1;
 	initialisation(new, file);
 	if (S_ISLNK((new->infos).st_mode))
 	{

@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/24 15:37:36 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/02 16:12:39 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/09 11:25:32 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,18 +84,21 @@ void		print_name(t_file_list *lst, t_build build)
 	ft_putchar('\n');
 }
 
-void		print_total_blocks(t_file_list *lst)
+void		print_total_blocks(t_file_list *lst, t_build build)
 {
 	unsigned int	count;
 
-	count = 0;
-	while (lst != NULL && lst->prec != NULL)
-		lst = lst->prec;
-	while (lst != NULL)
+	if (build.unicity == 0)
 	{
-		count = count + (lst->infos).st_blocks;
-		lst = lst->next;
+		count = 0;
+		while (lst != NULL && lst->prec != NULL)
+			lst = lst->prec;
+		while (lst != NULL)
+		{
+			count = count + (lst->infos).st_blocks;
+			lst = lst->next;
+		}
+		if (count != 0)
+			ft_printf("Total %u\n", count);
 	}
-	if (count != 0)
-		ft_printf("Total %u\n", count);
 }

@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/28 16:22:09 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/09 11:24:23 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,7 @@ struct						s_build
 	unsigned int			octets;
 	int						aff_inode;
 	int						color;
+	int						unicity;
 	unsigned int			inode;
 	int						mode;
 };
@@ -148,7 +149,7 @@ char						*create_path(char *path, char *name);
 void						print_typage(mode_t st_mode);
 void						print_rights(mode_t st_mode);
 void						print_name(t_file_list *lst, t_build taillemax);
-void						print_total_blocks(t_file_list *lst);
+void						print_total_blocks(t_file_list *lst, t_build build);
 
 /*
 ** RECURSION_C

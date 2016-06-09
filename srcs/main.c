@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:37 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/28 17:08:09 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/09 11:37:15 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ static void	fill_arg(char **argv, char ***str, int argc, int *arg_name)
 	ft_tri_chaine(*str);
 }
 
-static void	boucle_dir(int argc, char **argv, char **str, int *line)
+static void	boucle_dir(int argc, char **argv, char **str)
 {
 	int		i;
 	DIR		*mydir;
@@ -44,54 +44,52 @@ static void	boucle_dir(int argc, char **argv, char **str, int *line)
 	{
 		if ((mydir = opendir(str[i])) != NULL)
 		{
-			if (*line != 0)
-				ft_putchar('\n');
-			*line = 1;
 			ft_printf("%s :\n", str[i]);
 			ft_ls(argc, argv, str[i]);
 			if (mydir != NULL)
 				closedir(mydir);
+			ft_putchar('\n');
 		}
 		i++;
 	}
 }
 
-static void	boucle_file(int argc, char **argv, char **str, int *line)
+static int	boucle_file(int argc, char **argv, char **str)
 {
 	int	i;
+	int	bool;
 	DIR	*mydir;
 
 	i = 0;
+	bool = 0;
 	while (str[i] != NULL)
 	{
 		if ((mydir = opendir(str[i])) == NULL)
 		{
-			if (*line != 0)
-				ft_putchar('\n');
-			*line = 1;
-			ft_ls(argc, argv, str[i]);
+			if (ft_ls(argc, argv, str[i]) != -1)
+				bool = 1;
 		}
 		if (mydir != NULL)
 			closedir(mydir);
 		i++;
 	}
+	return (bool);
 }
 
 int			main(int argc, char **argv)
 {
 	char	**str;
 	int		arg_name;
-	int		line;
 
-	line = 0;
 	arg_name = 0;
 	str = NULL;
 	fill_arg(argv, &str, argc, &arg_name);
 	if (usage(argc, argv) == 0)
 		return (0);
 	check_error(str);
-	boucle_file(argc, argv, str, &line);
-	boucle_dir(argc, argv, str, &line);
+	if (boucle_file(argc, argv, str) == 1)
+		ft_putchar('\n');
+	boucle_dir(argc, argv, str);
 	if (arg_name == 0)
 		ft_ls(argc, argv, ".");
 	free(str);

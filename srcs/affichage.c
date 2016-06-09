@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/20 16:33:50 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/01 12:42:04 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/09 11:23:49 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ void		aff_list(t_file_list *lst, t_build build)
 
 void		aff_extended(t_file_list *lst, t_build build)
 {
-	print_total_blocks(lst);
+	print_total_blocks(lst, build);
 	while (lst != NULL && lst->prec != NULL)
 		lst = lst->prec;
 	while (lst != NULL)
