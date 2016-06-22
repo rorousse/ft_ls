@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:37 by rorousse          #+#    #+#             */
-/*   Updated: 2016/06/09 11:37:15 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/22 15:29:23 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,10 +38,12 @@ static void	boucle_dir(int argc, char **argv, char **str)
 {
 	int		i;
 	DIR		*mydir;
+	struct stat verif;
 
 	i = 0;
 	while (str[i] != NULL)
 	{
+		lstat(str[i], &verif);
 		if ((mydir = opendir(str[i])) != NULL)
 		{
 			ft_printf("%s :\n", str[i]);
@@ -49,6 +51,12 @@ static void	boucle_dir(int argc, char **argv, char **str)
 			if (mydir != NULL)
 				closedir(mydir);
 			ft_putchar('\n');
+		}
+		else if (mydir == NULL && S_ISDIR(verif.st_mode))
+		{
+			ft_putstr("Erreur : ");
+			ft_putstr(str[i]);
+			ft_putendl(" : Permission denied");
 		}
 		i++;
 	}
@@ -59,12 +67,14 @@ static int	boucle_file(int argc, char **argv, char **str)
 	int	i;
 	int	bool;
 	DIR	*mydir;
+	struct stat verif;
 
 	i = 0;
 	bool = 0;
 	while (str[i] != NULL)
 	{
-		if ((mydir = opendir(str[i])) == NULL)
+		lstat(str[i], &verif);
+		if ((mydir = opendir(str[i])) == NULL && !S_ISDIR(verif.st_mode))
 		{
 			if (ft_ls(argc, argv, str[i]) != -1)
 				bool = 1;
