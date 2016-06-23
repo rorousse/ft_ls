@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:37 by rorousse          #+#    #+#             */
-/*   Updated: 2016/06/22 17:40:51 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/23 18:24:03 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,8 @@ static void	fill_arg(char **argv, char ***str, int argc, int *arg_name)
 		ft_tri_time_chaine(*str);
 	else
 		ft_tri_chaine(*str);
+	if (search_flags(argv, argc, 'r'))
+		ft_reverse_double_char(*str);
 }
 
 static void	boucle_dir(int argc, char **argv, char **str)
