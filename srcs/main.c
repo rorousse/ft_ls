@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:37 by rorousse          #+#    #+#             */
-/*   Updated: 2016/06/22 15:29:23 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/22 17:40:51 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,14 +31,17 @@ static void	fill_arg(char **argv, char ***str, int argc, int *arg_name)
 		i++;
 	}
 	str[0][y] = NULL;
-	ft_tri_chaine(*str);
+	if (search_flags(argv, argc, 't'))
+		ft_tri_time_chaine(*str);
+	else
+		ft_tri_chaine(*str);
 }
 
 static void	boucle_dir(int argc, char **argv, char **str)
 {
-	int		i;
-	DIR		*mydir;
-	struct stat verif;
+	int			i;
+	DIR			*mydir;
+	struct stat	verif;
 
 	i = 0;
 	while (str[i] != NULL)
@@ -64,10 +67,10 @@ static void	boucle_dir(int argc, char **argv, char **str)
 
 static int	boucle_file(int argc, char **argv, char **str)
 {
-	int	i;
-	int	bool;
-	DIR	*mydir;
-	struct stat verif;
+	int			i;
+	int			bool;
+	DIR			*mydir;
+	struct stat	verif;
 
 	i = 0;
 	bool = 0;

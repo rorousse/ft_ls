@@ -6,11 +6,23 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 13:10:44 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/28 15:20:52 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/22 16:39:17 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_ls.h"
+
+static int	ft_comp_qui_craint(t_file_list *lst, t_file_list *cmp)
+{
+	if (((lst->infos).st_mtimespec.tv_sec > (cmp->infos).st_mtimespec.tv_sec
+		 || ((lst->infos).st_mtimespec.tv_sec == (cmp->infos).st_mtimespec.tv_sec
+			 && (lst->infos).st_mtimespec.tv_nsec > (cmp->infos).st_mtimespec.tv_nsec)
+		 || ((lst->infos).st_mtimespec.tv_sec == (cmp->infos).st_mtimespec.tv_sec
+			 && (lst->infos).st_mtimespec.tv_nsec == (cmp->infos).st_mtimespec.tv_nsec
+			 && ft_strcmp(lst->d_name, cmp->d_name) < 0)))
+		return (1);
+	return (0);
+}
 
 static void	fuck_the_norminette(t_file_list *lst, t_file_list *cmp)
 {
@@ -57,14 +69,9 @@ void		time_insertion(t_file_list *lst)
 		return ;
 	cmp = lst->prec;
 	cmp->next = NULL;
-	while (cmp->prec != NULL
-	&& ((lst->infos).st_mtimespec.tv_sec > (cmp->infos).st_mtimespec.tv_sec
-	|| ((lst->infos).st_mtimespec.tv_sec == (cmp->infos).st_mtimespec.tv_sec
-	&& (lst->infos).st_mtimespec.tv_nsec > (cmp->infos).st_mtimespec.tv_nsec)))
+	while (cmp->prec != NULL && ft_comp_qui_craint(lst, cmp))
 		cmp = cmp->prec;
-	if ((lst->infos).st_mtimespec.tv_sec > (cmp->infos).st_mtimespec.tv_sec
-	|| ((lst->infos).st_mtimespec.tv_sec == (cmp->infos).st_mtimespec.tv_sec
-	&& (lst->infos).st_mtimespec.tv_nsec > (cmp->infos).st_mtimespec.tv_nsec))
+	if (ft_comp_qui_craint(lst, cmp))
 		fuck_the_norminette(lst, cmp);
 	else
 	{

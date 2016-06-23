@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 18:37:20 by rorousse          #+#    #+#             */
-/*   Updated: 2016/04/02 18:56:54 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/22 17:35:38 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,10 @@
 # include <wchar.h>
 # include <limits.h>
 # include <inttypes.h>
+# include <sys/types.h>
+# include <sys/stat.h>
+
+typedef struct stat	t_stat;
 
 typedef struct		s_list
 {
@@ -107,5 +111,6 @@ extern int			ft_uni_size(wchar_t c);
 extern void			ft_free_strjoin(char **s1, char *s2);
 extern unsigned int	ft_size_number(long long int nb);
 extern void			ft_tri_chaine(char **str);
+extern void			ft_tri_time_chaine(char **str);
 
 #endif
