@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 13:10:44 by rorousse          #+#    #+#             */
-/*   Updated: 2016/06/22 16:39:17 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/23 18:29:02 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,11 @@
 static int	ft_comp_qui_craint(t_file_list *lst, t_file_list *cmp)
 {
 	if (((lst->infos).st_mtimespec.tv_sec > (cmp->infos).st_mtimespec.tv_sec
-		 || ((lst->infos).st_mtimespec.tv_sec == (cmp->infos).st_mtimespec.tv_sec
-			 && (lst->infos).st_mtimespec.tv_nsec > (cmp->infos).st_mtimespec.tv_nsec)
-		 || ((lst->infos).st_mtimespec.tv_sec == (cmp->infos).st_mtimespec.tv_sec
-			 && (lst->infos).st_mtimespec.tv_nsec == (cmp->infos).st_mtimespec.tv_nsec
-			 && ft_strcmp(lst->d_name, cmp->d_name) < 0)))
+	|| ((lst->infos).st_mtimespec.tv_sec == (cmp->infos).st_mtimespec.tv_sec
+	&& (lst->infos).st_mtimespec.tv_nsec > (cmp->infos).st_mtimespec.tv_nsec)
+	|| ((lst->infos).st_mtimespec.tv_sec == (cmp->infos).st_mtimespec.tv_sec
+	&& (lst->infos).st_mtimespec.tv_nsec == (cmp->infos).st_mtimespec.tv_nsec
+	&& ft_strcmp(lst->d_name, cmp->d_name) < 0)))
 		return (1);
 	return (0);
 }
