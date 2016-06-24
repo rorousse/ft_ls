@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/20 16:33:50 by rorousse          #+#    #+#             */
-/*   Updated: 2016/06/09 11:23:49 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/24 15:28:12 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,14 +68,14 @@ void		aff_extended(t_file_list *lst, t_build build)
 		ft_putstr("  ");
 		ft_printf("%*d", build.nblinks, (lst->infos).st_nlink);
 		ft_putchar(' ');
-		if (lst->d_user != NULL)
-			ft_putstr((lst->d_user)->pw_name);
+		if (lst->username != NULL)
+			ft_putstr(lst->username);
 		else
 			ft_putnbr((lst->infos).st_uid);
 		ft_putchar(' ');
 		set_padding(build.username - lst->taille_user);
-		if (lst->d_group != NULL)
-			ft_putstr((lst->d_group)->gr_name);
+		if (lst->groupname != NULL)
+			ft_putstr(lst->groupname);
 		else
 			ft_putnbr((lst->infos).st_gid);
 		aff_extended_normay(lst, build);

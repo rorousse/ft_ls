@@ -6,7 +6,7 @@
 #    By: rorousse <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/12/01 03:14:08 by rorousse          #+#    #+#              #
-#    Updated: 2016/06/07 14:15:21 by rorousse         ###   ########.fr        #
+#    Updated: 2016/06/24 13:49:00 by rorousse         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -16,6 +16,7 @@ SRCNAME =	affichage.c			\
 			flags.c				\
 			ft_ls.c				\
 			listing.c			\
+			listing_2.c			\
 			main.c				\
 			paths.c				\
 			printage.c			\

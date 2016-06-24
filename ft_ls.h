@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/16 13:21:45 by rorousse          #+#    #+#             */
-/*   Updated: 2016/06/09 11:24:23 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/24 13:48:38 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,8 @@ struct						s_file_list
 	char					*d_date;
 	t_passwd				*d_user;
 	t_group					*d_group;
+	char					*username;
+	char					*groupname;
 	unsigned int			taille_user;
 	unsigned int			taille_group;
 	struct stat				infos;
@@ -122,6 +124,12 @@ void						list_add_elem(t_file_list **lst,
 							t_build *taillemax);
 t_file_list					*fill_list(char *path, int hidden,
 							t_build *taillemax);
+
+/*
+** LISTING_2_C
+*/
+
+void						get_user_name(t_file_list *new);
 
 /*
 ** META_AFFICHAGE_C

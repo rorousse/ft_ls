@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/06/07 14:23:39 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/24 15:29:02 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ char *absolute_path)
 	(*new)->next = NULL;
 	(*new)->prec = NULL;
 	(*new)->d_date = NULL;
+	(*new)->username = NULL;
+	(*new)->groupname = NULL;
 	lstat(absolute_path, &((*new)->infos));
 }
 
@@ -37,12 +39,12 @@ t_file_list	*new_elem(t_dirent *mydirent, char *path, t_build *build)
 		end = readlink(absolute_path, new->link_name, 255);
 		new->link_name[end] = '\0';
 	}
-	if ((new->d_user = getpwuid((new->infos).st_uid)) != NULL)
-		new->taille_user = ft_strlen((new->d_user)->pw_name);
-	else
-		new->taille_user = ft_size_number((new->infos).st_uid);
+	get_user_name(new);
 	if ((new->d_group = getgrgid((new->infos).st_gid)) != NULL)
+	{
 		new->taille_group = ft_strlen((new->d_group)->gr_name);
+		new->groupname = ft_strdup((new->d_group)->gr_name);
+	}
 	else
 		new->taille_group = ft_size_number((new->infos).st_gid);
 	new->d_date = ft_strdup(ctime(&((new->infos).st_mtime)));
@@ -64,6 +66,10 @@ void		free_list(t_file_list **lst)
 		temp = (*lst)->next;
 		if ((*lst)->d_date != NULL)
 			free((*lst)->d_date);
+		if ((*lst)->username != NULL)
+			free((*lst)->username);
+		if ((*lst)->groupname != NULL)
+			free((*lst)->groupname);
 		free(*lst);
 		*lst = temp;
 	}
@@ -105,7 +111,7 @@ t_file_list	*fill_list(char *path, int hidden, t_build *build)
 	lecture.path = path;
 	if ((mydir = opendir(path)) == NULL)
 	{
-		if (lstat(path, &verif) == -1)
+		if (lstat(path, &verif) == -1 || S_ISDIR(verif.st_mode))
 			return (NULL);
 		lst = one_file(path, build);
 		return (lst);
