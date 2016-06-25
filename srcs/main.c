@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:37 by rorousse          #+#    #+#             */
-/*   Updated: 2016/06/23 18:24:03 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/25 12:47:37 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,21 +71,17 @@ static int	boucle_file(int argc, char **argv, char **str)
 {
 	int			i;
 	int			bool;
-	DIR			*mydir;
 	struct stat	verif;
 
 	i = 0;
 	bool = 0;
 	while (str[i] != NULL)
 	{
-		lstat(str[i], &verif);
-		if ((mydir = opendir(str[i])) == NULL && !S_ISDIR(verif.st_mode))
+		if (lstat(str[i], &verif) != -1 && !S_ISDIR(verif.st_mode))
 		{
 			if (ft_ls(argc, argv, str[i]) != -1)
 				bool = 1;
 		}
-		if (mydir != NULL)
-			closedir(mydir);
 		i++;
 	}
 	return (bool);

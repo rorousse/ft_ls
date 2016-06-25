@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/24 15:37:36 by rorousse          #+#    #+#             */
-/*   Updated: 2016/06/09 11:25:32 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/25 12:30:04 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,9 @@ void		print_name(t_file_list *lst, t_build build)
 		ft_putstr("\033[0m");
 	}
 	else
+	{
 		ft_putstr(lst->d_name);
+	}
 	if (S_ISLNK((lst->infos).st_mode))
 	{
 		ft_putstr(" -> ");
