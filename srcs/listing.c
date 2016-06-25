@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/17 11:21:48 by rorousse          #+#    #+#             */
-/*   Updated: 2016/06/25 12:59:01 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/25 13:11:51 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,13 +109,15 @@ t_file_list	*fill_list(char *path, int hidden, t_build *build)
 
 	lst = NULL;
 	lecture.path = path;
-	if ((mydir = opendir(path)) == NULL)
+	if (lstat(path, &verif) == -1)
+		return (NULL);
+	if (!S_ISDIR(verif.st_mode))
 	{
-		if (lstat(path, &verif) == -1 || S_ISDIR(verif.st_mode))
-			return (NULL);
 		lst = one_file(path, build);
 		return (lst);
 	}
+	if ((mydir = opendir(path)) == NULL)
+		return (NULL);
 	while ((lecture.mydirent = readdir(mydir)) != NULL)
 	{
 		if (((lecture.mydirent)->d_name)[0] != '.' || hidden == 1)

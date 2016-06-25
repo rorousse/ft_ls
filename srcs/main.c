@@ -6,7 +6,7 @@
 /*   By: rorousse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/03/18 15:33:37 by rorousse          #+#    #+#             */
-/*   Updated: 2016/06/25 12:47:37 by rorousse         ###   ########.fr       */
+/*   Updated: 2016/06/25 13:16:45 by rorousse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,11 +77,15 @@ static int	boucle_file(int argc, char **argv, char **str)
 	bool = 0;
 	while (str[i] != NULL)
 	{
-		if (lstat(str[i], &verif) != -1 && !S_ISDIR(verif.st_mode))
+		if (lstat(str[i], &verif) != -1 && (!S_ISDIR(verif.st_mode) 
+		|| (S_ISLNK(verif.st_mode) && search_flags(argv, argc, 'l') == 1)))
 		{
+			ft_putendl("OK");
 			if (ft_ls(argc, argv, str[i]) != -1)
 				bool = 1;
 		}
+		if (S_ISLNK(verif.st_mode))
+			ft_putendl("Lol");
 		i++;
 	}
 	return (bool);
